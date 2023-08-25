@@ -60,7 +60,7 @@ export const RawRenderer = ({ rawData, parentColor }) => {
               leaveTo="opacity-0"
             >
               <div className="">
-                <Dialog.Overlay className="fixed inset-0 bg-gradient-to-br from-gray-800 to-gray-1000 opacity-80" />
+                <Dialog.Overlay className="fixed inset-0  from-gray-800 to-gray-1000 opacity-80" />
               </div>
             </Transition.Child>
 

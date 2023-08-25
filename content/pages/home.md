@@ -1,6 +1,12 @@
 ---
 title: Tina Cloud Starter
 blocks:
+  - b_title: true
+    title: La vie est mouvement
+    a_title: center
+    b_image: true
+    banner_image: /uploads/Couverture M.Faciale.png
+    _template: banner
   - headline: Welcome to the Tina Starter
     text: >
       This project is set up to show you the basics of working with Tina. You're
@@ -22,9 +28,10 @@ blocks:
       alt: >-
         Photo of palm trees at sunset by Adam Birkett -
         unsplash.com/photos/75EFpyXu3Wg
-    color: default
+    color: '#222222'
     _template: hero
-  - items:
+  - feature_description: ''
+    items:
       - icon:
           name: BiCodeBlock
           color: red
@@ -49,13 +56,12 @@ blocks:
           color, font, or icon set.
     color: tint
     _template: features
-  - quote: >-
-      There are only two hard things in Computer Science: cache invalidation and
-      naming things.
-    author: Phil Karlton
-    color: primary
-    _template: testimonial
 ---
+
+
+
+
+
 
 
 

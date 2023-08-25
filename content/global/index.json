@@ -1,38 +1,36 @@
 {
   "header": {
     "icon": {
+      "image": "/uploads/logo/logo.png",
       "name": "Tina",
       "color": "orange",
       "style": "float"
     },
-    "name": "Tina Starter",
-    "color": "default",
+    "name": "Kindt Ostéopathe",
     "nav": [
       {
         "href": "",
         "label": "Home"
       },
       {
-        "href": "about",
-        "label": "About"
-      },
-      {
         "href": "posts",
         "label": "Blog"
       }
-    ]
+    ],
+    "color": "primary"
   },
   "footer": {
-    "color": "default",
+    "color": "#8F6E5D",
     "social": {
-      "facebook": "/",
-      "twitter": "/",
-      "instagram": "/"
+      "facebook": "https://www.facebook.com/OrlDentaireDraguignan",
+      "twitter": "",
+      "instagram": "",
+      "mail": "dkindt83@gmail.com",
+      "phone": "04 94 68 59 20",
+      "loc": "https://www.google.fr/maps/place/Kindt+Dominique/@43.5377851,6.4527312,17z/data=!4m14!1m7!3m6!1s0x12ceab83f6d56cb9:0xa94946969ab8dec5!2sKindt+Dominique!8m2!3d43.5377812!4d6.4553061!16s%2Fg%2F1vh8m712!3m5!1s0x12ceab83f6d56cb9:0xa94946969ab8dec5!8m2!3d43.5377812!4d6.4553061!16s%2Fg%2F1vh8m712?entry=ttu"
     }
   },
   "theme": {
-    "color": "blue",
-    "font": "sans",
-    "darkMode": "system"
+    "font": "sans"
   }
 }

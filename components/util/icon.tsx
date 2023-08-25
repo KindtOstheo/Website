@@ -129,11 +129,22 @@ export const Icon = ({
   }
 };
 
-export const iconSchema = {
+export const iconSchema = 
+{
   type: "object",
   label: "Icon",
   name: "icon",
   fields: [
+    {
+      type: "boolean",
+      label: "Activer pour afficher une icône / désactiver pou l'image",
+      name: "b_icon",
+    },
+    {
+      type: "image",
+      label: "Image",
+      name: "image",
+    },
     {
       type: "string",
       label: "Icon",

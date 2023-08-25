@@ -1,21 +1,25 @@
 import React from "react";
 import { Container } from "../util/container";
 import { Section } from "../util/section";
-import type { TinaTemplate } from "tinacms";
+import type { Template } from "tinacms";
 import { PageBlocksTestimonial } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
 
 export const Testimonial = ({ data }: { data: PageBlocksTestimonial }) => {
+  const Styles = {
+    color :{
+      color: data.color ? data.color+"!important" : "#222222!important'",
+      background: data.bg_color ? data.bg_color+"!important" : '#d9d9d9!important'
+    },
+  };
   return (
-    <Section color={data.color}>
-      <Container size="large">
+    <Section color={Styles.color}>
+      <Container 
+        style={Styles.color}
+        size="large">
         <blockquote>
           <div
-            className={`relative z-10 max-w-3xl mx-auto text-4xl lg:text-5xl font-bold tracking-normal text-center title-font ${
-              data.color === "primary"
-                ? `text-white`
-                : `text-gray-700 dark:text-gray-50`
-            }`}
+            className={`relative z-10 max-w-3xl mx-auto text-4xl lg:text-5xl font-bold tracking-normal text-center title-font`}
           >
             <span
               className={`block opacity-15 text-8xl absolute inset-y-1/2 transform translate-y-2	-left-4 leading-4 -z-1`}
@@ -36,21 +40,13 @@ export const Testimonial = ({ data }: { data: PageBlocksTestimonial }) => {
           </div>
           <div className={`my-8 flex-grow-0`}>
             <span
-              className={`block mx-auto h-0.5 w-1/6 ${
-                data.color === "primary"
-                  ? `bg-blue-600`
-                  : `bg-gray-200 dark:bg-gray-700`
-              }`}
+              className={`block mx-auto h-0.5 w-1/6 `}
             ></span>
           </div>
           <footer className="text-center">
             <p
               data-tina-field={tinaField(data, `author`)}
-              className={`tracking-wide title-font font-bold text-lg ${
-                data.color === "primary"
-                  ? `text-blue-200`
-                  : `text-blue-500 dark:text-blue-300`
-              }`}
+              className={`tracking-wide title-font font-bold text-lg `}
             >
               {data.author}
             </p>
@@ -61,9 +57,9 @@ export const Testimonial = ({ data }: { data: PageBlocksTestimonial }) => {
   );
 };
 
-export const testimonialBlockSchema: TinaTemplate = {
+export const testimonialBlockSchema: Template = {
   name: "testimonial",
-  label: "Testimonial",
+  label: "Citation",
   ui: {
     previewSrc: "/blocks/testimonial.png",
     defaultItem: {
@@ -89,13 +85,25 @@ export const testimonialBlockSchema: TinaTemplate = {
     },
     {
       type: "string",
-      label: "Color",
+      label: "Couleur du texte",
       name: "color",
-      options: [
-        { label: "Default", value: "default" },
-        { label: "Tint", value: "tint" },
-        { label: "Primary", value: "primary" },
-      ],
+      ui: {
+        component: 'color',
+        colorFormat: 'hex',
+        colors: ['#222222', '#241748', '#000000', '#ffffff'],
+        widget: 'block',
+      }
+    },
+    {
+      type: "string",
+      label: "Couleur d'arriere plan",
+      name: "bg_color",
+      ui: {
+        component: 'color',
+        colorFormat: 'hex',
+        colors: ['#d9d9d9', '#222222', '#000000', '#ffffff'],
+        widget: 'block',
+      }
     },
   ],
 };

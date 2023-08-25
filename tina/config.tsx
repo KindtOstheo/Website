@@ -1,10 +1,12 @@
 import { defineConfig } from "tinacms";
 import { contentBlockSchema } from "../components/blocks/content";
+import { bannerBlockSchema } from "../components/blocks/banner"
 import { featureBlockSchema } from "../components/blocks/features";
 import { heroBlockSchema } from "../components/blocks/hero";
 import { testimonialBlockSchema } from "../components/blocks/testimonial";
 import { ColorPickerInput } from "./fields/color";
 import { iconSchema } from "../components/util/icon";
+import { specialityBlockSchema } from "../components/blocks/speciality";
 
 const config = defineConfig({
   clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID!,
@@ -165,15 +167,15 @@ const config = defineConfig({
                 label: "Name",
                 name: "name",
               },
-              {
-                type: "string",
-                label: "Color",
-                name: "color",
-                options: [
-                  { label: "Default", value: "default" },
-                  { label: "Primary", value: "primary" },
-                ],
-              },
+              // {
+              //   type: "string",
+              //   label: "Color",
+              //   name: "color",
+              //   options: [
+              //     { label: "Default", value: "default" },
+              //     { label: "Primary", value: "primary" },
+              //   ],
+              // },
               {
                 type: "object",
                 label: "Nav Links",
@@ -201,6 +203,28 @@ const config = defineConfig({
                   },
                 ],
               },
+              {
+                type: "string",
+                label: "Couleur du texte",
+                name: "color",
+                ui: {
+                  component: 'color',
+                  colorFormat: 'hex',
+                  colors: ['#222222', '#241748', '#000000', '#ffffff'],
+                  widget: 'block',
+                }
+              },
+              {
+                type: "string",
+                label: "Couleur d'arriere plan",
+                name: "bg_color",
+                ui: {
+                  component: 'color',
+                  colorFormat: 'hex',
+                  colors: ['#d9d9d9', '#222222', '#000000', '#ffffff'],
+                  widget: 'block',
+                }
+              },
             ],
           },
           {
@@ -212,10 +236,12 @@ const config = defineConfig({
                 type: "string",
                 label: "Color",
                 name: "color",
-                options: [
-                  { label: "Default", value: "default" },
-                  { label: "Primary", value: "primary" },
-                ],
+                ui: {
+                  component: 'color',
+                  colorFormat: 'hex',
+                  colors: ['#8f6e5d','#d9d9d9', '#222222', '#000000', '#ffffff'],
+                  widget: 'block',
+                }
               },
               {
                 type: "object",
@@ -242,6 +268,21 @@ const config = defineConfig({
                     label: "Github",
                     name: "github",
                   },
+                  {
+                    type: "string",
+                    label: "Mail ",
+                    name: "mail",
+                  },
+                  {
+                    type: "string",
+                    label: "Telephone",
+                    name: "phone",
+                  },
+                  {
+                    type: "string",
+                    label: "Localisation",
+                    name: "loc",
+                  },
                 ],
               },
             ],
@@ -252,14 +293,14 @@ const config = defineConfig({
             name: "theme",
             // @ts-ignore
             fields: [
-              {
-                type: "string",
-                label: "Primary Color",
-                name: "color",
-                ui: {
-                  component: ColorPickerInput,
-                },
-              },
+              // {
+              //   type: "string",
+              //   label: "Primary Color",
+              //   name: "color",
+              //   ui: {
+              //     component: ColorPickerInput,
+              //   },
+              // },
               {
                 type: "string",
                 name: "font",
@@ -279,25 +320,25 @@ const config = defineConfig({
                   },
                 ],
               },
-              {
-                type: "string",
-                name: "darkMode",
-                label: "Dark Mode",
-                options: [
-                  {
-                    label: "System",
-                    value: "system",
-                  },
-                  {
-                    label: "Light",
-                    value: "light",
-                  },
-                  {
-                    label: "Dark",
-                    value: "dark",
-                  },
-                ],
-              },
+              // {
+              //   type: "string",
+              //   name: "darkMode",
+              //   label: "Dark Mode",
+              //   options: [
+              //     {
+              //       label: "System",
+              //       value: "system",
+              //     },
+              //     {
+              //       label: "Light",
+              //       value: "light",
+              //     },
+              //     {
+              //       label: "Dark",
+              //       value: "dark",
+              //     },
+              //   ],
+              // },
             ],
           },
         ],
@@ -356,11 +397,13 @@ const config = defineConfig({
               visualSelector: true,
             },
             templates: [
+              bannerBlockSchema,
               heroBlockSchema,
               // @ts-ignore
               featureBlockSchema,
               contentBlockSchema,
               testimonialBlockSchema,
+              specialityBlockSchema,
             ],
           },
         ],

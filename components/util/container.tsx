@@ -9,9 +9,9 @@ export const Container = ({
 }) => {
   const verticalPadding = {
     custom: "",
-    small: "py-8",
-    medium: "py-12",
-    large: "py-24",
+    small: "py-6",
+    medium: "py-8",
+    large: "py-12",
     default: "py-12",
   };
   const widthClass = {

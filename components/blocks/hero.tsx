@@ -2,30 +2,26 @@ import * as React from "react";
 import { Actions } from "../util/actions";
 import { Container } from "../util/container";
 import { Section } from "../util/section";
-import { useTheme } from "../layout";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
-import type { TinaTemplate } from "tinacms";
+import type { Template } from "tinacms";
 import { PageBlocksHero } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
 
 export const Hero = ({ data }: { data: PageBlocksHero }) => {
-  const theme = useTheme();
-  const headlineColorClasses = {
-    blue: "from-blue-400 to-blue-600",
-    teal: "from-teal-400 to-teal-600",
-    green: "from-green-400 to-green-600",
-    red: "from-red-400 to-red-600",
-    pink: "from-pink-400 to-pink-600",
-    purple: "from-purple-400 to-purple-600",
-    orange: "from-orange-300 to-orange-600",
-    yellow: "from-yellow-400 to-yellow-600",
+
+  const Styles = {
+    color :{
+      color: data.color ? data.color : "#222222",
+      background: data.bg_color ? data.bg_color : '#d9d9d9'
+    },
   };
 
   return (
-    <Section color={data.color}>
+    <Section color={Styles.color}>
       <Container
         size="large"
-        className="grid grid-cols-1 md:grid-cols-5 gap-14 items-center justify-center"
+        className= {`grid grid-cols-1 md:grid-cols-5 gap-14 items-center justify-center `}
+        style={Styles.color}
       >
         <div className="row-start-2 md:row-start-1 md:col-span-3 text-center md:text-left">
           {data.tagline && (
@@ -34,7 +30,7 @@ export const Hero = ({ data }: { data: PageBlocksHero }) => {
               className="relative inline-block px-3 py-1 mb-8 text-md font-bold tracking-wide title-font z-20"
             >
               {data.tagline}
-              <span className="absolute w-full h-full left-0 top-0 rounded-full -z-1 bg-current opacity-7"></span>
+              <span className="absolute w-full h-full left-0 top-0 rounded-full -z-1 opacity-7"></span>
             </h2>
           )}
           {data.headline && (
@@ -43,11 +39,6 @@ export const Hero = ({ data }: { data: PageBlocksHero }) => {
               className={`w-full relative	mb-10 text-5xl font-extrabold tracking-normal leading-tight title-font`}
             >
               <span
-                className={`bg-clip-text text-transparent bg-gradient-to-r  ${
-                  data.color === "primary"
-                    ? `from-white to-gray-100`
-                    : headlineColorClasses[theme.color]
-                }`}
               >
                 {data.headline}
               </span>
@@ -56,9 +47,7 @@ export const Hero = ({ data }: { data: PageBlocksHero }) => {
           {data.text && (
             <div
               data-tina-field={tinaField(data, "text")}
-              className={`prose prose-lg mx-auto md:mx-0 mb-10 ${
-                data.color === "primary" ? `prose-primary` : `dark:prose-dark`
-              }`}
+              className={`prose prose-lg mx-auto md:mx-0 mb-10 `}
             >
               <TinaMarkdown content={data.text} />
             </div>
@@ -93,9 +82,9 @@ export const Hero = ({ data }: { data: PageBlocksHero }) => {
   );
 };
 
-export const heroBlockSchema: TinaTemplate = {
+export const heroBlockSchema: Template = {
   name: "hero",
-  label: "Hero",
+  label: "Texte + Image",
   ui: {
     previewSrc: "/blocks/hero.png",
     defaultItem: {
@@ -180,13 +169,25 @@ export const heroBlockSchema: TinaTemplate = {
     },
     {
       type: "string",
-      label: "Color",
+      label: "Couleur du texte",
       name: "color",
-      options: [
-        { label: "Default", value: "default" },
-        { label: "Tint", value: "tint" },
-        { label: "Primary", value: "primary" },
-      ],
+      ui: {
+        component: 'color',
+        colorFormat: 'hex',
+        colors: ['#222222', '#241748', '#000000', '#ffffff'],
+        widget: 'block',
+      }
+    },
+    {
+      type: "string",
+      label: "Couleur d'arriere plan",
+      name: "bg_color",
+      ui: {
+        component: 'color',
+        colorFormat: 'hex',
+        colors: ['#d9d9d9', '#222222', '#000000', '#ffffff'],
+        widget: 'block',
+      }
     },
   ],
 };

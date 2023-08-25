@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useRouter } from "next/router";
 import { Container } from "../util/container";
 import { useTheme } from ".";
@@ -10,6 +11,13 @@ import { GlobalHeader } from "../../tina/__generated__/types";
 export const Header = ({ data }: { data: GlobalHeader }) => {
   const router = useRouter();
   const theme = useTheme();
+
+  const Styles = {
+    color :{
+      color: data.color ? data.color : "#222222",
+      background: data.bg_color ? data.bg_color : '#d9d9d9'
+    },
+  };
 
   const headerColor = {
     default:
@@ -63,7 +71,8 @@ export const Header = ({ data }: { data: GlobalHeader }) => {
 
   return (
     <div
-      className={`relative overflow-hidden bg-gradient-to-b ${headerColorCss}`}
+      className={`relative overflow-hidden`}
+      style={Styles.color}
     >
       <Container size="custom" className="py-0 relative z-10 max-w-8xl">
         <div className="flex items-center justify-between gap-6">
@@ -72,6 +81,7 @@ export const Header = ({ data }: { data: GlobalHeader }) => {
               href="/"
               className="flex gap-1 items-center whitespace-nowrap tracking-[.002em]"
             >
+            {data.icon.b_icon ?
               <Icon
                 tinaField={tinaField(data, "icon")}
                 parentColor={data.color}
@@ -80,9 +90,14 @@ export const Header = ({ data }: { data: GlobalHeader }) => {
                   color: data.icon.color,
                   style: data.icon.style,
                 }}
-              />
-              <span data-tina-field={tinaField(data, "name")}>{data.name}</span>
-            </Link>
+              /> :
+              <Image
+                  src={data.icon.image ? data.icon.image : ""}
+                  width={80}
+                  height={80}
+                  data-tina-field={tinaField(data.icon, 'image')} alt={""} />
+            }
+          </Link>
           </h4>
           <ul className="flex gap-6 sm:gap-8 lg:gap-10 tracking-[.002em] -mx-4">
             {data.nav &&
@@ -102,15 +117,13 @@ export const Header = ({ data }: { data: GlobalHeader }) => {
                       data-tina-field={tinaField(item, "label")}
                       href={`/${item.href}`}
                       className={`relative select-none	text-base inline-block tracking-wide transition duration-150 ease-out hover:opacity-100 py-8 px-4 ${
-                        activeItem ? `` : `opacity-70`
+                        activeItem ? `text-[#8f6e5d]` : ``
                       }`}
                     >
                       {item.label}
                       {activeItem && (
                         <svg
-                          className={`absolute bottom-0 left-1/2 w-[180%] h-full -translate-x-1/2 -z-1 opacity-10 dark:opacity-15 ${
-                            activeBackgroundClasses[theme.color]
-                          }`}
+                          className={`absolute bottom-0 left-1/2 w-[180%] h-full -translate-x-1/2 -z-1 opacity-10 dark:opacity-15`}
                           preserveAspectRatio="none"
                           viewBox="0 0 230 230"
                           fill="none"
