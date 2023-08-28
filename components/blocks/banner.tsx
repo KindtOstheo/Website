@@ -3,8 +3,7 @@ import { Section } from "../util/section";
 import type { Template } from "tinacms";
 import { PageBlocksBanner } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
-import { ImageFallback } from "../util/imageFallback";
-import { Property } from 'csstype'
+import Image from "next/image";
 
 export const Banner = ({ data }: { data: PageBlocksBanner }) => {
 
@@ -41,7 +40,7 @@ export const Banner = ({ data }: { data: PageBlocksBanner }) => {
                 }
                 { data.b_image &&
                   <div className="col-10">
-                    <ImageFallback
+                    <Image
                       className="banner-img opacity-1 m-auto"
                       src={data.banner_image ? data.banner_image : "/blocks/banner.png"}
                       width={1170}

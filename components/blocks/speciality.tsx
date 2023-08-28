@@ -5,7 +5,8 @@ import { TinaMarkdown } from "tinacms/dist/rich-text";
 import type { Template } from "tinacms";
 import { PageBlocksSpeciality, PageBlocksSpecialityList } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
-import { ImageFallback } from "../util/imageFallback";
+import Image from "next/image";
+
 
 
 export const Speciality = ({
@@ -30,7 +31,7 @@ export const Speciality = ({
   return (
     <div className="row items-center justify-center my-6 flex flex-wrap-reverse odd:flex-row-reverse" key={"speciality-" + index} data-tina-field={tinaField(item)}>
       <div className="animate w-full md:w-3/6 lg:order-1 m-auto"  data-tina-field={tinaField(item, 'image')}>
-        <ImageFallback
+        <Image
           className="mx-auto"
           src={item?.image ? item.image : ""}
           width={575}
