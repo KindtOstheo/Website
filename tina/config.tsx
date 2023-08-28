@@ -8,13 +8,16 @@ import { ColorPickerInput } from "./fields/color";
 import { iconSchema } from "../components/util/icon";
 import { specialityBlockSchema } from "../components/blocks/speciality";
 
+const indexerToken =process.env.INDEXERTOKEN;
+
 const config = defineConfig({
-  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID!,
+  clientId: process.env.CLIENTID!,
   branch:
     process.env.NEXT_PUBLIC_TINA_BRANCH! || // custom branch env override
     process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF! || // Vercel branch env
-    process.env.HEAD!, // Netlify branch env
-  token: process.env.TINA_TOKEN!,
+    process.env.HEAD! // Netlify branch env
+    || "main",
+  token: process.env.TOKEN!,
   media: {
     // If you wanted cloudinary do this
     // loadCustomStore: async () => {
@@ -26,6 +29,14 @@ const config = defineConfig({
       publicFolder: "public",
       mediaRoot: "uploads",
     },
+  },
+  search: {
+    tina: {
+      indexerToken,
+      stopwordLanguages: ['fra']
+    },
+    indexBatchSize: 100,
+    maxSearchIndexFieldLength: 100
   },
   build: {
     publicFolder: "public", // The public asset folder for your framework
