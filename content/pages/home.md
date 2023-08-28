@@ -5,7 +5,7 @@ blocks:
     title: La vie est mouvement
     a_title: center
     b_image: true
-    banner_image: /uploads/1688411679257.jpg
+    banner_image: /uploads/Couverture M.Faciale.png
     _template: banner
   - feature_title_activate: true
     feature_title: L'ostéopathie au service de la santé du corps
@@ -111,6 +111,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
