@@ -14,6 +14,10 @@
       {
         "href": "posts",
         "label": "Blog"
+      },
+      {
+        "href": "terms-policy",
+        "label": "Condition"
       }
     ],
     "color": "primary"
