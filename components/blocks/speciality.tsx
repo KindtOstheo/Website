@@ -19,11 +19,11 @@ export const Speciality = ({
   const Styles = {
     subtitle : {
       fontSize: item?.f_subtitle ? item.f_subtitle : 20,
-      textAlign: item?.a_subtitle ? item.a_subtitle : "center"
+      textAlign: (item?.a_subtitle ? item.a_subtitle : "center") as any
     },
     title : {
       fontSize: item?.f_title ? item.f_title : 40,
-      textAlign: item?.a_title ? item.a_title : "center"
+      textAlign:(item?.a_title ? item.a_title : "center") as any
     },
   };
 
@@ -216,6 +216,8 @@ export const specialityBlockSchema: Template = {
       name: "color",
       ui: {
         component: 'color',
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
         colorFormat: 'hex',
         colors: ['#222222', '#241748', '#000000', '#ffffff'],
         widget: 'block',
@@ -227,6 +229,8 @@ export const specialityBlockSchema: Template = {
       name: "bg_color",
       ui: {
         component: 'color',
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
         colorFormat: 'hex',
         colors: ['#d9d9d9', '#222222', '#000000', '#ffffff'],
         widget: 'block',

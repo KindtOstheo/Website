@@ -62,6 +62,8 @@ export const Theme = ({ data, children }) => {
   return (
     <ThemeContext.Provider
       value={{
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
         color,
         font,
         darkMode,

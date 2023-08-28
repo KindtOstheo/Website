@@ -173,6 +173,8 @@ export const heroBlockSchema: Template = {
       name: "color",
       ui: {
         component: 'color',
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
         colorFormat: 'hex',
         colors: ['#222222', '#241748', '#000000', '#ffffff'],
         widget: 'block',
@@ -184,6 +186,8 @@ export const heroBlockSchema: Template = {
       name: "bg_color",
       ui: {
         component: 'color',
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
         colorFormat: 'hex',
         colors: ['#d9d9d9', '#222222', '#000000', '#ffffff'],
         widget: 'block',

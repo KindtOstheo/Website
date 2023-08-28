@@ -4,13 +4,14 @@ import type { Template } from "tinacms";
 import { PageBlocksBanner } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
 import { ImageFallback } from "../util/imageFallback";
+import { Property } from 'csstype'
 
 export const Banner = ({ data }: { data: PageBlocksBanner }) => {
 
   const Styles = {
     baner :{
       fontSize: data.f_title ? data.f_title : 61,
-      textAlign: data.a_title ? data.a_title : 'center'
+      textAlign: (data.a_title ? data.a_title : 'center') as any
     },
     color :{
       color: data.color ? data.color : "#222222",
@@ -130,9 +131,7 @@ export const bannerBlockSchema: Template = {
       name: "color",
       ui: {
         component: 'color',
-        colorFormat: 'hex',
-        colors: ['#222222', '#241748', '#000000', '#ffffff'],
-        widget: 'block',
+
       }
     },
     {
@@ -141,9 +140,6 @@ export const bannerBlockSchema: Template = {
       name: "bg_color",
       ui: {
         component: 'color',
-        colorFormat: 'hex',
-        colors: ['#d9d9d9', '#222222', '#000000', '#ffffff'],
-        widget: 'block',
       }
     },
   ],

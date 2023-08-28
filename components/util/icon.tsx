@@ -86,7 +86,7 @@ export const Icon = ({
   if ((IconOptions[data.name] === null || IconOptions[data.name] === undefined) && (data.image === undefined || data.image === null)) {
     return null;
   }
-  const { name, color, size = "medium", style = "regular", b_icon= true , image  } = data;
+  const { name, color, size = "medium", style = "regular", image  } = data;
   
   const theme = useTheme();
 
@@ -99,8 +99,12 @@ export const Icon = ({
 
   const iconColor = color
     ? color === "primary"
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
       ? theme.color
       : color
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
     : theme.color;
   if (name) {
     if (style == "circle") {
@@ -116,6 +120,8 @@ export const Icon = ({
       const iconColorClasses =
         iconColorClass[
           parentColor === "primary" &&
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
           (iconColor === theme.color || iconColor === "primary")
             ? "white"
             : iconColor

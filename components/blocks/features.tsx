@@ -57,11 +57,11 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
   const Styles = {
     feature : {
       fontSize: data.f_title ? data.f_title : 48,
-      textAlign: data.a_title ? data.a_title : "center"
+      textAlign: (data.a_title ? data.a_title : "center") as any
     },
     feature_desc : {
       fontSize: data.f_description ? data.f_description : 16,
-      textAlign: data.a_title ? data.a_title : "center"
+      textAlign: (data.a_title ? data.a_title : "center") as any
     },
     color :{
       color: data.color ? data.color : "#222222",
@@ -233,6 +233,8 @@ export const featureBlockSchema = {
       name: "color",
       ui: {
         component: 'color',
+         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
         colorFormat: 'hex',
         colors: ['#222222', '#241748', '#000000', '#ffffff'],
         widget: 'block',
@@ -244,6 +246,8 @@ export const featureBlockSchema = {
       name: "bg_color",
       ui: {
         component: 'color',
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
         colorFormat: 'hex',
         colors: ['#d9d9d9', '#222222', '#000000', '#ffffff'],
         widget: 'block',

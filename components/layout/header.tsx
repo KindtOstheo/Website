@@ -34,11 +34,6 @@ export const Header = ({ data }: { data: GlobalHeader }) => {
     },
   };
 
-  const headerColorCss =
-    data.color === "primary"
-      ? headerColor.primary[theme.color]
-      : headerColor.default;
-
   const activeItemClasses = {
     blue: "border-b-3 border-blue-200 text-blue-700 dark:text-blue-300 font-medium dark:border-blue-700",
     teal: "border-b-3 border-teal-200 text-teal-700 dark:text-teal-300 font-medium dark:border-teal-700",
@@ -81,7 +76,7 @@ export const Header = ({ data }: { data: GlobalHeader }) => {
               href="/"
               className="flex gap-1 items-center whitespace-nowrap tracking-[.002em]"
             >
-            {data.icon.b_icon ?
+            {data.icon.name ?
               <Icon
                 tinaField={tinaField(data, "icon")}
                 parentColor={data.color}
@@ -109,9 +104,6 @@ export const Header = ({ data }: { data: GlobalHeader }) => {
                 return (
                   <li
                     key={`${item.label}-${i}`}
-                    className={`${
-                      activeItem ? activeItemClasses[theme.color] : ""
-                    }`}
                   >
                     <Link
                       data-tina-field={tinaField(item, "label")}
