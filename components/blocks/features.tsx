@@ -8,6 +8,10 @@ import {
 } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
+import "swiper/css";
+
 
 export const Feature = ({
   featuresColor,
@@ -19,7 +23,7 @@ export const Feature = ({
   return (
     <div
       data-tina-field={tinaField(data)}
-      className="flex-1 flex flex-col gap-6 text-center items-center lg:items-start lg:text-left max-w-xl mx-auto"
+      className="flex-1 flex flex-col gap-6 py-16 px-7 text-center items-center max-w-xl mx-auto h-[94%] m-4 rounded-md border border-transparent shadow-[0px_4px_25px_rgba(0,0,0,.05)] hover:shadow-non hover:border-[#4a4a4a]"
       style={{ flexBasis: "16rem" }}
     >
       {data.icon && (
@@ -36,14 +40,14 @@ export const Feature = ({
         >
           {data.title}
         </h3>
-      )}text
+      )}
       {data.text && (
-        <p
+        <div
           data-tina-field={tinaField(data, "text")}
           className="text-base opacity-80 leading-relaxed"
         >
-          {data.text}
-        </p>
+          <TinaMarkdown content={data.text} />
+        </div>
       )}
     </div>
   );
@@ -57,6 +61,7 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
     },
     feature_desc : {
       fontSize: data.f_description ? data.f_description : 16,
+      textAlign: data.a_title ? data.a_title : "center"
     },
     color :{
       color: data.color ? data.color : "#222222",
@@ -71,9 +76,9 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
         size="large"
       >
         <div className="animate">
-            <p className="uppercase" style={Styles.feature.textAlign} data-tina-field={tinaField(data, 'sub_title')}>{data.sub_title}</p>
-            <h2 className="mt-4 section-title" style={Styles.feature} data-tina-field={tinaField(data, 'feature_title')}>{data.feature_title}</h2>
-            <div className="mt-10" style={Styles.feature_desc} data-tina-field={tinaField(data, 'feature_description')}> <TinaMarkdown content={data.feature_description} /></div>
+            { data.feature_sub_title && <p className="uppercase" style={Styles.feature.textAlign} data-tina-field={tinaField(data, 'feature_sub_title')}>{data.feature_sub_title}</p>}
+            { data.feature_title && <h2 className="mt-4 section-title" style={Styles.feature} data-tina-field={tinaField(data, 'feature_title')}>{data.feature_title}</h2>}
+            { data.feature_description && <div className="mt-10" style={Styles.feature_desc} data-tina-field={tinaField(data, 'feature_description')}> <TinaMarkdown content={data.feature_description} /></div>}
         </div>
       </Container>
       }
@@ -81,10 +86,34 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
         className={`flex flex-wrap gap-x-10 gap-y-8 text-left`}
         size="large"
       >
-        {data.items &&
-          data.items.map(function (block, i) {
-            return <Feature featuresColor={data.color} key={i} data={block} />;
-          })}
+        <Swiper 
+        className="mySwiper"
+        slidesPerView={1}
+        pagination={{
+          clickable: true,
+          dynamicBullets: true,
+        }}
+
+        modules={[Pagination]}
+        breakpoints={{
+          768: {
+            slidesPerView: 2,
+          },
+          1200: {
+            slidesPerView: 3,
+          },
+        }}
+        >
+          {data.items &&
+            data.items.map(function (block, i) {
+              return <SwiperSlide key={i} data-tina-field={tinaField(block)} 
+                      className="" 
+                        style={{height: "unset", margin:"1rem"}}>
+                  <Feature featuresColor={data.color} key={i} data={block} />
+                </SwiperSlide>;
+            })
+          }
+        </Swiper>
       </Container>
     </Section>
   );
@@ -92,7 +121,7 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
 
 const defaultFeature = {
   title: "Here's Another Feature",
-  text: "This is where you might talk about the feature, if this wasn't just filler text.",
+  text: {type: 'root',children: [{type: 'p',children: [{type: 'text', text: "This is where you might talk about the feature, if this wasn't just filler text.",},],},],},
   icon: {
     color: "",
     style: "float",
@@ -149,7 +178,7 @@ export const featureBlockSchema = {
     }, 
     {
         type: "string",
-        name: "sub_title",
+        name: "feature_sub_title",
         label: "Sous Titre",
     },
     {
@@ -192,12 +221,9 @@ export const featureBlockSchema = {
           name: "title",
         },
         {
-          type: "string",
+          type: "rich-text",
           label: "Text",
           name: "text",
-          ui: {
-            component: "textarea",
-          },
         },
       ],
     }, 

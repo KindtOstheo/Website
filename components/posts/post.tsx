@@ -127,24 +127,28 @@ export const Post = (props: PostType) => {
     yellow:
       "from-yellow-400 to-yellow-500 dark:from-yellow-300 dark:to-yellow-500",
   };
+  const Styles = {
+    color :{
+      color: "#222222",
+      background:'#d9d9d9'
+    },
+  };
 
   const date = new Date(props.date);
   let formattedDate = "";
   if (!isNaN(date.getTime())) {
-    formattedDate = format(date, "MMM dd, yyyy");
+    formattedDate = format(date, "dd/MM/yyyy");
   }
 
   return (
-    <Section className="flex-1">
+    <Section className="flex-1" color={Styles.color}>
       <Container width="small" className={`flex-1 pb-2`} size="large">
         <h2
           data-tina-field={tinaField(props, "title")}
           className={`w-full relative	mb-8 text-6xl font-extrabold tracking-normal text-center title-font`}
         >
           <span
-            className={`bg-clip-text text-transparent bg-gradient-to-r ${
-              titleColorClasses[theme.color]
-            }`}
+            className={`bg-clip-text bg-gradient-to-r`}
           >
             {props.title}
           </span>
@@ -165,18 +169,18 @@ export const Post = (props: PostType) => {
               </div>
               <p
                 data-tina-field={tinaField(props.author, "name")}
-                className="text-base font-medium text-gray-600 group-hover:text-gray-800 dark:text-gray-200 dark:group-hover:text-white"
+                className="text-base font-medium"
               >
                 {props.author.name}
               </p>
-              <span className="font-bold text-gray-200 dark:text-gray-500 mx-2">
+              <span className="font-bold  mx-2">
                 —
               </span>
             </>
           )}
           <p
             data-tina-field={tinaField(props, "date")}
-            className="text-base text-gray-400 group-hover:text-gray-500 dark:text-gray-300 dark:group-hover:text-gray-150"
+            className="text-base "
           >
             {formattedDate}
           </p>
@@ -204,7 +208,8 @@ export const Post = (props: PostType) => {
       <Container className={`flex-1 pt-4`} width="small" size="large">
         <div
           data-tina-field={tinaField(props, "_body")}
-          className="prose dark:prose-dark w-full max-w-none"
+          className="w-full max-w-none"
+          id="TinaMarkdown"
         >
           <TinaMarkdown components={components} content={props._body} />
         </div>

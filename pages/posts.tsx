@@ -9,11 +9,16 @@ export default function HomePage(
   props: InferGetStaticPropsType<typeof getStaticProps>
 ) {
   const posts = props.data.postConnection.edges;
-
+  const Styles = {
+    color :{
+      color: "#222222",
+      background:'#d9d9d9'
+    },
+  };
   return (
     <Layout>
-      <Section className="flex-1">
-        <Container size="large" width="small">
+      <Section color={Styles.color} className="flex-1">
+        <Container size="large" width="large" className=" flex flex-wrap flex-row justify-evenly content-center ">
           <Posts data={posts} />
         </Container>
       </Section>

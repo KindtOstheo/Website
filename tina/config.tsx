@@ -58,7 +58,7 @@ const config = defineConfig({
           },
           {
             type: "rich-text",
-            label: "Excerpt",
+            label: "Extrait de l'article",
             name: "excerpt",
           },
           {

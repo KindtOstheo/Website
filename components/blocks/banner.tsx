@@ -22,7 +22,7 @@ export const Banner = ({ data }: { data: PageBlocksBanner }) => {
       <Container
         className={`prose prose-lg`}
         size="large"
-        width="medium"
+        width="large"
         style={Styles.color}
       >
         <div className="relative">
@@ -41,7 +41,7 @@ export const Banner = ({ data }: { data: PageBlocksBanner }) => {
                 { data.b_image &&
                   <div className="col-10">
                     <ImageFallback
-                      className="banner-img opacity-1"
+                      className="banner-img opacity-1 m-auto"
                       src={data.banner_image ? data.banner_image : "/blocks/banner.png"}
                       width={1170}
                       height={666}

@@ -82,12 +82,12 @@ export const Icon = ({
   className = "",
   tinaField = "",
 }) => {
-  if (IconOptions[data.name] === null || IconOptions[data.name] === undefined) {
+ 
+  if ((IconOptions[data.name] === null || IconOptions[data.name] === undefined) && (data.image === undefined || data.image === null)) {
     return null;
   }
-
-  const { name, color, size = "medium", style = "regular" } = data;
-
+  const { name, color, size = "medium", style = "regular", b_icon= true , image  } = data;
+  
   const theme = useTheme();
 
   const IconSVG = IconOptions[name];
@@ -102,29 +102,34 @@ export const Icon = ({
       ? theme.color
       : color
     : theme.color;
-
-  if (style == "circle") {
-    return (
-      <div
-        data-tina-field={tinaField}
-        className={`relative z-10 inline-flex items-center justify-center flex-shrink-0 ${iconSizeClasses} rounded-full ${iconColorClass[iconColor].circle} ${className}`}
-      >
-        <IconSVG className="w-2/3 h-2/3" />
-      </div>
-    );
+  if (name) {
+    if (style == "circle") {
+      return (
+        <div
+          data-tina-field={tinaField}
+          className={`relative z-10 inline-flex items-center justify-center flex-shrink-0 ${iconSizeClasses} rounded-full ${iconColorClass[iconColor].circle} ${className}`}
+        >
+          <IconSVG className="w-2/3 h-2/3" />
+        </div>
+      );
+    } else {
+      const iconColorClasses =
+        iconColorClass[
+          parentColor === "primary" &&
+          (iconColor === theme.color || iconColor === "primary")
+            ? "white"
+            : iconColor
+        ].regular;
+      return (
+        <IconSVG
+          data-tina-field={tinaField}
+          className={`${iconSizeClasses} ${iconColorClasses} ${className}`}
+        />
+      );
+    }
   } else {
-    const iconColorClasses =
-      iconColorClass[
-        parentColor === "primary" &&
-        (iconColor === theme.color || iconColor === "primary")
-          ? "white"
-          : iconColor
-      ].regular;
     return (
-      <IconSVG
-        data-tina-field={tinaField}
-        className={`${iconSizeClasses} ${iconColorClasses} ${className}`}
-      />
+      <img src={image} alt="icon" className={`${iconSizeClasses} ${className}`}/>
     );
   }
 };
@@ -135,11 +140,6 @@ export const iconSchema =
   label: "Icon",
   name: "icon",
   fields: [
-    {
-      type: "boolean",
-      label: "Activer pour afficher une icône / désactiver pou l'image",
-      name: "b_icon",
-    },
     {
       type: "image",
       label: "Image",

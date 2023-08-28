@@ -15,9 +15,21 @@ export const Speciality = ({
   index: number;
   item: PageBlocksSpecialityList;
 }) => {
+
+  const Styles = {
+    subtitle : {
+      fontSize: item?.f_subtitle ? item.f_subtitle : 20,
+      textAlign: item?.a_subtitle ? item.a_subtitle : "center"
+    },
+    title : {
+      fontSize: item?.f_title ? item.f_title : 40,
+      textAlign: item?.a_title ? item.a_title : "center"
+    },
+  };
+
   return (
     <div className="row items-center justify-center my-6 flex flex-wrap-reverse odd:flex-row-reverse" key={"speciality-" + index} data-tina-field={tinaField(item)}>
-      <div className="animate lg:col-6 lg:order-1 m-auto"  data-tina-field={tinaField(item, 'image')}>
+      <div className="animate w-full md:w-3/6 lg:order-1 m-auto"  data-tina-field={tinaField(item, 'image')}>
         <ImageFallback
           className="mx-auto"
           src={item?.image ? item.image : ""}
@@ -27,20 +39,14 @@ export const Speciality = ({
           
           priority={undefined}/>
       </div>
-      <div className="animate lg:col-6 lg:order-2 m-auto">
+      <div className="animate w-full md:w-3/6 lg:order-2 m-auto">
         <p data-tina-field={tinaField(item, 'subtitle')}
-          style={{
-            fontSize: item?.f_subtitle ? item.f_subtitle : 20,
-            textAlign: item?.a_subtitle ? item.a_subtitle : "center"
-          }}
+          style={Styles.subtitle}
         >{item?.subtitle}</p>
         <h2 
           className={`mt-4 section-title bar-${item?.a_title ? item.a_title : "center"}`}
           data-tina-field={tinaField(item, 'title')}
-          style={{
-            fontSize: item?.f_title ? item.f_title : 40,
-            textAlign: item?.a_title ? item.a_title : "center"
-          }}
+          style={Styles.title}
         >
           {item?.title}
         </h2>
@@ -86,7 +92,7 @@ export const Specialitys = ({ data }: { data: PageBlocksSpeciality }) => {
 const defaultSpeciality = {
   title: "Here's Another speciality",
   subtitle: "sub speciality",
-  description: "This is where you might talk about the feature, if this wasn't just filler text.",
+  description: {type: 'root',children: [{type: 'p',children: [{type: 'text', text: "This is where you might talk about the feature, if this wasn't just filler text.",},],},],},
   image: "/blocks/spec.png",
 };
 
