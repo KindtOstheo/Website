@@ -20,4 +20,7 @@ module.exports = {
       },
     ];
   },
+  images: {
+    domains: ["https://assets.tina.io/"],
+  },
 };
