@@ -98,19 +98,25 @@ blocks:
           milliards de connexions nerveuses, une circulation sanguine à 0, 750
           L/minute engendrant des pouls puissants dans une rythmique
           parfaitement orchestrée ; une telle activité de vie  dans une  une
-          boîte rigide, fermée, inerte, morte ; est possible ?
+          boîte rigide, fermée, inerte, "morte "; est -ce bien possible ?
 
 
-          Cette rythmique cérébrale crée inévitablement des résonnances ; est-ce
-          aussi insensé de concevoir une boîte crânienne qui permette
-          l'échappement de toutes ces résonnances ? Ne serait-ce pas là une des
-          fonctions de la suture crânienne ? Pour le moment cela ne teste qu'une
-          hypothèse d'école.
+          Hypothèse d'école :
+
+
+          Cette rythmique cérébrale puissante, crée inévitablement des
+          résonnances ; est-ce aussi insensé de concevoir que cette  boîte
+          crânienne  permette l'échappement de toutes ces résonnances ? 
+
+
+          Ne serait-ce pas là une des fonctions de la suture crânienne ? Les os
+          du crâne sont-ils animés ?
         image: >-
           /uploads/https___assets.tina.io_6602f015-0424-4f1c-b71e-fc4d2780ff41_image.png
     color: primary
     _template: speciality
 ---
+
 
 
 
