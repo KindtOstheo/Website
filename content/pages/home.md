@@ -69,7 +69,7 @@ blocks:
   - list:
       - title: La Boîte Crânienne
         subtitle: Première approche
-        description: "Les premiers ostéopathes Américains à commencer à s'intéresser aux crânes sont sans doute M. Sutherland, Miller, Fulford, Arbuckle; vers les années 1941.\n\nUne des premières observations faite lors des autopsies, est que \"la boîte crânienne\" pouvait se désarticuler. En d'autres termes les os qui constituent la boîte crânienne n'étaient pas soudés. Cette observation se confirme évidemment aujourd'hui.\n\nC'est une donnée essentielle pour les ostéopathes.\n\nLes articulations des os du crâne que l'on appelle [sutures ](https://dictionnaire.lerobert.com/definition/suture)crâniennes, sont certes des articulations immobiles, mais non soudées,\_libres.\n"
+        description: "Les premiers ostéopathes Américains à commencer à s'intéresser aux crânes sont sans doute M. Sutherland, Miller, Fulford, Arbuckle; vers les années 1941.\n\nUne des premières observations faite lors des autopsies, est que \"la boîte crânienne\" pouvait se désarticuler. En d'autres termes les os qui constituent la boîte crânienne n'étaient pas soudés. Cette observation se confirme toujours  évidemment aujourd'hui.\n\nC'est une donnée essentielle pour les ostéopathes.\n\nLes articulations des os du crâne que l'on appelle [sutures ](https://dictionnaire.lerobert.com/definition/suture)crâniennes, sont certes des articulations immobiles, mais non soudées,\_libres.\n"
         image: /uploads/1 Crâne.png
       - title: La suture crânienne
         subtitle: Contiguïté n'égale pas continuité
@@ -88,29 +88,30 @@ blocks:
 
           Cette notion est très loin d'être reconnue par le corps médical et
           crée une incompréhension pour ne pas dire une opposition à une
-          éventuelle action ostéopathique à ce niveau.
+          éventuelle action ostéopathique,à ce niveau.
 
 
           La vie est mouvement, la mort est inertie.
 
 
           Concevoir une activité aussi intense au niveau cérébral avec des
-          milliards de connexions nerveuses, là où le sang, circule à 0, 750
-          L/minute engendrant des pouls puissants dans une rythmique essentielle
-          ; une telle activité de vie peut-elle être contenue dans une boîte
-          rigide, fermée, inerte, morte ?
+          milliards de connexions nerveuses, une circulation sanguine à 0, 750
+          L/minute engendrant des pouls puissants dans une rythmique
+          parfaitement orchestrée ; une telle activité de vie  dans une  une
+          boîte rigide, fermée, inerte, morte ; est possible ?
 
 
-          Cette activité énergétique cérébrale crée inévitablement des
-          résonnances ; est-ce aussi insensé de concevoir une boîte crânienne
-          qui permette l'échappement de toutes ces résonnances ? Ne serait-ce
-          pas là une des fonctions de la suture crânienne ? Pour le moment cela
-          ne teste qu'une hypothèse d'école.
+          Cette rythmique cérébrale crée inévitablement des résonnances ; est-ce
+          aussi insensé de concevoir une boîte crânienne qui permette
+          l'échappement de toutes ces résonnances ? Ne serait-ce pas là une des
+          fonctions de la suture crânienne ? Pour le moment cela ne teste qu'une
+          hypothèse d'école.
         image: >-
           /uploads/https___assets.tina.io_6602f015-0424-4f1c-b71e-fc4d2780ff41_image.png
     color: primary
     _template: speciality
 ---
+
 
 
 
