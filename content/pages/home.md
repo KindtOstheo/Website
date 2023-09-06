@@ -83,7 +83,7 @@ blocks:
         subtitle: Une hypothèse d'école
         description: >
           Les os constituants la boîte crânienne restent libres, ils sont
-          accolés et pas collés.
+          accolés et non pas collés.
 
 
           Cette notion est très loin d'être reconnue par le corps médical et
@@ -111,6 +111,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
