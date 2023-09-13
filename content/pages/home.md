@@ -38,7 +38,7 @@ blocks:
           color: ''
           style: float
         title: La lésion ostéopathique
-        text: "La lésion ostéopathique est une expression qui s'applique\_essentiellement à propos des vertèbres.\nUne lésion ostéopathique signifie que la vertèbre a perdu sa mobilité dans un ou plusieurs des trois plans de l'espace.\n\n* Le plan sagital\n* Le plan frontal\n* Le plan horizontal\n\nLa perte de mobilité peut-être plus ou moins complète, dans un ou plusieurs de ces plans.\n"
+        text: "La lésion ostéopathique est une expression qui s'applique\_essentiellement à propos des vertèbres.\nUne lésion ostéopathique signifie que la vertèbre a perdu sa mobilité dans un ou plusieurs des trois plans de l'espace.\n\n* Le plan sagittal\n* Le plan frontal\n* Le plan horizontal\n\nLa perte de mobilité peut-être plus ou moins complète, dans un ou plusieurs de ces plans.\n"
       - icon:
           image: /uploads/Feuille 3.png
           name: BiDonateHeart
@@ -106,7 +106,7 @@ blocks:
 
           Cette rythmique cérébrale puissante, crée inévitablement des
           résonnances ; est-ce aussi insensé de concevoir que cette  boîte
-          crânienne  permette l'échappement de toutes ces résonnances ? 
+          crânienne  permette l'échappement de toutes ces résonnances ?
 
 
           Ne serait-ce pas là une des fonctions de la suture crânienne ? Les os
@@ -116,6 +116,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
