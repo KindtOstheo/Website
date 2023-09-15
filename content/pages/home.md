@@ -16,7 +16,7 @@ blocks:
       domaines d'ailleurs très inattendus; comme la sphère ORL et Dentaire.
 
 
-      #### Au niveau vertébral, Il y a essentiellement deux approches
+      ## Au niveau vertébral, Il y a essentiellement deux approches
       ostéopathiques ; l'une structurelle, l'autre fonctionnelle.
 
 
@@ -116,6 +116,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
