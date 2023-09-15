@@ -69,11 +69,11 @@ blocks:
   - list:
       - title: La Boîte Crânienne
         subtitle: Première approche
-        description: "### Les premiers ostéopathes Américains à commencer à s'intéresser aux crânes sont sans doute M. Sutherland, Miller, Fulford, Arbuckle; vers les années 1941.\n\n### Une des premières observations faite lors des autopsies, est que \"la boîte crânienne\" pouvait se désarticuler. En d'autres termes les os qui constituent la boîte crânienne n'étaient pas soudés. Cette observation se confirme toujours  évidemment aujourd'hui.\n\n### C'est une donnée essentielle pour les ostéopathes.\n\n### Les articulations des os du crâne que l'on appelle [sutures ](https://dictionnaire.lerobert.com/definition/suture)crâniennes, sont certes des articulations immobiles, mais non soudées,\_lelles sont ibres.\n"
+        description: "### Les premiers ostéopathes Américains à commencer à s'intéresser aux crânes sont sans doute M. Sutherland, Miller, Fulford, Arbuckle; vers les années 1941.\n\n### Une des premières observations faite lors des autopsies, est que \"la boîte crânienne\" pouvait se désarticuler. En d'autres termes les os qui constituent la boîte crânienne n'étaient pas soudés. Cette observation se confirme toujours  évidemment aujourd'hui.\n\n### C'est une donnée essentielle pour les ostéopathes.\n\n### Les articulations des os du crâne que l'on appelle [sutures ](https://dictionnaire.lerobert.com/definition/suture)[crâniennes](), sont certes des articulations immobiles, mais non soudées,\_lelles sont ibres.\n"
         image: /uploads/1 Crâne.png
       - title: La suture crânienne
         subtitle: Contiguïté n'égale pas continuité
-        description: "### l'articulation qui relie chaque os du crâne s'appelle suture. Elle est définie par les anatomistes comme une articulation immobile; pourtant cette immobilité ne signe pas une fusion osseuse, puisqu'un crâne peut-être désarticulé, lors d'une autopsie; quelque soit l'âge.\n\n### L'étude histologique d'une suture crânienne montre deux éléments bien différents .\n\n### 1° Une\_[contiguïté](https://www.google.com/search?q=contigu\\\\\\&sxsrf=APwXEdfQS3lChPJnF28Mqw0Utsnb982dNw%3A1687766143329\\\\\\&ei=f0SZZJPVE-zFkdUP5euoyAk\\\\\\&oq=contigu\\\\\\&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgwIIxCKBRAnEEYQ-QEyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBwgAEIoFEEMyCAgAEIAEEMsBMgUIABCABDIFCAAQgAQyCAgAEIAEEMsBMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQgAQQCjogCAAQigUQRhD5ARCXBRCMBRDdBBBGEPQDEPUDEPYDGAFKBAhBGABQoghYzhFg8SZoAXABeACAAYEBiAGeApIBAzIuMZgBAKABAcABAcgBCtoBBggBEAEYEw\\\\\\&sclient=gws-wiz-serp%20%22contigu%22)\_osseuse, les os se touchent mais ne se collent pas.\n\n### 2° Une\_[continuité]()\_membraneuse, la membrane dure-mérienne sans discontinuité tapisse et relie les os crâniens.\n"
+        description: "### l'articulation qui relie chaque os du crâne s'appelle suture. Elle est définie par les anatomistes comme une articulation immobile; pourtant cette immobilité ne signe pas une fusion osseuse, puisqu'un crâne peut-être désarticulé, lors d'une autopsie; quelque soit l'âge.\n\n### L'étude histologique d'une suture crânienne montre deux éléments bien différents .\n\n### 1° Une\_[contiguïté](https://www.google.com/search?q=contigu\\\\\\&sxsrf=APwXEdfQS3lChPJnF28Mqw0Utsnb982dNw%3A1687766143329\\\\\\&ei=f0SZZJPVE-zFkdUP5euoyAk\\\\\\&oq=contigu\\\\\\&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgwIIxCKBRAnEEYQ-QEyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBwgAEIoFEEMyCAgAEIAEEMsBMgUIABCABDIFCAAQgAQyCAgAEIAEEMsBMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQgAQQCjogCAAQigUQRhD5ARCXBRCMBRDdBBBGEPQDEPUDEPYDGAFKBAhBGABQoghYzhFg8SZoAXABeACAAYEBiAGeApIBAzIuMZgBAKABAcABAcgBCtoBBggBEAEYEw\\\\\\&sclient=gws-wiz-serp%20%22contigu%22)\_osseuse, les os se touchent mais ne se collent pas.\n\n### 2° Une\_[continuité]()\_membraneuse, la membrane dure-mérienne, sans discontinuité, tapisse et relie les os crâniens.\n"
         image: /uploads/Suture crânienne 5.png
       - title: La Dure-mère
         subtitle: Même communauté de vie avec l'os
@@ -116,6 +116,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
