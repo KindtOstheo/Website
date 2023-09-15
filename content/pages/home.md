@@ -10,13 +10,13 @@ blocks:
   - feature_title_activate: true
     feature_title: L'ostéopathie au service de la santé du corps
     feature_description: >
-      ### L'ostéopathie est née il y a plus de 150 ans avec des précurseurs
-      comme Still, Sutherland, Frymann et n'a cessé d'évoluer au cours de toutes
-      ces années. Aujourd'hui, elle tente d'apporter sa contribution dans des
+      # L'ostéopathie est née il y a plus de 150 ans avec des précurseurs comme
+      Still, Sutherland, Frymann et n'a cessé d'évoluer au cours de toutes ces
+      années. Aujourd'hui, elle tente d'apporter sa contribution dans des
       domaines d'ailleurs très inattendus; comme la sphère ORL et Dentaire.
 
 
-      ## Au niveau vertébral, Il y a essentiellement deux approches
+      # Au niveau vertébral, Il y a essentiellement deux approches
       ostéopathiques ; l'une structurelle, l'autre fonctionnelle.
 
 
@@ -82,40 +82,41 @@ blocks:
       - title: Les os constituants la boîte crânienne restent libres
         subtitle: Une hypothèse d'école
         description: >
-          Les os constituants la boîte crânienne restent libres, ils sont
+          ### Les os constituants la boîte crânienne restent libres, ils sont
           accolés et non pas collés.
 
 
-          Cette notion est très loin d'être reconnue par le corps médical et
+          ### Cette notion est très loin d'être reconnue par le corps médical et
           crée une incompréhension pour ne pas dire une opposition à une
           éventuelle action ostéopathique,à ce niveau.
 
 
-          La vie est mouvement, la mort est inertie.
+          ### La vie est mouvement, la mort est inertie.
 
 
-          Concevoir une activité aussi intense au niveau cérébral avec des
+          ### Concevoir une activité aussi intense au niveau cérébral avec des
           milliards de connexions nerveuses, une circulation sanguine à 0, 750
           L/minute engendrant des pouls puissants dans une rythmique
           parfaitement orchestrée ; une telle activité de vie  dans une  une
           boîte rigide, fermée, inerte, "morte "; est -ce bien possible ?
 
 
-          Hypothèse d'école :
+          ### Hypothèse d'école :
 
 
-          Cette rythmique cérébrale puissante, crée inévitablement des
+          ### Cette rythmique cérébrale puissante, crée inévitablement des
           résonnances ; est-ce aussi insensé de concevoir que cette  boîte
           crânienne  permette l'échappement de toutes ces résonnances ?
 
 
-          Ne serait-ce pas là une des fonctions de la suture crânienne ? Les os
-          du crâne sont-ils animés ?
+          ### Ne serait-ce pas là une des fonctions de la suture crânienne ? Les
+          os du crâne sont-ils animés ?
         image: >-
           /uploads/https___assets.tina.io_6602f015-0424-4f1c-b71e-fc4d2780ff41_image.png
     color: primary
     _template: speciality
 ---
+
 
 
 
