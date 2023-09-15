@@ -10,20 +10,20 @@ blocks:
   - feature_title_activate: true
     feature_title: L'ostéopathie au service de la santé du corps
     feature_description: >
-      #### L'ostéopathie est née il y a plus de 150 ans avec des précurseurs
-      comme Still, Sutherland, Frymann et n'a cessé d'évoluer au cours de toutes
-      ces années. Aujourd'hui, elle tente d'apporter sa contribution dans des
+      ## L'ostéopathie est née il y a plus de 150 ans avec des précurseurs comme
+      Still, Sutherland, Frymann et n'a cessé d'évoluer au cours de toutes ces
+      années. Aujourd'hui, elle tente d'apporter sa contribution dans des
       domaines d'ailleurs très inattendus; comme la sphère ORL et Dentaire.
 
 
-      #### Au niveau vertébral, Il y a essentiellement deux approches
+      ## Au niveau vertébral, Il y a essentiellement deux approches
       ostéopathiques ; l'une structurelle, l'autre fonctionnelle.
 
 
-      §
+      ## §
 
 
-      **L'ostéopathie crânienne ne rentre pas dans ces deux approches.**
+      ## **L'ostéopathie crânienne ne rentre pas dans ces deux approches.**
     items:
       - icon:
           image: /uploads/Feuille 2.jpg
@@ -45,7 +45,7 @@ blocks:
           color: ''
           style: float
         title: Le toucher "sensitif" au niveau crânien
-        text: "##### La lésion crânienne ostéopathique.\n\nLa lésion ostéopathique est la perte d'indépendance d'un ou plusieurs os du crâne. On ne parle pas de mobilité, puisque les os ne bougent pas au sens articulaire du terme, o parlera de résonnance. \nSuivant le lieu, la suture présente différentes formes : en peigne, bord\_à bord, en chevauchement, en rail, en point. Lors d'une lésion, sur tout\_ou partie de la suture, il y a des zones d'accroche qui font perdre, à l'os crânien concerné, sa liberté \"respiratoire\".\n**C'est le toucher ostéopathique qui va dépister cette perte de liberté, tout un art bien sûr.\nCe toucher est esentiellement sensitif.**\nDans un respect des axes d'emboîtement ; comment est ressenti une\_compression ou une décompression, d'un bord à l'autre de la suture ? C'est ce ressenti qui déterminera s'il y a lésion ou pas. Ce toucher s'apprend au même titre qu'une connaissance anatomique très exacte.\n"
+        text: "##### La lésion crânienne ostéopathique.\n\nLa lésion ostéopathique est la perte d'indépendance d'un ou plusieurs os du crâne. On ne parle pas de mobilité, puisque les os ne bougent pas au sens articulaire du terme, o parlera de résonnance.\nSuivant le lieu, la suture présente différentes formes : en peigne, bord\_à bord, en chevauchement, en rail, en point. Lors d'une lésion, sur tout\_ou partie de la suture, il y a des zones d'accroche qui font perdre, à l'os crânien concerné, sa liberté \"respiratoire\".\n**C'est le toucher ostéopathique qui va dépister cette perte de liberté, tout un art bien sûr.\nCe toucher est esentiellement sensitif.**\nDans un respect des axes d'emboîtement ; comment est ressenti une\_compression ou une décompression, d'un bord à l'autre de la suture ? C'est ce ressenti qui déterminera s'il y a lésion ou pas. Ce toucher s'apprend au même titre qu'une connaissance anatomique très exacte.\n"
       - icon:
           image: /uploads/Feuille 2.jpg
           color: blue
@@ -116,6 +116,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
