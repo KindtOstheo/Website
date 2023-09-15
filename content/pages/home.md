@@ -10,7 +10,7 @@ blocks:
   - feature_title_activate: true
     feature_title: L'ostéopathie au service de la santé du corps
     feature_description: >
-      ## L'ostéopathie est née il y a plus de 150 ans avec des précurseurs comme
+      # L'ostéopathie est née il y a plus de 150 ans avec des précurseurs comme
       Still, Sutherland, Frymann et n'a cessé d'évoluer au cours de toutes ces
       années. Aujourd'hui, elle tente d'apporter sa contribution dans des
       domaines d'ailleurs très inattendus; comme la sphère ORL et Dentaire.
@@ -20,10 +20,10 @@ blocks:
       ostéopathiques ; l'une structurelle, l'autre fonctionnelle.
 
 
-      ## §
+      # §
 
 
-      ## **L'ostéopathie crânienne ne rentre pas dans ces deux approches.**
+      # **L'ostéopathie crânienne ne rentre pas dans ces deux approches.**
     items:
       - icon:
           image: /uploads/Feuille 2.jpg
@@ -116,6 +116,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
