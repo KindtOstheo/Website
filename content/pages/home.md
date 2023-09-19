@@ -57,7 +57,7 @@ blocks:
           color: ''
           style: float
         title: L'Homéostasie
-        text: "Une formidable fonction qu'a notre organisme ; l'homéostasie . La capacité à équilibrer en permance \_notre équilibre qu'il soit somatique ou psychique.\nAutrement dit une lésion ostéopathique peut très bien se normaliser\_ elle-même grâce à notre système d'auto-régulation.\nLà où il y a désordre, est quand le corps n'arrive plus à le réguler.\n"
+        text: "l'homéostasie est une formidable fonction qu'a notre organisme :  La capacité à équilibrer en permance  le somatique comme le psychisme..\nAutrement dit une lésion ostéopathique peut très bien se normaliser\_ elle-même grâce à notre système d'auto-régulation.\nLà où il y a désordre, est quand le corps n'arrive plus à le réguler.\n"
       - icon:
           name: BiAnalyse
           color: ''
@@ -116,6 +116,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
