@@ -11,9 +11,9 @@ blocks:
     feature_title: L'ostéopathie au service de la santé du corps
     feature_description: >
       ### L'ostéopathie est née il y a plus de 150 ans avec des précurseurs
-      comme Still, Sutherland, Frymann et n'a cessé d'évoluer au cours de toutes
-      ces années. Aujourd'hui, elle tente d'apporter sa contribution dans des
-      domaines d'ailleurs très inattendus; comme la sphère ORL et Dentaire.
+      comme Still, Sutherland, Frymann. Elle n'a cessé d'évoluer au cours de
+      toutes ces années. Aujourd'hui, elle tente d'apporter sa contribution dans
+      des domaines d'ailleurs très inattendus ; comme la sphère ORL et Dentaire.
 
 
       ### Au niveau vertébral, Il y a essentiellement deux approches
@@ -30,15 +30,15 @@ blocks:
           name: ''
           color: ''
           style: float
-        title: Le crâne et l'ostéopathie
-        text: "* Le crâne, appelé aussi \"boîte crânienne\" ; \_est un contenant.\_ \_ \_ \_\n* L'encéphale est le contenu.\n* Le contenu et le contenant ont forcément une intimité de vie.\n"
+        title: La lésion ostéopathique
+        text: "La lésion ostéopathique est une expression qui s'applique\_essentiellement à propos des vertèbres.\nUne lésion ostéopathique signifie que la vertèbre a perdu sa mobilité dans un ou plusieurs des trois plans de l'espace.\n\n* Le plan sagittal\n* Le plan frontal\n* Le plan horizontal\n\nLa perte de mobilité peut-être plus ou moins complète, dans un ou plusieurs de ces plans.\n"
       - icon:
           image: /uploads/Feuille 2.jpg
           name: ''
           color: ''
           style: float
-        title: La lésion ostéopathique
-        text: "La lésion ostéopathique est une expression qui s'applique\_essentiellement à propos des vertèbres.\nUne lésion ostéopathique signifie que la vertèbre a perdu sa mobilité dans un ou plusieurs des trois plans de l'espace.\n\n* Le plan sagittal\n* Le plan frontal\n* Le plan horizontal\n\nLa perte de mobilité peut-être plus ou moins complète, dans un ou plusieurs de ces plans.\n"
+        title: Le crâne et l'ostéopathie
+        text: "* Le crâne, appelé aussi \"boîte crânienne\" ; \_est un contenant.\_ \_ \_ \_\n* L'encéphale est le contenu.\n* Le contenu et le contenant ont forcément une intimité de vie.\n"
       - icon:
           image: ''
           name: BiDonateHeart
@@ -116,6 +116,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
