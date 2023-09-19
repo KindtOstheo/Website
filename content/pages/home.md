@@ -33,6 +33,12 @@ blocks:
         title: La lésion ostéopathique
         text: "La lésion ostéopathique est une expression qui s'applique\_essentiellement à propos des vertèbres.\nUne lésion ostéopathique signifie que la vertèbre a perdu sa mobilité dans un ou plusieurs des trois plans de l'espace.\n\n* Le plan sagittal\n* Le plan frontal\n* Le plan horizontal\n\nLa perte de mobilité peut-être plus ou moins complète, dans un ou plusieurs de ces plans.\n"
       - icon:
+          name: BiDroplet
+          color: ''
+          style: float
+        title: L'Homéostasie
+        text: "l'homéostasie est une formidable fonction qu'a notre organisme :  La capacité à équilibrer en permance  le somatique comme le psychisme..\nAutrement dit une lésion ostéopathique peut très bien se normaliser\_ elle-même grâce à notre système d'auto-régulation.\nLà où il y a désordre, est quand le corps n'arrive plus à le réguler.\n"
+      - icon:
           image: /uploads/Feuille 2.jpg
           name: ''
           color: ''
@@ -40,24 +46,18 @@ blocks:
         title: Le crâne et l'ostéopathie
         text: "* Le crâne, appelé aussi \"boîte crânienne\" ; \_est un contenant.\_ \_ \_ \_\n* L'encéphale est le contenu.\n* Le contenu et le contenant ont forcément une intimité de vie.\n"
       - icon:
-          image: ''
-          name: BiDonateHeart
-          color: ''
-          style: float
-        title: ''
-        text: ''
-      - icon:
           image: /uploads/Feuille 2.jpg
           color: blue
           style: float
         title: Réflexion
         text: "Si tout le monde est contre toi,\_c'est toi qui a raison, car il est impossible que le monde soit peuplé de tant de sages.\n"
       - icon:
-          name: BiDroplet
+          image: ''
+          name: BiDonateHeart
           color: ''
           style: float
-        title: L'Homéostasie
-        text: "l'homéostasie est une formidable fonction qu'a notre organisme :  La capacité à équilibrer en permance  le somatique comme le psychisme..\nAutrement dit une lésion ostéopathique peut très bien se normaliser\_ elle-même grâce à notre système d'auto-régulation.\nLà où il y a désordre, est quand le corps n'arrive plus à le réguler.\n"
+        title: ''
+        text: ''
       - icon:
           name: BiAnalyse
           color: ''
@@ -116,6 +116,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
