@@ -70,7 +70,7 @@ blocks:
   - list:
       - title: La Boîte Crânienne
         subtitle: Première approche
-        description: "## Les premiers ostéopathes Américains à commencer à s'intéresser aux crânes sont sans doute M. Sutherland, Miller, Fulford, Arbuckle; vers les années 1941.\n\n## Une des premières observations faite lors des autopsies, est que \"la boîte crânienne\" pouvait se désarticuler. En d'autres termes les os qui constituent la boîte crânienne n'étaient pas soudés. Cette observation se confirme toujours  évidemment aujourd'hui.\n\n## C'est une donnée essentielle pour les ostéopathes.\n\n## Les articulations des os du crâne que l'on appelle [sutures ](https://dictionnaire.lerobert.com/definition/suture)[crâniennes](), sont certes des articulations dites immobiles, mais non soudées,\_elles sont libres.\n"
+        description: "## Très tôt les ostéopathes américains se sont intéressés au crâne , comme Frymann, Fulford, Arbuckle , vers les années 1941.\n\n## Une des premières observations faite lors des autopsies, est que \"la boîte crânienne\" pouvait se désarticuler. En d'autres termes les os qui constituent la boîte crânienne n'étaient pas soudés. Cette observation se confirme toujours  évidemment aujourd'hui.\n\n## C'est une donnée essentielle pour les ostéopathes.\n\n## Les articulations des os du crâne que l'on appelle [sutures ](https://dictionnaire.lerobert.com/definition/suture)[crâniennes](), sont certes des articulations dites immobiles, mais non soudées,\_elles sont libres et là commence la contreverse.\n"
         image: /uploads/1 Crâne.png
       - title: La suture crânienne
         subtitle: Contiguïté n'égale pas continuité
@@ -117,6 +117,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
