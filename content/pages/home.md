@@ -119,43 +119,15 @@ blocks:
           ### Les os du crâne et cette membrane nerveuse ont donc de tout
           évidence une communauté de vie.
         image: /uploads/1688411679257.jpg
-      - title: Les os constituants la boîte crânienne restent libres
+      - title: 'Les os constituants la boîte crânienne, sont-ils sourds ?'
         subtitle: Une hypothèse d'école
-        description: >
-          ### Les os constituants la boîte crânienne restent libres, ils sont
-          accolés et non pas collés.
-
-
-          ### Cette notion est très loin d'être reconnue par le corps médical et
-          crée une incompréhension pour ne pas dire une opposition à une
-          éventuelle action ostéopathique,à ce niveau.
-
-
-          ### La vie est mouvement, la mort est inertie.
-
-
-          ### Concevoir une activité aussi intense au niveau cérébral avec des
-          milliards de connexions nerveuses, une circulation sanguine à 0, 750
-          L/minute engendrant des pouls puissants dans une rythmique
-          parfaitement orchestrée ; une telle activité de vie  dans une  une
-          boîte rigide, fermée, inerte, "morte "; est -ce bien possible ?
-
-
-          ### Hypothèse d'école :
-
-
-          ### Cette rythmique cérébrale puissante, crée inévitablement des
-          résonnances ; est-ce aussi insensé de concevoir que cette  boîte
-          crânienne  permette l'échappement de toutes ces résonnances ?
-
-
-          ### Ne serait-ce pas là une des fonctions de la suture crânienne ? Les
-          os du crâne sont-ils animés ?
+        description: "## La vie est mouvement, la mort est inertie. \n\nLe cerveau pèse moins de 100 gr. dans la boîte crânienne et 1 kg 400 lorsqu'il est posé sur la table Il baigne le liquide céphalo-rachidien.\n\n\n\n## L’encéphale et l’ensemble des cellules gliales ont une activité chimique, vasculaire, neurologique très intense.\n\n## Toute cette extraordinaire orchestration rythmique peut-elle vivre dans une boîte crânienne absente de ressentie, inerte\_?\n\n##\n"
         image: >-
           /uploads/https___assets.tina.io_6602f015-0424-4f1c-b71e-fc4d2780ff41_image.png
     color: primary
     _template: speciality
 ---
+
 
 
 
