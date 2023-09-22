@@ -11,7 +11,7 @@ blocks:
     feature_title: L'ostéopathie au service de la santé du corps
     feature_description: >
       ### L'ostéopathie est née il y a plus de 150 ans avec des précurseurs
-      comme les Docteurs Still, Sutherland, puis Viola Frymann. Elle n'a cessé
+      comme les Docteurs Still, Sutherland, Viola Frymann. Elle n'a cessé
       d'évoluer au cours de toutes ces années. Aujourd'hui, elle tente
       d'apporter sa contribution dans des domaines d'ailleurs très inattendus ;
       comme la sphère ORL et Dentaire.
@@ -93,7 +93,7 @@ blocks:
         image: /uploads/1 Crâne.png
       - title: La suture crânienne
         subtitle: Contiguïté n'égale pas continuité
-        description: "## La suture crânienne présente anatomiquement une identité qui lui est propre, distincte de l'os. \n\n## Dans une grande majorité de cas un crâne peut-être désarticulé, lors d'une autopsie; quelque soit l'âge.\n\n## L'étude histologique d'une suture crânienne montre deux éléments bien différents .\n\n## 1° Une\_[contiguïté](https://www.google.com/search?q=contigu\\\\\\&sxsrf=APwXEdfQS3lChPJnF28Mqw0Utsnb982dNw%3A1687766143329\\\\\\&ei=f0SZZJPVE-zFkdUP5euoyAk\\\\\\&oq=contigu\\\\\\&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgwIIxCKBRAnEEYQ-QEyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBwgAEIoFEEMyCAgAEIAEEMsBMgUIABCABDIFCAAQgAQyCAgAEIAEEMsBMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQgAQQCjogCAAQigUQRhD5ARCXBRCMBRDdBBBGEPQDEPUDEPYDGAFKBAhBGABQoghYzhFg8SZoAXABeACAAYEBiAGeApIBAzIuMZgBAKABAcABAcgBCtoBBggBEAEYEw\\\\\\&sclient=gws-wiz-serp%20%22contigu%22)\_osseuse, les os se touchent mais ne se collent pas.\n\n## 2° Une\_[continuité]()\_membraneuse, la membrane dure-mérienne, sans discontinuité, tapisse et relie les os crâniens.\n"
+        description: "## La suture crânienne présente anatomiquement une identité qui lui est propre, distincte de l'os.\n\n## Dans une grande majorité de cas un crâne peut-être désarticulé, lors d'une autopsie; quelque soit l'âge.\n\n## L'étude histologique d'une suture crânienne montre deux éléments bien différents .\n\n## 1° Une\_[contiguïté](https://www.google.com/search?q=contigu\\\\\\&sxsrf=APwXEdfQS3lChPJnF28Mqw0Utsnb982dNw%3A1687766143329\\\\\\&ei=f0SZZJPVE-zFkdUP5euoyAk\\\\\\&oq=contigu\\\\\\&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgwIIxCKBRAnEEYQ-QEyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBwgAEIoFEEMyCAgAEIAEEMsBMgUIABCABDIFCAAQgAQyCAgAEIAEEMsBMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQgAQQCjogCAAQigUQRhD5ARCXBRCMBRDdBBBGEPQDEPUDEPYDGAFKBAhBGABQoghYzhFg8SZoAXABeACAAYEBiAGeApIBAzIuMZgBAKABAcABAcgBCtoBBggBEAEYEw\\\\\\&sclient=gws-wiz-serp%20%22contigu%22)\_osseuse, les os se touchent mais ne se collent pas.\n\n## 2° Une\_[continuité]()\_membraneuse, la membrane dure-mérienne, sans discontinuité, tapisse et relie les os crâniens.\n"
         image: /uploads/Suture crânienne 5.png
       - title: La Dure-mère
         subtitle: Même communauté de vie avec l'os
@@ -156,6 +156,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
