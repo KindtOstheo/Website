@@ -72,7 +72,7 @@ blocks:
         subtitle: Première approche
         description: >
           ## Très tôt les ostéopathes américains se sont intéressés au crâne ,
-          comme Frymann, Fulford, Arbuckle , vers les années 1940.
+          comme Frymann, Fulford, Arbuckle .
 
 
           ## Une des premières observations faite lors des autopsies, est que
@@ -156,6 +156,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
