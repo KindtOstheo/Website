@@ -97,7 +97,27 @@ blocks:
         image: /uploads/Suture crânienne 5.png
       - title: La Dure-mère
         subtitle: Même communauté de vie avec l'os
-        description: "### La dure-mère est la membrane méningée la plus externe . Elle fait partie des méninges qui enveloppent l'ensemble du système nerveux central et médullaire, elle s'étend du sommet du crâne jusqu'au sacrum.\n\n### La dure-mère \"adhère aux os du crâne\", solidarise ainsi les sutures crâniennes.\n\n### C'est une membrane fibreuse, donc\_très peu élastique, épaisse et très résistante.\n\n### Faisant partie intégrante des méninges, cette membrane nerveuse est extrêmement sensible.\n\n### Les os du crâne et cette membrane nerveuse ont donc de tout évidence une communauté de vie.\n"
+        description: >
+          ### La dure-mère est la membrane méningée la plus externe . Elle fait
+          partie des méninges qui enveloppent l'ensemble du système nerveux
+          central et médullaire, elle s'étend du sommet du crâne jusqu'au
+          sacrum.
+
+
+          ### La dure-mère "adhère aux os du crâne", solidarise ainsi les
+          sutures crâniennes.
+
+
+          ### C'est une membrane fibreuse, très peu élastique, épaisse et très
+          résistante.
+
+
+          ### Faisant partie intégrante des méninges, cette membrane méningée
+          est extrêmement sensible.
+
+
+          ### Les os du crâne et cette membrane nerveuse ont donc de tout
+          évidence une communauté de vie.
         image: /uploads/1688411679257.jpg
       - title: Les os constituants la boîte crânienne restent libres
         subtitle: Une hypothèse d'école
@@ -136,6 +156,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
