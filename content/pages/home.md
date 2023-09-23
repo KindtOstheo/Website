@@ -32,13 +32,13 @@ blocks:
           color: ''
           style: float
         title: La lésion ostéopathique
-        text: "La lésion ostéopathique est une expression qui s'applique\_essentiellement à propos des vertèbres.\nUne lésion ostéopathique signifie que la vertèbre a perdu sa mobilité dans un ou plusieurs des trois plans de l'espace.\n\n* Le plan sagittal\n* Le plan frontal\n* Le plan horizontal\n\nLa perte de mobilité peut-être plus ou moins complète, dans un ou plusieurs de ces plans.\n"
+        text: "La lésion ostéopathique est une expression qui s'applique\_essentiellement à propos des vertèbres.\nUne lésion ostéopathique signifie que la vertèbre a perdu sa mobilité dans un ou plusieurs des trois plans de l'espace.\n-----------------------------------------------------------------------------------------------------------------------\n\n* Le plan sagittal\n* Le plan frontal\n* Le plan horizontal\n\n## La perte de mobilité peut-être plus ou moins complète, dans un ou plusieurs de ces plans.\n"
       - icon:
           name: BiDroplet
           color: ''
           style: float
         title: L'Homéostasie
-        text: "l'homéostasie est une formidable fonction qu'a notre organisme :  La capacité à équilibrer en permance  le somatique comme le psychisme..\nAutrement dit une lésion ostéopathique peut très bien se normaliser\_ elle-même grâce à notre système d'auto-régulation.\nLà où il y a désordre, est quand le corps n'arrive plus à le réguler.\n"
+        text: "## l'homéostasie est une formidable fonction qu'a notre organisme :  La capacité à équilibrer en permance  le somatique comme le psychisme..\n\n\nAutrement dit une lésion ostéopathique peut très bien se normaliser\_ elle-même, grâce à ce système d'auto-régulation.\nQuand le corps n'arrive plus à se rééquilibrer, le désordre s'installe, c'est la lésion.\n----------------------------------------------------------------------------------------\n"
       - icon:
           image: /uploads/Feuille 2.jpg
           name: ''
@@ -127,6 +127,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
