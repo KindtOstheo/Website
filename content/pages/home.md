@@ -45,7 +45,7 @@ blocks:
           color: ''
           style: float
         title: Le crâne et l'ostéopathie
-        text: "* Le crâne, appelé aussi \"boîte crânienne\" ; \_est un contenant.\_ \_ \_ \_\n* L'encéphale est le contenu.\n* Le contenu et le contenant ont forcément une intimité de vie.\n\n[https://osteo-perfectionnement.com/wp-content/uploads/Le-M%C3%A9canisme-Respiratoire-Primaire-de-Sutherland-%C3%A0-aujourdhui.pdf](https://osteo-perfectionnement.com/wp-content/uploads/Le-M%C3%A9canisme-Respiratoire-Primaire-de-Sutherland-%C3%A0-aujourdhui.pdf)\n"
+        text: "* Le crâne, appelé aussi \"boîte crânienne\" ; \_est un contenant.\_ \_ \_ \_\n* L'encéphale est le contenu.\n* Le contenu et le contenant ont forcément une intimité de vie.\n"
       - icon:
           image: /uploads/Feuille 2.jpg
           color: blue
@@ -127,6 +127,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
