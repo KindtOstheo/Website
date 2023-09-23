@@ -121,12 +121,13 @@ blocks:
         image: /uploads/1688411679257.jpg
       - title: 'Les os constituants la boîte crânienne, sont-ils sourds ?'
         subtitle: Une hypothèse d'école
-        description: "## La vie est mouvement, la mort est inertie. \n\nLe cerveau pèse moins de 100 gr. dans la boîte crânienne et 1 kg 400 lorsqu'il est posé sur la table. Il baigne dans le liquide cérébrospinal.\n\n\n\n## L’encéphale et l’ensemble des cellules gliales ont une activité chimique, vasculaire, neurologique très intense.\n\n## Toute cette extraordinaire orchestration rythmique peut-elle vivre dans une boîte crânienne absente de ressentie et inerte\_?\n\n##\n"
+        description: "## La vie est mouvement, la mort est inertie.\n\n## Le cerveau pèse moins de 100 gr. dans la boîte crânienne et 1 kg 400 lorsqu'il est posé sur la table. Il baigne dans le liquide cérébrospinal.\n\n## L’encéphale et l’ensemble des cellules gliales ont une activité chimique, vasculaire, neurologique très intense.\n\n## Toute cette extraordinaire orchestration rythmique peut-elle vivre dans une boîte crânienne absente de ressentie et inerte\_?\n\n##\n"
         image: >-
           /uploads/https___assets.tina.io_6602f015-0424-4f1c-b71e-fc4d2780ff41_image.png
     color: primary
     _template: speciality
 ---
+
 
 
 
