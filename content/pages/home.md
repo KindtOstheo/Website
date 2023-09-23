@@ -44,8 +44,8 @@ blocks:
           name: ''
           color: ''
           style: float
-        title: Le crâne et l'ostéopathie
-        text: "##\n\n* Le crâne, appelé aussi \"boîte crânienne\" ; \_est un contenant.\_ \_ \_ \_\n* L'encéphale est le contenu.\n* Le contenu et le contenant ont forcément une intimité de vie.\n"
+        title: Le crâne et l'encéphale
+        text: "Le crâne est appelé «\_boîte crânien\_». \n\nConsidérer le crâne comme un objet, une boîte, \"une casserole\";  plombe dès le départ, la ou les  fonctions que peut jouer le crâne. \n\n* Le crâne est un **contenant**.\_ \_ \_ \_\n* L'encéphale est un** contenu**.\n\nCe contenant et ce contenu ont une intimité de vie, ils ont les mêmes sources d'existence dont la dure-mère et le liquide cérébrospinal. \n\nMais comment la vie de l'un peut influencer la vie de l'autre ?\n"
       - icon:
           image: /uploads/Feuille 2.jpg
           color: blue
@@ -59,12 +59,6 @@ blocks:
           style: float
         title: ''
         text: ''
-      - icon:
-          name: BiAnalyse
-          color: ''
-          style: float
-        title: Platon - Sartre
-        text: "Le rapport entre l'essence : le fait d'être et l'existence le fait d'agir\n\nPour Platon l'homme se définit d'abord parcequ'il est homme (L'essence)\n\nPour Sartre l'homme se définit d'abord par ses actions. Pour lui l'existence, précède l'essence. contrairment à Platon\n\nDeux \_conceptions, deux discours qui sont entendus \_reconnus et pourtant\_ \_ \_ \_ diamétralement opposés.\n\nPrenons la liberté de faire une extrapolation entre deux conceptions de  la boîte crânienne.\n\n* Une boîte crânienne complètement fermée, indépendante de la vie de\_  l'encéphale\n* Une boîte crânienne ouverte, en vibration avec l'encéphale.\n\nEst-ce que les deux conceptions ne peuvent-elles pas être entendues ?\n"
     color: tint
     _template: features
   - list:
@@ -127,6 +121,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
