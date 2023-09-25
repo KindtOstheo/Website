@@ -67,7 +67,7 @@ blocks:
           sont en symbiose avec la méninge dure-mérienne.
 
 
-          Ce contenant et ce contenu ont donc des sources de vie communes  ils
+          Ce contenant et ce contenu ont donc des sources de vie communes, ils
           ont des intimités de vie.
 
 
@@ -147,6 +147,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
