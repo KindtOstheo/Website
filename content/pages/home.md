@@ -129,8 +129,8 @@ blocks:
           est extrêmement sensible.
 
 
-          ### Les os du crâne et cette membrane nerveuse ont donc de tout
-          évidence une communauté de vie.
+          ### Cette membrane méningée a donc une communauté de vie avec les os
+          du crâne et l'encéphale..
         image: /uploads/1688411679257.jpg
       - title: 'Les os constituant la boîte crânienne, sont-ils sourds ?'
         subtitle: Une hypothèse d'école
@@ -140,6 +140,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
