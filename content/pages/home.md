@@ -64,7 +64,8 @@ blocks:
   - list:
       - title: La" boîte" crânienne
         f_title: 2
-        subtitle: sub speciality
+        subtitle: La" boîte" crânienne
+        f_subtitle: 2
         description: >
           Considérer le crâne comme une boîte, préjuge d'un déterminisme  déjà
           établi. Ce crâne est-il vraiment une boîte, autrement dit : objet ? 
@@ -144,6 +145,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
