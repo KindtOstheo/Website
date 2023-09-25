@@ -125,7 +125,7 @@ blocks:
           résistante, d'une extrème sensibilité. Elle appartient aussi bien aux
           os crâniens qu'à l'encéphale.
         image: /uploads/1688411679257.jpg
-      - title: 'Les os constituant la boîte crânienne, sont-ils sourds ?'
+      - title: 'Les os constituant le "bol" crânienne, sont-ils sourds ?'
         subtitle: Une hypothèse d'école
         description: "### La vie est mouvement, la mort est inertie.\n\n### &#x20;Dans le crâne, le cerveau pèse 40 gr. et 1 kg&#xA;400 lorsqu'il est posé sur la table. \n\n### L’encéphale et l’ensemble des cellules gliales ont une&#xA;activité chimique, vasculaire, neurologique très intense. Toute cette vie extraordinaire&#xA;est finement orchestrée selon une rythmique.\n\n### Les os du crâne abritent toutes ces activités, pour&#xA;les faciliter serait-il si absurde d’envisager qu’ils aient \_eux-mêmes des échanges\_?\n\n##\n"
         image: >-
@@ -133,6 +133,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
