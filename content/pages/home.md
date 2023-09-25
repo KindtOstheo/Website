@@ -63,7 +63,7 @@ blocks:
     _template: features
   - list:
       - title: La" boîte" crânienne
-        f_title: 2
+        f_title: 38
         subtitle: La" boîte" crânienne
         f_subtitle: 2
         description: >
@@ -145,6 +145,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
