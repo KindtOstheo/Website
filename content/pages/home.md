@@ -134,7 +134,7 @@ blocks:
           ### Les os du crâne et cette membrane nerveuse ont donc de tout
           évidence une communauté de vie.
         image: /uploads/1688411679257.jpg
-      - title: 'Les os constituants la boîte crânienne, sont-ils sourds ?'
+      - title: 'Les os constituant la boîte crânienne, sont-ils sourds ?'
         subtitle: Une hypothèse d'école
         description: "## La vie est mouvement, la mort est inertie.\n\n## Le cerveau pèse moins de 100 gr. dans la boîte crânienne et 1 kg 400 lorsqu'il est posé sur la table. Il baigne dans le liquide cérébrospinal.\n\n## L’encéphale et l’ensemble des cellules gliales ont une activité chimique, vasculaire, neurologique très intense.\n\n## Toute cette extraordinaire orchestration rythmique peut-elle vivre dans une boîte crânienne absente de ressentie et inerte\_?\n\n##\n"
         image: >-
@@ -142,6 +142,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
