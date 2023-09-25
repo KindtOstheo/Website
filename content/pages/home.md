@@ -44,29 +44,11 @@ blocks:
           name: ''
           color: ''
           style: float
-        title: Le crâne et l'encéphale
-        text: "Le crâne est appelé «\_boîte crânienne\_».\n\nConsidérer le crâne comme un objet, une boîte, une \"casserole\";  plombe dès le départ, la ou les  fonctions que peut jouer le crâne.\n\n* Le crâne est un **contenant**.\_ \_ \_ \_\n* L'encéphale est un\\*\\* contenu\\*\\*.\n\nCe contenant et ce contenu ont [une intimité de vie](), ils ont les mêmes sources de vie, dont la dure-mère et le liquide cérébrospinal.\n\nMais comment la vie de l'un peut influencer la vie de l'autre ?\n"
-      - icon:
-          image: /uploads/Feuille 2.jpg
-          color: blue
-          style: float
-        title: Réflexion
-        text: "Si tout le monde est contre toi,\_c'est toi qui a raison, car il est impossible que le monde soit peuplé de tant de sages.\n"
-      - icon:
-          image: ''
-          name: BiDonateHeart
-          color: ''
-          style: float
-        title: ''
-        text: ''
-    color: tint
-    _template: features
-  - list:
-      - title: La" boîte" crânienne
-        f_title: 38
-        subtitle: La" boîte" crânienne
-        f_subtitle: 2
-        description: >
+        title: La "boîte" crânienne
+        text: >
+          Le vocabulaire employé est très révélateur de la pensée.
+
+
           Considérer le crâne comme une boîte, préjuge d'un déterminisme  déjà
           établi. Ce crâne est-il vraiment une boîte, autrement dit : objet ? 
 
@@ -85,7 +67,22 @@ blocks:
 
 
           Mais comment la vie de l'un, peut influencer la vie de l'autre ?
-        image: ''
+      - icon:
+          image: /uploads/Feuille 2.jpg
+          color: blue
+          style: float
+        title: Réflexion
+        text: "Si tout le monde est contre toi,\_c'est toi qui a raison, car il est impossible que le monde soit peuplé de tant de sages.\n"
+      - icon:
+          image: ''
+          name: BiDonateHeart
+          color: ''
+          style: float
+        title: ''
+        text: ''
+    color: tint
+    _template: features
+  - list:
       - title: La Boîte Crânienne
         subtitle: Première approche
         description: >
@@ -145,6 +142,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
