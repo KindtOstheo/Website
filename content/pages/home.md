@@ -46,13 +46,16 @@ blocks:
           name: ''
           color: ''
           style: float
-        title: La "boîte" crânienne
+        title: La "boîte"  .... crânienne
         text: >
-          Le vocabulaire employé est très révélateur de la pensée.
+          Le vocabulaire employé est très révélateur de la pensée présente.
 
 
-          Considérer le crâne comme une boîte, préjuge d'un déterminisme  déjà
-          établi. Ce crâne est-il vraiment une boîte, autrement dit : objet ?
+          Considérer le crâne comme une "boîte", préjuge d'un déterminisme  déjà
+          établi. 
+
+
+          Ce crâne est-il vraiment une boîte, autrement dit : objet ?
 
 
           * Le crâne est un **contenant**
@@ -64,7 +67,7 @@ blocks:
           communiquent avec la méninge dure-mérienne.
 
 
-          Ce contenant et ce contenu ont donc des sources de vie communent,  ils
+          Ce contenant et ce contenu ont donc des sources de vie communes  ils
           ont des intimités de vie.
 
 
@@ -144,6 +147,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
