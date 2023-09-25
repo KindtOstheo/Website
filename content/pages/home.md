@@ -121,16 +121,13 @@ blocks:
           sutures crâniennes.
 
 
-          ### C'est une membrane fibreuse, très peu élastique, épaisse et très
+          ### C'est une membrane fibreuse, peu élastique, épaisse et très
           résistante.
 
 
-          ### Faisant partie intégrante des méninges, cette membrane méningée
-          est extrêmement sensible.
-
-
-          ### Cette membrane méningée a donc une communauté de vie avec les os
-          du crâne et l'encéphale..
+          ### D'une extrêmement sensibilité, chimique, biologique, neurologique
+          ; elle a une communauté de vie avec les os du crâne comme de
+          l'encéphale.
         image: /uploads/1688411679257.jpg
       - title: 'Les os constituant la boîte crânienne, sont-ils sourds ?'
         subtitle: Une hypothèse d'école
@@ -140,6 +137,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
