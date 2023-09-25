@@ -65,8 +65,26 @@ blocks:
       - title: La" boîte" crânienne
         f_title: 2
         subtitle: sub speciality
-        description: ''
-        image: /blocks/spec.png
+        description: >
+          Considérer le crâne comme une boîte, préjuge d'un déterminisme  déjà
+          établi. Ce crâne est-il vraiment une boîte, autrement dit objet ? 
+
+
+          * Le crâne est un **contenant**
+
+          * L'encéphale est un **contenu**.
+
+
+          Tous les deux baignent dans le liquide cérébrospinal, tous les deux
+          communiquent avec la méninge dure-mérienne.
+
+
+          Ce contenant et ce contenu ont des sources de vie communent ils ont
+          des intimités de vie.
+
+
+          Mais comment la vie de l'un peut influencer la vie de l'autre ?
+        image: ''
       - title: La Boîte Crânienne
         subtitle: Première approche
         description: >
@@ -126,6 +144,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
