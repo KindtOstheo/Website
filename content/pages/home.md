@@ -94,7 +94,7 @@ blocks:
           toujours  évidemment aujourd'hui.
 
 
-          ## C'est une donnée essentielle pour les ostéopathes.
+          ## C'est une donnée importante pour les ostéopathes.
 
 
           ## Dès cette époque une controverse s'ouvre non résolue encore
@@ -140,6 +140,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
