@@ -83,7 +83,7 @@ blocks:
     color: tint
     _template: features
   - list:
-      - title: La Boîte Crânienne
+      - title: Le crâne
         subtitle: Première approche
         description: >
           ## Très tôt les ostéopathes américains se sont intéressés au crâne ,
@@ -92,8 +92,8 @@ blocks:
 
           ## Une des premières observations faite lors des autopsies, est que
           "la boîte crânienne" pouvait se désarticuler. En d'autres termes les
-          os qui constituent la boîte crânienne n'étaient pas soudés. Cette
-          observation se confirme toujours  évidemment aujourd'hui.
+          os du crâne n'étaient pas soudés. Cette observation se confirme
+          toujours  évidemment aujourd'hui.
 
 
           ## C'est une donnée essentielle pour les ostéopathes.
@@ -103,8 +103,8 @@ blocks:
           aujourd'hui. Les articulations des os du crâne que l'on appelle
           [sutures
           ](https://dictionnaire.lerobert.com/definition/suture)[crâniennes](),
-          sont des articulations dites immobiles, mais ne sont-elles pas libres
-          néanmoins ?
+          sont des articulations dites immobiles. Mais les os ne restent-ils pas
+          indépendants les uns des autres ?
         image: /uploads/1 Crâne.png
       - title: La suture crânienne
         subtitle: Contiguïté n'égale pas continuité
@@ -142,6 +142,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
