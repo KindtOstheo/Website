@@ -67,7 +67,7 @@ blocks:
         subtitle: sub speciality
         description: >
           Considérer le crâne comme une boîte, préjuge d'un déterminisme  déjà
-          établi. Ce crâne est-il vraiment une boîte, autrement dit objet ? 
+          établi. Ce crâne est-il vraiment une boîte, autrement dit : objet ? 
 
 
           * Le crâne est un **contenant**
@@ -79,11 +79,11 @@ blocks:
           communiquent avec la méninge dure-mérienne.
 
 
-          Ce contenant et ce contenu ont des sources de vie communent ils ont
-          des intimités de vie.
+          Ce contenant et ce contenu ont donc des sources de vie communent,  ils
+          ont des intimités de vie.
 
 
-          Mais comment la vie de l'un peut influencer la vie de l'autre ?
+          Mais comment la vie de l'un, peut influencer la vie de l'autre ?
         image: ''
       - title: La Boîte Crânienne
         subtitle: Première approche
@@ -144,6 +144,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
