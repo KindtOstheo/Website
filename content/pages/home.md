@@ -45,7 +45,7 @@ blocks:
           color: ''
           style: float
         title: Le crâne et l'encéphale
-        text: "Le crâne est appelé «\_boîte crânienne\_». \n\nConsidérer le crâne comme un objet, une boîte, une \"casserole\";  plombe dès le départ, la ou les  fonctions que peut jouer le crâne. \n\n* Le crâne est un **contenant**.\_ \_ \_ \_\n* L'encéphale est un** contenu**.\n\nCe contenant et ce contenu ont [une intimité de vie](), ils ont les mêmes sources de vie, dont la dure-mère et le liquide cérébrospinal. \n\nMais comment la vie de l'un peut influencer la vie de l'autre ?\n"
+        text: "Le crâne est appelé «\_boîte crânienne\_».\n\nConsidérer le crâne comme un objet, une boîte, une \"casserole\";  plombe dès le départ, la ou les  fonctions que peut jouer le crâne.\n\n* Le crâne est un **contenant**.\_ \_ \_ \_\n* L'encéphale est un\\*\\* contenu\\*\\*.\n\nCe contenant et ce contenu ont [une intimité de vie](), ils ont les mêmes sources de vie, dont la dure-mère et le liquide cérébrospinal.\n\nMais comment la vie de l'un peut influencer la vie de l'autre ?\n"
       - icon:
           image: /uploads/Feuille 2.jpg
           color: blue
@@ -62,6 +62,11 @@ blocks:
     color: tint
     _template: features
   - list:
+      - title: La" boîte" crânienne
+        f_title: 2
+        subtitle: sub speciality
+        description: ''
+        image: /blocks/spec.png
       - title: La Boîte Crânienne
         subtitle: Première approche
         description: >
@@ -121,6 +126,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
