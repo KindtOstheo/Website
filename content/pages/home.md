@@ -77,14 +77,7 @@ blocks:
           color: blue
           style: float
         title: Réflexion
-        text: "Si tout le monde est contre toi,\_c'est toi qui a raison, car il est impossible que le monde soit peuplé de tant de sages.\n"
-      - icon:
-          image: ''
-          name: BiDonateHeart
-          color: ''
-          style: float
-        title: ''
-        text: ''
+        text: "## Si tout le monde est contre toi,\_c'est toi qui a raison, car il est impossible que le monde soit peuplé de tant de sages.\n"
     color: tint
     _template: features
   - list:
@@ -147,6 +140,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
