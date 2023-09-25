@@ -64,7 +64,7 @@ blocks:
 
 
           Tous les deux baignent dans le liquide cérébrospinal, tous les deux
-          communiquent avec la méninge dure-mérienne.
+          sont en symbiose avec la méninge dure-mérienne.
 
 
           Ce contenant et ce contenu ont donc des sources de vie communes  ils
@@ -147,6 +147,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
