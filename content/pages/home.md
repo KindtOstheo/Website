@@ -122,12 +122,8 @@ blocks:
 
 
           ### C'est une membrane fibreuse, peu élastique, épaisse et très
-          résistante.
-
-
-          ### D'une extrêmement sensibilité, chimique, biologique, neurologique
-          ; elle a une communauté de vie avec les os du crâne comme de
-          l'encéphale.
+          résistante, d'une extrème sensibilité. Elle appartient aussi bien aux
+          os crâniens qu'à l'encéphale.
         image: /uploads/1688411679257.jpg
       - title: 'Les os constituant la boîte crânienne, sont-ils sourds ?'
         subtitle: Une hypothèse d'école
@@ -137,6 +133,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
