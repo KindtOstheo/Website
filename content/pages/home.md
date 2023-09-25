@@ -10,15 +10,16 @@ blocks:
     _template: banner
   - feature_title_activate: true
     feature_title: L'ostéopathie au service de la santé du corps
+    f_title: 25
     feature_description: >
-      ## L'ostéopathie est née il y a plus de 150 ans avec des précurseurs comme
+      # L'ostéopathie est née il y a plus de 150 ans avec des précurseurs comme
       les Docteurs Still, Sutherland, Viola Frymann. Elle n'a cessé d'évoluer au
       cours de toutes ces années. Aujourd'hui, elle tente d'apporter sa
       contribution dans des domaines d'ailleurs très inattendus ; comme la
       sphère ORL et Dentaire.
 
 
-      ## Au niveau vertébral, Il y a essentiellement deux approches
+      # Au niveau vertébral, Il y a essentiellement deux approches
       ostéopathiques ; l'une structurelle, l'autre fonctionnelle.
 
 
@@ -143,6 +144,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
