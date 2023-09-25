@@ -4,6 +4,7 @@ blocks:
   - b_title: true
     title: La vie est mouvement
     a_title: center
+    f_title: 28
     b_image: true
     banner_image: /uploads/Couverture M.Faciale.png
     _template: banner
@@ -50,7 +51,7 @@ blocks:
 
 
           Considérer le crâne comme une boîte, préjuge d'un déterminisme  déjà
-          établi. Ce crâne est-il vraiment une boîte, autrement dit : objet ? 
+          établi. Ce crâne est-il vraiment une boîte, autrement dit : objet ?
 
 
           * Le crâne est un **contenant**
@@ -142,6 +143,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
