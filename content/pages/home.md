@@ -52,7 +52,7 @@ blocks:
 
 
           Considérer le crâne comme une "boîte", préjuge d'un déterminisme  déjà
-          établi. 
+          établi.
 
 
           Ce crâne est-il vraiment une boîte, autrement dit : objet ?
@@ -81,6 +81,17 @@ blocks:
     color: tint
     _template: features
   - list:
+      - title: Le sphénoïde telle une chauve-souris
+        subtitle: sub speciality
+        description: >
+          Le sphénoïde est l'os au centre du crâne. Quand on le regarde, on est
+          plus près d'un tableau de Picasso que d'un Botticelli. La morphologie
+          est éclatée, chaotique, les lignes sont brisées ; un capharnaüm de
+          formes difficile à mémoriser, même après de heures d'étude de cet os.
+
+
+          Difficile de croire que les rapports avec les os  
+        image: /blocks/spec.png
       - title: Le crâne
         subtitle: Première approche
         description: >
@@ -127,12 +138,13 @@ blocks:
         image: /uploads/1688411679257.jpg
       - title: 'Les os constituant le "bol" crânienne, sont-ils sourds ?'
         subtitle: Une hypothèse d'école
-        description: "### La vie est mouvement, la mort est inertie.\n\n### &#x20;Dans le crâne, le cerveau pèse 40 gr. et 1 kg&#xA;400 lorsqu'il est posé sur la table. \n\n### L’encéphale et l’ensemble des cellules gliales ont une&#xA;activité chimique, vasculaire, neurologique très intense. Toute cette vie extraordinaire&#xA;est finement orchestrée selon une rythmique.\n\n### Les os du crâne abritent toutes ces activités, pour&#xA;les faciliter serait-il si absurde d’envisager qu’ils aient des échanges entre eux\_?\n\n##\n"
+        description: "### La vie est mouvement, la mort est inertie.\n\n### &#x20;Dans le crâne, le cerveau pèse 40 gr. et 1 kg&#xA;400 lorsqu'il est posé sur la table.\n\n### L’encéphale et l’ensemble des cellules gliales ont une&#xA;activité chimique, vasculaire, neurologique très intense. Toute cette vie extraordinaire&#xA;est finement orchestrée selon une rythmique.\n\n### Les os du crâne abritent toutes ces activités, pour&#xA;les faciliter serait-il si absurde d’envisager qu’ils aient des échanges entre eux\_?\n\n##\n"
         image: >-
           /uploads/https___assets.tina.io_6602f015-0424-4f1c-b71e-fc4d2780ff41_image.png
     color: primary
     _template: speciality
 ---
+
 
 
 
