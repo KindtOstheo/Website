@@ -86,12 +86,13 @@ blocks:
         description: >
           Le sphénoïde est l'os au centre du crâne. Quand on le regarde, on est
           plus près d'un tableau de Picasso que d'un Botticelli. La morphologie
-          est éclatée, chaotique, les lignes sont brisées ; un capharnaüm de
-          formes difficile à mémoriser, même après de heures d'étude de cet os.
+          est éclatée, chaotique, les lignes sont brisées ; même après des
+          heures d'étude, ce capharnaüm de formes,  reste difficile à mémoriser.
 
 
-          Difficile de croire que les rapports avec les os  
-        image: /blocks/spec.png
+          Le rapport avec les os satellites sont loin d'être classique et
+          continue encore aujourd'hui à être une expérience de pensée.
+        image: /uploads/blocks/spec.png
       - title: Le crâne
         subtitle: Première approche
         description: >
@@ -144,6 +145,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
