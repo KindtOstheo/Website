@@ -81,8 +81,8 @@ blocks:
     color: tint
     _template: features
   - list:
-      - title: Le sphénoïde telle une chauve-souris
-        subtitle: sub speciality
+      - title: 'Le sphénoïde '
+        subtitle: Telle une chauve-souris
         description: >
           ### Le sphénoïde est l'os au centre du crâne. Quand on le regarde, on
           est plus près d'un tableau de Picasso que d'un Botticelli. La
@@ -146,6 +146,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
