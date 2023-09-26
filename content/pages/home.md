@@ -84,14 +84,15 @@ blocks:
       - title: Le sphénoïde telle une chauve-souris
         subtitle: sub speciality
         description: >
-          Le sphénoïde est l'os au centre du crâne. Quand on le regarde, on est
-          plus près d'un tableau de Picasso que d'un Botticelli. La morphologie
-          est éclatée, chaotique, les lignes sont brisées ; même après des
-          heures d'étude, ce capharnaüm de formes,  reste difficile à mémoriser.
+          ### Le sphénoïde est l'os au centre du crâne. Quand on le regarde, on
+          est plus près d'un tableau de Picasso que d'un Botticelli. La
+          morphologie est éclatée, chaotique, les lignes sont brisées ; même
+          après des heures d'étude, ce capharnaüm de formes,  reste difficile à
+          mémoriser.
 
 
-          Le rapport avec les os satellites sont loin d'être classique et
-          continue encore aujourd'hui à être une expérience de pensée.
+          ### Les rapports avec ses os satellites sont loin d'être classiques et
+          continuent encore aujourd'hui à être une expérience de pensée.
         image: /uploads/blocks/spec.png
       - title: Le crâne
         subtitle: Première approche
@@ -145,6 +146,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
