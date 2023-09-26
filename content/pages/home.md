@@ -141,11 +141,12 @@ blocks:
 
 
           ### Les rapports avec ses os satellites sont loin d'être classiques et
-          continuent encore aujourd'hui à être une expérience de pensée.
+          continuent encore aujourd'hui à être des expériences de pensée.
         image: /uploads/Picasso F.jpg
     color: primary
     _template: speciality
 ---
+
 
 
 
