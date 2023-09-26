@@ -21,6 +21,9 @@ import { Prism } from "tinacms/dist/rich-text/prism";
 import type { TinaMarkdownContent, Components } from "tinacms/dist/rich-text";
 import { PostType } from "../../pages/posts/[filename]";
 import { tinaField } from "tinacms/dist/react";
+import LiteYouTubeEmbed from "react-lite-youtube-embed";
+import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
+import Image from "next/image";
 
 const components: Components<{
   BlockQuote: {
@@ -36,6 +39,15 @@ const components: Components<{
     children: TinaMarkdownContent;
     disclaimer?: TinaMarkdownContent;
   };
+  Youtube: {
+    url: string;
+    title: string;
+  };
+  ImagesHeight: {
+    src: string;
+    title: string;
+    height: number;
+  };
 }> = {
   code_block: (props) => <Prism {...props} />,
   BlockQuote: (props: {
@@ -44,9 +56,11 @@ const components: Components<{
   }) => {
     return (
       <div>
-        <blockquote>
+        <blockquote className="rounded-xl border border-border-secondary bg-body px-8 py-3  not-italic">
           <TinaMarkdown content={props.children} />
-          {props.authorName}
+          <span className={`m-0 block border-t border-border-secondary pt-3 text-base font-normal text-text after:hidden ${props.authorName ? "":"hidden"}`}>
+            {props.authorName}
+          </span>
         </blockquote>
       </div>
     );
@@ -109,6 +123,23 @@ const components: Components<{
     <span className="flex items-center justify-center">
       <img src={props.url} alt={props.alt} />
     </span>
+  ),
+  Youtube: (props)  => (
+    <div className="overflow-hidden rounded-xl">
+    <LiteYouTubeEmbed id={props.url} title={props.title} />
+  </div>
+  ),
+  ImagesHeight: (props) => (
+    <div className= 'w-auto relative' style={{height: props.height}}>
+      <Image
+        src={props.src}
+        fill={true}
+        alt={props.title}
+        priority={true}
+        className="unset"
+        style={{objectFit: "contain"}}
+      />
+    </div>
   ),
 };
 

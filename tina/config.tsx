@@ -153,6 +153,46 @@ const config = defineConfig({
                   },
                 },
               },
+              {
+                name: "Youtube",
+                label: "Video Youtube",
+                fields:[
+                  {
+                      name: "url",
+                      label: "Id de la video",
+                      type: "string",
+                      ui: {
+                          description: "Récupérer le lien de la vidéo sur YouTube https://www.youtube.com/watch?v=AnuHskLUPL0 et récupérer l'id exemple avec ce lien l'id est AnuHskLUPL0"
+                      }
+                  },
+                  {
+                      name: "title",
+                      label: "Titre de la video",
+                      type: "string",
+                  },
+                ]
+              },
+              {
+                name: "ImagesHeight",
+                label: "Image avec hauteur paramétrable ",
+                fields:[
+                  {
+                      name: "src",
+                      label: "Image",
+                      type: "image",
+                  },
+                  {
+                      name: "title",
+                      label: "Titre de l'image",
+                      type: "string",
+                  },
+                  {
+                      name: "height",
+                      label: "Hauteur de l'image en px",
+                      type: "number",
+                  },
+                ]
+              },
             ],
             isBody: true,
           },
