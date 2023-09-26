@@ -142,10 +142,11 @@ blocks:
 
           ### Les rapports avec ses os satellites sont loin d'être classiques et
           continuent encore aujourd'hui à être une expérience de pensée.
-        image: /uploads/blocks/spec.png
+        image: '/uploads/Bornéo 2019_071, Peinture par Laurent Folco _ Artmajeur.jpg'
     color: primary
     _template: speciality
 ---
+
 
 
 
