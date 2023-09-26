@@ -81,19 +81,6 @@ blocks:
     color: tint
     _template: features
   - list:
-      - title: 'Le sphénoïde '
-        subtitle: Telle une chauve-souris
-        description: >
-          ### Le sphénoïde est l'os au centre du crâne. Quand on le regarde, on
-          est plus près d'un tableau de Picasso que d'un Botticelli. La
-          morphologie est éclatée, chaotique, les lignes sont brisées ; même
-          après des heures d'étude, ce capharnaüm de formes,  reste difficile à
-          mémoriser.
-
-
-          ### Les rapports avec ses os satellites sont loin d'être classiques et
-          continuent encore aujourd'hui à être une expérience de pensée.
-        image: /uploads/blocks/spec.png
       - title: Le crâne
         subtitle: Première approche
         description: >
@@ -143,9 +130,23 @@ blocks:
         description: "### La vie est mouvement, la mort est inertie.\n\n### &#x20;Dans le crâne, le cerveau pèse 40 gr. et 1 kg&#xA;400 lorsqu'il est posé sur la table.\n\n### L’encéphale et l’ensemble des cellules gliales ont une&#xA;activité chimique, vasculaire, neurologique très intense. Toute cette vie extraordinaire&#xA;est finement orchestrée selon une rythmique.\n\n### Les os du crâne abritent toutes ces activités, pour&#xA;les faciliter serait-il si absurde d’envisager qu’ils aient des échanges entre eux\_?\n\n##\n"
         image: >-
           /uploads/https___assets.tina.io_6602f015-0424-4f1c-b71e-fc4d2780ff41_image.png
+      - title: 'Le sphénoïde '
+        subtitle: Telle une chauve-souris
+        description: >
+          ### Le sphénoïde est l'os au centre du crâne. Quand on le regarde, on
+          est plus près d'un tableau de Picasso que d'un Botticelli. La
+          morphologie est éclatée, chaotique, les lignes sont brisées ; même
+          après des heures d'étude, ce capharnaüm de formes,  reste difficile à
+          mémoriser.
+
+
+          ### Les rapports avec ses os satellites sont loin d'être classiques et
+          continuent encore aujourd'hui à être une expérience de pensée.
+        image: /uploads/blocks/spec.png
     color: primary
     _template: speciality
 ---
+
 
 
 
