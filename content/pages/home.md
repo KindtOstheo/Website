@@ -141,7 +141,8 @@ blocks:
           ### Les os du crâne abritent toutes ces activités. Ils protègent,
           facilite sans doute, les battements de l'encéphale. Serait-il si
           farfelu d'émettre l'idée qu'ils les accompagnent dans un mouvement
-          respiratoire, à l'instar de la cage thoracique avec les poumons ?&#xA;
+          "respiratoire", à l'instar de la cage thoracique avec les poumons
+          ?&#xA;
 
 
           ##
@@ -163,6 +164,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
