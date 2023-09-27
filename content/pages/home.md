@@ -78,6 +78,11 @@ blocks:
     color: tint
     _template: features
   - list:
+      - title: le toucher crânien
+        f_title: 21
+        subtitle: sub speciality
+        description: "## Le Toucher est le premier des cinq sens de l’être humain.\n\nLa pensée médicale actuelle considère que le crâne est un\ntout et l’idée que les os du crâne aient des échanges entre eux, est un leurre.\n-------------------------------------------------------------------------------\n\nPourtant, grâce au toucher, \_l’ostéopathe exercé à cette pratique et selon\nun protocole réfléchi, perçoit ou pas, un échange entre les deux os d’une même\nsuture. \n--------\n\n## Mais de quel ordre est-il cet échange\_? \n"
+        image: ''
       - title: Le crâne
         subtitle: Première approche
         description: >
@@ -164,6 +169,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
