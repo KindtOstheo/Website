@@ -146,8 +146,7 @@ blocks:
 
 
           ##
-        image: >-
-          /uploads/https___assets.tina.io_6602f015-0424-4f1c-b71e-fc4d2780ff41_image.png
+        image: /uploads/Le cerveau humain 2.jpg
       - title: le Toucher crânien
         f_title: 32
         subtitle: Le mystère Haptique
@@ -169,6 +168,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
