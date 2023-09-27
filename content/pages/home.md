@@ -78,11 +78,6 @@ blocks:
     color: tint
     _template: features
   - list:
-      - title: le toucher crânien
-        f_title: 32
-        subtitle: Le mystère Haptique
-        description: "## Le Toucher est le premier des cinq sens de l’être humain.\n\nLa pensée médicale actuelle considère que le crâne est un\ntout et l’idée que les os du crâne aient des échanges entre eux, est un leurre.\n-------------------------------------------------------------------------------\n\nPourtant, grâce au toucher, \_l’ostéopathe exercé, à cette pratique et selon\nun protocole réfléchi, perçoit ou pas, un échange entre les deux os d’une même\nsuture.\n-------\n\n## Mais de quel ordre est-il cet échange\_?\n"
-        image: /uploads/Image Tango.jpg
       - title: Le crâne
         subtitle: Première approche
         description: >
@@ -105,7 +100,7 @@ blocks:
           ](https://dictionnaire.lerobert.com/definition/suture)[crâniennes](),
           sont des articulations dites immobiles. Mais, ces os conservent-ils
           leur indépendance, sont-ils libres, entre-eux ?
-        image: /uploads/1 Crâne.png
+        image: /uploads/Squelette 2.jpg
       - title: La suture crânienne
         subtitle: Contiguïté n'égale pas continuité
         description: "## La suture crânienne présente anatomiquement une identité qui lui est propre, distincte de l'os.\n\n## Dans une grande majorité de cas, lors d'une autopsie, un crâne peut-être désarticulé ; quelque soit l'âge.\n\n## L'étude histologique d'une suture crânienne montre deux éléments bien différents .\n\n## 1° Une\_[contiguïté](https://www.google.com/search?q=contigu\\\\\\&sxsrf=APwXEdfQS3lChPJnF28Mqw0Utsnb982dNw%3A1687766143329\\\\\\&ei=f0SZZJPVE-zFkdUP5euoyAk\\\\\\&oq=contigu\\\\\\&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgwIIxCKBRAnEEYQ-QEyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBwgAEIoFEEMyCAgAEIAEEMsBMgUIABCABDIFCAAQgAQyCAgAEIAEEMsBMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQgAQQCjogCAAQigUQRhD5ARCXBRCMBRDdBBBGEPQDEPUDEPYDGAFKBAhBGABQoghYzhFg8SZoAXABeACAAYEBiAGeApIBAzIuMZgBAKABAcABAcgBCtoBBggBEAEYEw\\\\\\&sclient=gws-wiz-serp%20%22contigu%22)\_osseuse, les os se touchent mais ne se collent pas.\n\n## 2° Une\_[continuité]()\_membraneuse, la membrane dure-mérienne, tapisse et relie les os crâniens, sans discontinuité.\n"
@@ -153,6 +148,11 @@ blocks:
           ##
         image: >-
           /uploads/https___assets.tina.io_6602f015-0424-4f1c-b71e-fc4d2780ff41_image.png
+      - title: le toucher crânien
+        f_title: 32
+        subtitle: Le mystère Haptique
+        description: "## Le Toucher est le premier des cinq sens de l’être humain.\n\nLa pensée médicale actuelle considère que le crâne est un\ntout et l’idée que les os du crâne aient des échanges entre eux, est un leurre.\n-------------------------------------------------------------------------------\n\nPourtant, grâce au toucher, \_l’ostéopathe exercé, à cette pratique et selon\nun protocole réfléchi, perçoit ou pas, un échange entre les deux os d’une même\nsuture.\n-------\n\n## Mais de quel ordre est-il cet échange\_?\n"
+        image: /uploads/Image Tango.jpg
       - title: 'Le sphénoïde '
         subtitle: Telle une chauve-souris
         description: >
@@ -169,6 +169,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
