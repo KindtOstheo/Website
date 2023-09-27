@@ -148,7 +148,7 @@ blocks:
           ##
         image: >-
           /uploads/https___assets.tina.io_6602f015-0424-4f1c-b71e-fc4d2780ff41_image.png
-      - title: le toucher crânien
+      - title: le Toucher crânien
         f_title: 32
         subtitle: Le mystère Haptique
         description: "## Le Toucher est le premier des cinq sens de l’être humain.\n\nLa pensée médicale actuelle considère que le crâne est un\ntout et l’idée que les os du crâne aient des échanges entre eux, est un leurre.\n-------------------------------------------------------------------------------\n\nPourtant, grâce au toucher, \_l’ostéopathe exercé, à cette pratique et selon\nun protocole réfléchi, perçoit ou pas, un échange entre les deux os d’une même\nsuture.\n-------\n\n## Mais de quel ordre est-il cet échange\_?\n"
@@ -169,6 +169,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
