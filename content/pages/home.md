@@ -55,7 +55,7 @@ blocks:
           établi.
 
 
-          Ce crâne est-il vraiment une boîte, autrement dit : objet ?
+          Ce crâne est-il vraiment une boîte, qu'un emballage ?
 
 
           * Le crâne est un **contenant**
@@ -64,11 +64,8 @@ blocks:
 
 
           Tous les deux baignent dans le liquide cérébrospinal, tous les deux
-          sont en symbiose avec la méninge dure-mérienne.
-
-
-          Ce contenant et ce contenu ont donc des sources de vie communes, ils
-          ont des intimités de vie.
+          sont entourés par la méninge dure-mérienne, ils partagent une certaine
+          intimité de vie.
 
 
           Mais comment la vie de l'un, peut influencer la vie de l'autre ?
@@ -146,6 +143,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
