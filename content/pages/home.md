@@ -94,12 +94,12 @@ blocks:
           ## C'est une donnée importante pour les ostéopathes.
 
 
-          ## Dès cette époque une controverse s'ouvre non résolue encore
+          ## Dès cette époque une controverse s'ouvre non encore résolue
           aujourd'hui. Les articulations des os du crâne que l'on appelle
           [sutures
           ](https://dictionnaire.lerobert.com/definition/suture)[crâniennes](),
-          sont des articulations dites immobiles. Mais, au fil du temps, les os
-          restent-ils indépendants les uns des autres ?
+          sont des articulations dites immobiles. Mais, ces os restent-ils
+          indépendants les uns des autres ?
         image: /uploads/1 Crâne.png
       - title: La suture crânienne
         subtitle: Contiguïté n'égale pas continuité
@@ -143,6 +143,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
