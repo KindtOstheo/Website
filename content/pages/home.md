@@ -124,7 +124,27 @@ blocks:
         image: /uploads/1688411679257.jpg
       - title: 'Les os constituant le "bol" crânienne, sont-ils sourds ?'
         subtitle: Une hypothèse d'école
-        description: "### La vie est mouvement, la mort est inertie.\n\n### le cerveau pèse 40 gr. in situ et 1 kg&#xA;400 lorsqu'il est posé sur la table.\n\n### L’encéphale et l’ensemble des cellules gliales ont une&#xA;activité chimique, vasculaire, neurologique très intense. Toute cette vie extraordinaire&#xA;est finement orchestrée selon une rythmique.\n\n### Les os du crâne abritent toutes ces activités, pour&#xA;les faciliter serait-il si absurde d’envisager qu’ils aient des échanges\_? Le contenant est en phase avec le contenu, mais comment ?\n\n##\n"
+        description: >
+          ### La vie est mouvement, la mort est inertie.
+
+
+          ### le cerveau pèse 40 gr. in situ et 1 kg&#xA;400 lorsqu'il est posé
+          sur la table.
+
+
+          ### L’encéphale et l’ensemble des cellules gliales ont
+          une&#xA;activité chimique, vasculaire, neurologique très intense.
+          Toute cette vie extraordinaire&#xA;est finement orchestrée selon une
+          rythmique.
+
+
+          ### Les os du crâne abritent toutes ces activités. Ils protègent,
+          facilite sans doute, les battements de l'encéphale. Serait-il si
+          farfelu d'émettre l'idée qu'ils les accompagnent dans un mouvement
+          respiratoire, à l'instar de la cage thoracique avec les poumons ?&#xA;
+
+
+          ##
         image: >-
           /uploads/https___assets.tina.io_6602f015-0424-4f1c-b71e-fc4d2780ff41_image.png
       - title: 'Le sphénoïde '
@@ -143,6 +163,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
