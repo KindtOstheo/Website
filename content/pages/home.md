@@ -80,7 +80,7 @@ blocks:
   - list:
       - title: Le Diapason
         subtitle: sub speciality
-        description: "## Un doigt ou une main de chaque côté de la suture.\n\nL’un émet une contrainte \_(un appui par exemple), l’autre main perçoit ou\npas, *l’onde* créée\_; de la même\nfaçon que le «\_LA\_» créé par le diapason est reçu par l’oreil.\n--------------------------------------------------------------\n\n## Il y a un émetteur et un récepteur.\n\nLe terme *onde* employé\nici, est tout à fait arbitraire ne connaissant pas la nature de cet échange\_;\nest-il vibratoire, nanométrique, neuro-végétatif\_? L’ostéopathe n’est pas\nqualifié pour le dire, mais il peut dire qu'il\"est\".\n----------------------------------------------------\n"
+        description: "## Le praticien place un doigt ou une main de chaque côté de la suture.\n\nL’un émet une contrainte \_(un appui par exemple), l’autre main perçoit ou\npas, *l’onde* créée\_; de la même\nfaçon que le «\_LA\_» créé par le diapason est reçu par l’oreil.\n--------------------------------------------------------------\n\n## Il y a un émetteur et un récepteur.\n\nLe terme *onde* employé\nici, est tout à fait arbitraire ne connaissant pas la nature de cet échange\_;\nest-il vibratoire, nanométrique, neuro-végétatif\_? L’ostéopathe n’est pas\nqualifié pour le dire, mais il peut dire qu'il\"est\".\n----------------------------------------------------\n"
         image: ''
       - title: Le crâne
         subtitle: Première approche
@@ -172,6 +172,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
