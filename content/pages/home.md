@@ -80,10 +80,8 @@ blocks:
   - list:
       - title: Le Diapason
         subtitle: sub speciality
-        description: >
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
-        image: /blocks/spec.png
+        description: "## Un doigt ou une main de chaque côté de la suture. \n\nL’un émet une contrainte \_(un appui par exemple), l’autre main perçoit ou\npas l’onde créée\_; de la même\nfaçon que le «\_LA\_» créé par le diapason est capté par l’oreille, il\ny a un émetteur et un receveur.\n-------------------------------\n\n## \_\n\nLe terme onde employé\nici, est tout à fait arbitraire ne connaissant pas la nature de cet échange\_;\nest-il vibratoire, nanométrique, neuro-végétatif\_? L’ostéopathe n’est pas\nqualifié pour le dire.\n----------------------\n"
+        image: ''
       - title: Le crâne
         subtitle: Première approche
         description: >
@@ -174,6 +172,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
