@@ -155,7 +155,7 @@ blocks:
       - title: Le Diapason
         subtitle: 'Quand on a la chance d''accéder à ce toucher, on ne l''oublie jamais.'
         description: "## Le praticien place un doigt ou une main de chaque côté de la suture.\n\nL’un émet une contrainte \_(un appui par exemple), l’autre main perçoit ou\npas, *l’onde* créée\_; de la même\nfaçon que le «\_LA\_» créé par le diapason est reçu par l’oreil.\n--------------------------------------------------------------\n\n## Il y a un émetteur et un récepteur.\n\nLe terme *onde* employé\nici, est tout à fait arbitraire ne connaissant pas la nature de cet échange\_;\nest-il vibratoire, nanométrique, neuro-végétatif\_? L’ostéopathe n’est pas\nqualifié pour le dire, mais il peut dire que l'échange \"est\" ou pas.\n--------------------------------------------------------------------\n"
-        image: /uploads/Volent les notes (1).png
+        image: ''
       - title: 'Le sphénoïde '
         subtitle: Telle une chauve-souris
         description: >
@@ -168,10 +168,11 @@ blocks:
 
           ### Les rapports avec ses os satellites sont loin d'être classiques et
           continuent encore aujourd'hui d'être des hypothèses de pensée.
-        image: /uploads/Picasso F.jpg
+        image: /uploads/Faux Picasso B.png
     color: primary
     _template: speciality
 ---
+
 
 
 
