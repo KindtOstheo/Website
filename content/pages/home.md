@@ -159,9 +159,9 @@ blocks:
       - title: 'Le sphénoïde '
         subtitle: Telle une chauve-souris
         description: >
-          ### Le sphénoïde est l'os au centre du crâne. Quand on le regarde, on
-          est plus près d'un tableau de Picasso que d'un Botticelli. La
-          morphologie est éclatée, chaotique, les lignes sont brisées ; même
+          ### Le sphénoïde est l'os situé au centre du crâne. Quand on le
+          regarde, on est plus près d'un tableau de Picasso que d'un Botticelli.
+          La morphologie est éclatée, chaotique, les lignes sont brisées ; même
           après des heures d'étude, ce capharnaüm de formes,  reste difficile à
           mémoriser.
 
@@ -172,6 +172,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
