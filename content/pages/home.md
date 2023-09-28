@@ -122,7 +122,7 @@ blocks:
           résistante, d'une extrème sensibilité. Elle appartient aussi bien aux
           os crâniens qu'à l'encéphale.
         image: /uploads/1688411679257.jpg
-      - title: 'Les os constituant le "bol" crânienne, sont-ils sourds ?'
+      - title: 'Les os constituant le "bol" crânien, sont-ils sourds ?'
         subtitle: Une hypothèse d'école
         description: >
           ### La vie est mouvement, la mort est inertie.
@@ -172,6 +172,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
