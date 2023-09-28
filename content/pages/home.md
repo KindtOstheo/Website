@@ -153,7 +153,7 @@ blocks:
         description: "## Le Toucher est le premier des cinq sens de l’être humain.\n\nLa pensée médicale actuelle considère que le crâne est un\ntout et l’idée que les os du crâne aient des échanges entre eux, est un leurre.\n-------------------------------------------------------------------------------\n\nPourtant, grâce au toucher, \_l’ostéopathe exercé à cette pratique exigeante et selon\nun protocole réfléchi, perçoit ou pas, un échange entre les deux os d’une même\nsuture.\n-------\n\n## Mais de quel ordre est-il cet échange\_?\n"
         image: /uploads/Image Tango.jpg
       - title: Le Diapason
-        subtitle: sub speciality
+        subtitle: 'Quand on a la chance d''accéder à ce toucher, on ne l''oublie jamais.'
         description: "## Le praticien place un doigt ou une main de chaque côté de la suture.\n\nL’un émet une contrainte \_(un appui par exemple), l’autre main perçoit ou\npas, *l’onde* créée\_; de la même\nfaçon que le «\_LA\_» créé par le diapason est reçu par l’oreil.\n--------------------------------------------------------------\n\n## Il y a un émetteur et un récepteur.\n\nLe terme *onde* employé\nici, est tout à fait arbitraire ne connaissant pas la nature de cet échange\_;\nest-il vibratoire, nanométrique, neuro-végétatif\_? L’ostéopathe n’est pas\nqualifié pour le dire, mais il peut dire que l'échange \"est\" ou pas.\n--------------------------------------------------------------------\n"
         image: /uploads/Volent les notes (1).png
       - title: 'Le sphénoïde '
@@ -172,6 +172,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
