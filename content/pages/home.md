@@ -60,7 +60,7 @@ blocks:
           color: ''
           style: float
         title: L'Homéostasie
-        text: "## l'homéostasie est une formidable fonction qu'a notre organisme. Il a la capacité à équilibrer en permanence le somatique comme le psychique.\n\n## Autrement dit une lésion ostéopathique peut très bien se normaliser\_ elle-même, grâce à ce système d'auto-régulation. \n\n*Nous sommes équilibrés dans un déséquilibre permanent.*\nQuand le corps n'arrive plus à se rééquilibrer lui-même, le désordre s'installe, la vertèbre est en lésion.\n-----------------------------------------------------------------------------------------------------------\n"
+        text: "## l'homéostasie est une formidable fonction qu'a notre organisme. Il a la capacité à équilibrer en permanence le somatique comme le psychique.\n\n## Autrement dit une lésion ostéopathique peut très bien se normaliser\_ elle-même, grâce à ce système d'auto-régulation. \n\n## *Nous sommes équilibrés dans un déséquilibre permanent.*\n\n\nQuand le corps n'arrive plus à se rééquilibrer lui-même, le désordre s'installe, la vertèbre est en lésion.\n-----------------------------------------------------------------------------------------------------------\n"
       - icon:
           image: /uploads/Feuille 2.jpg
           name: ''
@@ -192,6 +192,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
