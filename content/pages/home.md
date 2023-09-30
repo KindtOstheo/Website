@@ -118,7 +118,7 @@ blocks:
           [sutures
           ](https://dictionnaire.lerobert.com/definition/suture)[crâniennes](),
           sont des articulations dites immobiles. Mais, ces os conservent-ils
-          leur indépendance, sont-ils libres, entre-eux ?
+          leur indépendance pour autant, sont-ils libres, entre-eux ?
         image: /uploads/Squelette 2.jpg
       - title: La suture crânienne
         subtitle: Contiguïté n'égale pas continuité
@@ -191,6 +191,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
