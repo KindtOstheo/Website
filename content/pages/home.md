@@ -34,7 +34,27 @@ blocks:
           color: ''
           style: float
         title: La lésion ostéopathique
-        text: "La lésion ostéopathique est une expression qui s'applique\_essentiellement à propos des vertèbres.\nUne lésion ostéopathique signifie que la vertèbre a perdu sa mobilité dans un ou plusieurs des trois plans de l'espace.\n-----------------------------------------------------------------------------------------------------------------------\n\n* Le plan sagittal\n* Le plan frontal\n* Le plan horizontal\n\n## La perte de mobilité peut-être plus ou moins complète, dans un ou plusieurs de ces plans.\n"
+        text: >
+          Lorsqu'il y a un dysfonctionnement articulaire, dû à un dérèglement de
+          tension musculaire ou ligamentaire, on peut parler de lésion
+          ostéopathique articulaire.
+
+          Par exemple, une lésion ostéopathique vertèbrale, signifie que la
+          vertèbre a perdu sa mobilité dans un ou plusieurs des trois plans de
+          l'espace.
+
+          ------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+          * Le plan sagittal
+
+          * Le plan frontal
+
+          * Le plan horizontal
+
+
+          ## La perte de mobilité peut-être plus ou moins complète, dans un ou
+          plusieurs de ces plans.
       - icon:
           name: BiDroplet
           color: ''
@@ -172,6 +192,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
