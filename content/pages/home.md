@@ -59,7 +59,7 @@ blocks:
           color: ''
           style: float
         title: L'Homéostasie
-        text: "## l'homéostasie est une formidable fonction qu'a notre organisme. Il a la capacité à équilibrer en permanence le somatique comme le psychique.\n\n## Autrement dit une lésion ostéopathique peut très bien se normaliser\_ elle-même, grâce à ce système d'auto-régulation. \n\n## *Nous sommes équilibrés dans un déséquilibre permanent.*\n\n\nQuand le corps n'arrive plus à se rééquilibrer lui-même, le désordre s'installe, la vertèbre est en lésion.\n-----------------------------------------------------------------------------------------------------------\n"
+        text: "## l'homéostasie est une formidable fonction qu'a notre organisme. Il a la capacité à équilibrer en permanence le somatique comme le psychique.\n\n## Autrement dit une lésion ostéopathique peut très bien se normaliser\_ elle-même, grâce à ce système d'auto-régulation.\n\n## *Nous sommes équilibrés dans un déséquilibre permanent.*\n\n## Quand le corps n'arrive plus à se rééquilibrer lui-même, le désordre s'installe, la vertèbre est en lésion.\n"
       - icon:
           image: /uploads/Feuille 2.jpg
           name: ''
@@ -123,7 +123,7 @@ blocks:
       - title: La suture crânienne
         subtitle: Contiguïté n'égale pas continuité
         description: "## La suture crânienne présente anatomiquement une identité qui lui est propre, distincte de l'os.\n\n## Dans une grande majorité de cas, lors d'une autopsie, un crâne peut-être désarticulé ; quelque soit l'âge.\n\n## L'étude histologique d'une suture crânienne montre deux éléments bien différents .\n\n## 1° Une\_[contiguïté](https://www.google.com/search?q=contigu\\\\\\&sxsrf=APwXEdfQS3lChPJnF28Mqw0Utsnb982dNw%3A1687766143329\\\\\\&ei=f0SZZJPVE-zFkdUP5euoyAk\\\\\\&oq=contigu\\\\\\&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgwIIxCKBRAnEEYQ-QEyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBwgAEIoFEEMyCAgAEIAEEMsBMgUIABCABDIFCAAQgAQyCAgAEIAEEMsBMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQgAQQCjogCAAQigUQRhD5ARCXBRCMBRDdBBBGEPQDEPUDEPYDGAFKBAhBGABQoghYzhFg8SZoAXABeACAAYEBiAGeApIBAzIuMZgBAKABAcABAcgBCtoBBggBEAEYEw\\\\\\&sclient=gws-wiz-serp%20%22contigu%22)\_osseuse, les os se touchent mais ne se collent pas.\n\n## 2° Une\_[continuité]()\_membraneuse, la membrane dure-mérienne, tapisse et relie les os crâniens, sans discontinuité.\n"
-        image: ''
+        image: /uploads/Suture C 8.png
       - title: La Dure-mère
         subtitle: Même communauté de vie avec l'os
         description: >
@@ -191,6 +191,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
