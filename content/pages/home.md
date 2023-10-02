@@ -13,10 +13,12 @@ blocks:
     f_title: 25
     feature_description: >
       #### L'ostéopathie est née il y a plus de 150 ans avec des précurseurs
-      comme les Docteurs Still, Sutherland, Viola Frymann. Elle n'a cessé
-      d'évoluer au cours de toutes ces années. Aujourd'hui, elle tente
-      d'apporter sa contribution dans des domaines d'ailleurs très inattendus ;
-      comme la sphère ORL et Dentaire.
+      comme les Docteurs Still, Sutherland, Viola Frymann. 
+
+
+      #### Elle n'a cessé d'évoluer au cours de toutes ces années. Aujourd'hui,
+      elle tente d'apporter sa contribution dans des domaines loin d'être
+      attendus ; comme la sphère ORL et Dentaire.
 
 
       #### Au niveau vertébral, Il y a essentiellement deux approches
@@ -191,6 +193,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 
