@@ -34,6 +34,10 @@
     }
   },
   "theme": {
-    "font": "sans"
+    "font": "sans",
+    "font_size": {
+      "base": "16",
+      "scale": 1.25
+    }
   }
 }

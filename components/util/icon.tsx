@@ -135,7 +135,7 @@ export const Icon = ({
     }
   } else {
     return (
-      <img src={image} alt="icon" className={`${iconSizeClasses} ${className}`}/>
+      <img src={image} alt="icon" className={`${iconSizeClasses} ${className}`} data-tina-field={tinaField}/>
     );
   }
 };

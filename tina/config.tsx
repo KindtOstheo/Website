@@ -371,6 +371,23 @@ const config = defineConfig({
                   },
                 ],
               },
+              {
+                type: "object",
+                name: "font_size",
+                label: "Taille de Police",
+                fields: [
+                  {
+                    type: "string",
+                    name: "base",
+                    label: "Base",
+                  },
+                  {
+                    type: "number",
+                    name: "scale",
+                    label: "Scale",
+                  },
+                ],
+              },
               // {
               //   type: "string",
               //   name: "darkMode",

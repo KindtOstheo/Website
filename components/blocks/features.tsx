@@ -69,11 +69,12 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
     },
   };
   return (
-    <Section color={Styles.color}>
+    <Section color={Styles.color} >
       { data.feature_title_activate &&
       <Container
         className={`gap-x-10 gap-y-8`}
         size="large"
+        data-tina-field={tinaField(data)}
       >
         <div className="animate">
             { data.feature_sub_title && <p className="uppercase" style={Styles.feature.textAlign} data-tina-field={tinaField(data, 'feature_sub_title')}>{data.feature_sub_title}</p>}
@@ -85,6 +86,7 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
       <Container
         className={`flex flex-wrap gap-x-10 gap-y-8 text-left`}
         size="large"
+        data-tina-field={tinaField(data, 'f_description')}
       >
         <Swiper 
         className="mySwiper"
@@ -106,7 +108,7 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
         >
           {data.items &&
             data.items.map(function (block, i) {
-              return <SwiperSlide key={i} data-tina-field={tinaField(block)} 
+              return <SwiperSlide key={i} data-tina-field={tinaField(block, 'icon')} 
                       className="" 
                         style={{height: "unset", margin:"1rem"}}>
                   <Feature featuresColor={data.color} key={i} data={block} />
