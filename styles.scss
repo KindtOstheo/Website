@@ -11,3 +11,11 @@
 h1,h2,h3 {
     font-weight: bold;
 }
+@layer components {
+    .content { 
+        @apply py-1 px-4;
+        blockquote> p {
+            @apply text-xl my-4;
+        }
+    }
+}

@@ -56,9 +56,9 @@ const components: Components<{
   }) => {
     return (
       <div>
-        <blockquote className="rounded-xl border border-border-secondary bg-body px-8 py-3  not-italic">
+        <blockquote className="rounded-xl border border-border-secondary border-white bg-body px-8 py-3  italic">
           <TinaMarkdown content={props.children} />
-          <span className={`m-0 block border-t border-border-secondary pt-3 text-base font-normal text-text after:hidden ${props.authorName ? "":"hidden"}`}>
+          <span className={`m-0 block border-t border-border-secondary not-italic border-white pt-3 text-base font-normal text-text after:hidden ${props.authorName ? "":"hidden"}`}>
             {props.authorName}
           </span>
         </blockquote>
