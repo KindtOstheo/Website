@@ -100,20 +100,20 @@ blocks:
       - title: Le crâne
         subtitle: Première approche
         description: >
-          ## Très tôt les ostéopathes américains se sont intéressés au crâne ,
+          ### Très tôt les ostéopathes américains se sont intéressés au crâne ,
           comme Frymann, Fulford, Arbuckle .
 
 
-          ## Une des premières observations faite lors des autopsies, est que
+          ### Une des premières observations faite lors des autopsies, est que
           "la boîte crânienne" pouvait se désarticuler. En d'autres termes les
           os du crâne n'étaient pas soudés. Cette observation se confirme
           toujours  évidemment aujourd'hui.
 
 
-          ## C'est une donnée importante pour les ostéopathes.
+          ### C'est une donnée importante pour les ostéopathes.
 
 
-          ## Dès cette époque une controverse s'ouvre non encore résolue
+          ### Dès cette époque une controverse s'ouvre non encore résolue
           aujourd'hui. Les articulations des os du crâne que l'on appelle
           [sutures
           ](https://dictionnaire.lerobert.com/definition/suture)[crâniennes](),
@@ -122,7 +122,7 @@ blocks:
         image: /uploads/Squelette 2.jpg
       - title: La suture crânienne
         subtitle: Contiguïté n'égale pas continuité
-        description: "## La suture crânienne présente anatomiquement une identité qui lui est propre, distincte de l'os.\n\n## Dans une grande majorité de cas, lors d'une autopsie, un crâne peut-être désarticulé ; quelque soit l'âge.\n\n## L'étude histologique d'une suture crânienne montre deux éléments bien différents .\n\n## 1° Une\_[contiguïté](https://www.google.com/search?q=contigu\\\\\\&sxsrf=APwXEdfQS3lChPJnF28Mqw0Utsnb982dNw%3A1687766143329\\\\\\&ei=f0SZZJPVE-zFkdUP5euoyAk\\\\\\&oq=contigu\\\\\\&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgwIIxCKBRAnEEYQ-QEyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBwgAEIoFEEMyCAgAEIAEEMsBMgUIABCABDIFCAAQgAQyCAgAEIAEEMsBMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQgAQQCjogCAAQigUQRhD5ARCXBRCMBRDdBBBGEPQDEPUDEPYDGAFKBAhBGABQoghYzhFg8SZoAXABeACAAYEBiAGeApIBAzIuMZgBAKABAcABAcgBCtoBBggBEAEYEw\\\\\\&sclient=gws-wiz-serp%20%22contigu%22)\_osseuse, les os se touchent mais ne se collent pas.\n\n## 2° Une\_[continuité]()\_membraneuse, la membrane dure-mérienne, tapisse et relie les os crâniens, sans discontinuité.\n"
+        description: "### La suture crânienne présente anatomiquement une identité qui lui est propre, distincte de l'os.\n\n### Dans une grande majorité de cas, lors d'une autopsie, un crâne peut-être désarticulé ; quelque soit l'âge.\n\n### L'étude histologique d'une suture crânienne montre deux éléments bien différents .\n\n### 1° Une\_[contiguïté](https://www.google.com/search?q=contigu\\\\\\&sxsrf=APwXEdfQS3lChPJnF28Mqw0Utsnb982dNw%3A1687766143329\\\\\\&ei=f0SZZJPVE-zFkdUP5euoyAk\\\\\\&oq=contigu\\\\\\&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgwIIxCKBRAnEEYQ-QEyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBwgAEIoFEEMyCAgAEIAEEMsBMgUIABCABDIFCAAQgAQyCAgAEIAEEMsBMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQgAQQCjogCAAQigUQRhD5ARCXBRCMBRDdBBBGEPQDEPUDEPYDGAFKBAhBGABQoghYzhFg8SZoAXABeACAAYEBiAGeApIBAzIuMZgBAKABAcABAcgBCtoBBggBEAEYEw\\\\\\&sclient=gws-wiz-serp%20%22contigu%22)\_osseuse, les os se touchent mais ne se collent pas.\n\n### 2° Une\_[continuité]()\_membraneuse, la membrane dure-mérienne, tapisse et relie les os crâniens, sans discontinuité.\n"
         image: /uploads/Suture C 8.png
       - title: La Dure-mère
         subtitle: Même communauté de vie avec l'os
@@ -169,11 +169,11 @@ blocks:
       - title: le Toucher crânien
         f_title: 32
         subtitle: Le mystère Haptique
-        description: "## Le Toucher est le premier des cinq sens de l’être humain.\n\nLa pensée médicale actuelle considère que le crâne est un\ntout et l’idée que les os du crâne aient des échanges entre eux, est un leurre.\n-------------------------------------------------------------------------------\n\nPourtant, grâce au toucher, \_l’ostéopathe exercé à cette pratique exigeante et selon\nun protocole réfléchi, perçoit ou pas, un échange entre les deux os d’une même\nsuture.\n-------\n\n## Mais de quel ordre est-il cet échange\_?\n"
+        description: "### Le Toucher est le premier des cinq sens de l’être humain.\n\n### La pensée médicale actuelle considère que le crâne est un&#xA;tout et l’idée que les os du crâne aient des échanges entre eux, est un leurre.\n\n### Pourtant, grâce au toucher, \_l’ostéopathe exercé à cette pratique exigeante et selon&#xA;un protocole réfléchi, perçoit ou pas, un échange entre les deux os d’une même&#xA;suture.\n\n### Mais de quel ordre est-il cet échange\_?\n"
         image: /uploads/Image Tango.jpg
       - title: Le Diapason
         subtitle: 'Quand on a la chance d''accéder à ce toucher, on ne l''oublie jamais.'
-        description: "## Le praticien place un doigt ou une main de chaque côté de la suture.\n\nL’un émet une contrainte \_(un appui par exemple), l’autre main perçoit ou\npas, *l’onde* créée\_; de la même\nfaçon que le «\_LA\_» créé par le diapason est reçu par l’oreil.\n--------------------------------------------------------------\n\n## Il y a un émetteur et un récepteur.\n\nLe terme *onde* employé\nici, est tout à fait arbitraire ne connaissant pas la nature de cet échange\_;\nest-il vibratoire, nanométrique, neuro-végétatif\_? L’ostéopathe n’est pas\nqualifié pour le dire, mais ce qu' il peut dire, est que l'échange \"est\" ou pas.\n--------------------------------------------------------------------------------\n"
+        description: "### Le praticien place un doigt ou une main de chaque côté de la suture.\n\n### L’un émet une contrainte \_(un appui par exemple), l’autre main perçoit ou&#xA;pas, *l’onde* créée\_; de la même&#xA;façon que le «\_LA\_» créé par le diapason est reçu par l’oreil.\n\n### Il y a un émetteur et un récepteur.\n\n### Le terme *onde* employé&#xA;ici, est tout à fait arbitraire ne connaissant pas la nature de cet échange\_;&#xA;est-il vibratoire, nanométrique, neuro-végétatif\_? L’ostéopathe n’est pas&#xA;qualifié pour le dire, mais ce qu' il peut dire, est que l'échange \"est\" ou pas.\n"
         image: /uploads/Volent les notes (1).png
       - title: 'Le sphénoïde '
         subtitle: Telle une chauve-souris
@@ -191,6 +191,7 @@ blocks:
     color: primary
     _template: speciality
 ---
+
 
 
 

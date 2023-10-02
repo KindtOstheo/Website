@@ -10,7 +10,10 @@ import { tinaField } from "tinacms/dist/react";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
+import { useRef } from "react";
 import "swiper/css";
+import "swiper/css/pagination"
+
 
 
 export const Feature = ({
@@ -23,14 +26,14 @@ export const Feature = ({
   return (
     <div
       data-tina-field={tinaField(data)}
-      className="flex-1 flex flex-col gap-6 py-16 px-7 text-center items-center max-w-xl mx-auto h-[94%] m-4 rounded-md border border-transparent shadow-[0px_4px_25px_rgba(0,0,0,.05)] hover:shadow-non hover:border-[#4a4a4a]"
+      className="flex-1 flex flex-col gap-6 pb-20 pt-5 px-7 text-center items-center max-w-xl mx-auto h-[94%] m-4 rounded-md border border-transparent shadow-[0px_4px_25px_rgba(0,0,0,.05)] hover:shadow-non hover:border-[#4a4a4a]"
       style={{ flexBasis: "16rem" }}
     >
       {data.icon && (
         <Icon
           tinaField={tinaField(data, "icon")}
           parentColor={featuresColor}
-          data={{ size: "large", ...data.icon }}
+          data={{ size: "xxl", ...data.icon }}
         />
       )}
       {data.title && (
@@ -54,6 +57,7 @@ export const Feature = ({
 };
 
 export const Features = ({ data }: { data: PageBlocksFeatures }) => {
+  const paginationRef = useRef(null);
   const Styles = {
     feature : {
       fontSize: data.f_title ? data.f_title : 48,
@@ -74,7 +78,7 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
       <Container
         className={`gap-x-10 gap-y-8`}
         size="large"
-        data-tina-field={tinaField(data)}
+        
       >
         <div className="animate">
             { data.feature_sub_title && <p className="uppercase" style={Styles.feature.textAlign} data-tina-field={tinaField(data, 'feature_sub_title')}>{data.feature_sub_title}</p>}
@@ -90,7 +94,7 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
       >
         <Swiper 
         className="mySwiper"
-        slidesPerView={1}
+        spaceBetween={20}
         pagination={{
           clickable: true,
           dynamicBullets: true,
@@ -110,7 +114,7 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
             data.items.map(function (block, i) {
               return <SwiperSlide key={i} data-tina-field={tinaField(block, 'icon')} 
                       className="" 
-                        style={{height: "unset", margin:"1rem"}}>
+                        style={{height: "unset"}}>
                   <Feature featuresColor={data.color} key={i} data={block} />
                 </SwiperSlide>;
             })

@@ -73,6 +73,7 @@ const iconSizeClass = {
   medium: "w-12 h-12 flex-shrink-0",
   large: "w-14 h-14 flex-shrink-0",
   xl: "w-16 h-16 flex-shrink-0",
+  xxl: "w-24 h-24 flex-shrink-0",
   custom: "",
 };
 
