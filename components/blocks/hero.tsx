@@ -2,10 +2,20 @@ import * as React from "react";
 import { Actions } from "../util/actions";
 import { Container } from "../util/container";
 import { Section } from "../util/section";
-import { TinaMarkdown } from "tinacms/dist/rich-text";
+import { Components, TinaMarkdown } from "tinacms/dist/rich-text";
 import type { Template } from "tinacms";
 import { PageBlocksHero } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
+
+const components: Components<{
+  Space: {
+    height: number;
+  };
+}> = {
+  Space: (props) => (
+    <div style={{height: props.height+'px'}} className={`h-[${props.height}px]`}></div>
+  ),
+};
 
 export const Hero = ({ data }: { data: PageBlocksHero }) => {
 
@@ -49,7 +59,7 @@ export const Hero = ({ data }: { data: PageBlocksHero }) => {
               data-tina-field={tinaField(data, "text")}
               className={`prose prose-lg mx-auto md:mx-0 mb-10 `}
             >
-              <TinaMarkdown content={data.text} />
+              <TinaMarkdown components={components} content={data.text} />
             </div>
           )}
           {data.actions && (
@@ -108,6 +118,26 @@ export const heroBlockSchema: Template = {
       label: "Text",
       name: "text",
       type: "rich-text",
+      templates: [
+        {
+          name: "Space",
+          label: "Espace",
+          fields: [
+            {
+              name: "height",
+              label: "Hauteur de l'espace en px",
+              type: "number",
+              ui:{
+                validate: (val)=>{
+                    if(val < 0 ) {
+                        return 'Le nombre doit etre plus grand ou egale a 0'
+                    }
+                }
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       label: "Actions",

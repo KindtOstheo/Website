@@ -7,13 +7,23 @@ import {
   PageBlocksFeaturesItems,
 } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
-import { TinaMarkdown } from "tinacms/dist/rich-text";
+import { Components, TinaMarkdown } from "tinacms/dist/rich-text";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import { useRef } from "react";
 import "swiper/css";
 import "swiper/css/pagination"
 
+
+const components: Components<{
+  Space: {
+    height: number;
+  };
+}> = {
+  Space: (props) => (
+    <div style={{height: props.height+'px'}} className={`h-[${props.height}px]`}></div>
+  ),
+};
 
 
 export const Feature = ({
@@ -49,7 +59,7 @@ export const Feature = ({
           data-tina-field={tinaField(data, "text")}
           className="text-base opacity-80 leading-relaxed"
         >
-          <TinaMarkdown content={data.text} />
+          <TinaMarkdown components={components} content={data.text} />
         </div>
       )}
     </div>
@@ -83,7 +93,7 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
         <div className="animate">
             { data.feature_sub_title && <p className="uppercase" style={Styles.feature.textAlign} data-tina-field={tinaField(data, 'feature_sub_title')}>{data.feature_sub_title}</p>}
             { data.feature_title && <h2 className="mt-4 section-title" style={Styles.feature} data-tina-field={tinaField(data, 'feature_title')}>{data.feature_title}</h2>}
-            { data.feature_description && <div className="mt-10" style={Styles.feature_desc} data-tina-field={tinaField(data, 'feature_description')}> <TinaMarkdown content={data.feature_description} /></div>}
+            { data.feature_description && <div className="mt-10" style={Styles.feature_desc} data-tina-field={tinaField(data, 'feature_description')}> <TinaMarkdown components={components} content={data.feature_description} /></div>}
         </div>
       </Container>
       }
@@ -191,6 +201,26 @@ export const featureBlockSchema = {
         type: "rich-text",
         name: "feature_description",
         label: "Description",
+        templates: [
+          {
+            name: "Space",
+            label: "Espace",
+            fields: [
+              {
+                name: "height",
+                label: "Hauteur de l'espace en px",
+                type: "number",
+                ui:{
+                  validate: (val)=>{
+                      if(val < 0 ) {
+                          return 'Le nombre doit etre plus grand ou egale a 0'
+                      }
+                  }
+                }
+              }
+            ]
+          }
+        ]
     },
     {
         label: "Taille Description en px",
@@ -230,6 +260,26 @@ export const featureBlockSchema = {
           type: "rich-text",
           label: "Text",
           name: "text",
+          templates: [
+            {
+              name: "Space",
+              label: "Espace",
+              fields: [
+                {
+                  name: "height",
+                  label: "Hauteur de l'espace en px",
+                  type: "number",
+                  ui:{
+                    validate: (val)=>{
+                        if(val < 0 ) {
+                            return 'Le nombre doit etre plus grand ou egale a 0'
+                        }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
         },
       ],
     }, 

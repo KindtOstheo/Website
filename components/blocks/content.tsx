@@ -1,10 +1,20 @@
 import React from "react";
 import { Container } from "../util/container";
 import { Section } from "../util/section";
-import { TinaMarkdown } from "tinacms/dist/rich-text";
+import { Components, TinaMarkdown } from "tinacms/dist/rich-text";
 import type { Template } from "tinacms";
 import { PageBlocksContent } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
+
+const components: Components<{
+  Space: {
+    height: number;
+  };
+}> = {
+  Space: (props) => (
+    <div style={{height: props.height+'px'}} className={`h-[${props.height}px]`}></div>
+  ),
+};
 
 export const Content = ({ data }: { data: PageBlocksContent }) => {
   
@@ -23,7 +33,7 @@ export const Content = ({ data }: { data: PageBlocksContent }) => {
         size="large"
         width="medium"
       >
-        <TinaMarkdown content={data.body} />
+        <TinaMarkdown components={components} content={data.body} />
       </Container>
     </Section>
   );
@@ -43,6 +53,26 @@ export const contentBlockSchema: Template = {
       type: "rich-text",
       label: "Body",
       name: "body",
+      templates: [
+        {
+          name: "Space",
+          label: "Espace",
+          fields: [
+            {
+              name: "height",
+              label: "Hauteur de l'espace en px",
+              type: "number",
+              ui:{
+                validate: (val)=>{
+                    if(val < 0 ) {
+                        return 'Le nombre doit etre plus grand ou egale a 0'
+                    }
+                }
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       type: "string",

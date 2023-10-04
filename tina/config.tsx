@@ -193,6 +193,24 @@ const config = defineConfig({
                   },
                 ]
               },
+              {
+                name: "Space",
+                label: "Espace",
+                fields: [
+                  {
+                    name: "height",
+                    label: "Hauteur de l'espace en px",
+                    type: "number",
+                    ui:{
+                      validate: (val)=>{
+                          if(val < 0 ) {
+                              return 'Le nombre doit etre plus grand ou egale a 0'
+                          }
+                      }
+                    }
+                  }
+                ]
+              }
             ],
             isBody: true,
           },

@@ -48,6 +48,9 @@ const components: Components<{
     title: string;
     height: number;
   };
+  Space: {
+    height: number;
+  };
 }> = {
   code_block: (props) => <Prism {...props} />,
   BlockQuote: (props: {
@@ -140,6 +143,9 @@ const components: Components<{
         style={{objectFit: "contain"}}
       />
     </div>
+  ),
+  Space: (props) => (
+    <div style={{height: props.height+'px'}} className={`h-[${props.height}px]`}></div>
   ),
 };
 

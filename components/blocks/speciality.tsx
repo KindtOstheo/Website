@@ -1,13 +1,21 @@
 import React from "react";
 import { Container } from "../util/container";
 import { Section } from "../util/section";
-import { TinaMarkdown } from "tinacms/dist/rich-text";
+import { Components, TinaMarkdown } from "tinacms/dist/rich-text";
 import type { Template } from "tinacms";
 import { PageBlocksSpeciality, PageBlocksSpecialityList } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
 import Image from "next/image";
 
-
+const components: Components<{
+  Space: {
+    height: number;
+  };
+}> = {
+  Space: (props) => (
+    <div style={{height: props.height+'px'}} className={`h-[${props.height}px]`}></div>
+  ),
+};
 
 export const Speciality = ({
   index,
@@ -58,7 +66,7 @@ export const Speciality = ({
             fontSize: item?.f_description ? item.f_description : 16,
           }}
         > 
-          <TinaMarkdown content={item?.description} />
+          <TinaMarkdown components={components} content={item?.description} />
         </div>
       </div>
     </div>
@@ -191,6 +199,26 @@ export const specialityBlockSchema: Template = {
               type: "rich-text",
               name: "description",
               label: "Description",
+              templates: [
+                {
+                  name: "Space",
+                  label: "Espace",
+                  fields: [
+                    {
+                      name: "height",
+                      label: "Hauteur de l'espace en px",
+                      type: "number",
+                      ui:{
+                        validate: (val)=>{
+                            if(val < 0 ) {
+                                return 'Le nombre doit etre plus grand ou egale a 0'
+                            }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
           },
           {
               label: "Taille Description en px",
