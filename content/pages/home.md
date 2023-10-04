@@ -89,7 +89,8 @@ blocks:
           intimité de vie.
 
 
-          Mais comment la vie de l'un, peut influencer la vie de l'autre ?
+          Mais comment la vie de l'un, pourrait-elle être aussi indépendante à
+          la vie de l'autre ?
       - icon:
           image: /uploads/Feuille 2.jpg
           color: blue
