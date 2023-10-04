@@ -76,7 +76,7 @@ blocks:
           établi.
 
 
-          Ce crâne est-il vraiment une boîte, qu'un emballage ?
+          Ce crâne est-il vraiment qu'une boîte, qu'un emballage ?
 
 
           * Le crâne est un **contenant**
