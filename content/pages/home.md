@@ -176,7 +176,7 @@ blocks:
         image: /uploads/Image Tango.jpg
       - title: Le Diapason
         subtitle: 'Quand on a la chance d''accéder à ce toucher, on ne l''oublie jamais.'
-        description: "### Le praticien place un doigt ou une main de chaque côté de la suture.\n\n### L’un émet une contrainte \_(un appui par exemple), l’autre main perçoit ou&#xA;pas, *l’onde* créée\_; de la même&#xA;façon que le «\_LA\_» créé par le diapason est reçu par l’oreil.\n\n### Il y a un émetteur et un récepteur.\n\n### Le terme *onde* employé&#xA;ici, est tout à fait arbitraire ne connaissant pas la nature de cet échange\_;&#xA;est-il vibratoire, nanométrique, neuro-végétatif\_? L’ostéopathe n’est pas&#xA;qualifié pour le dire, mais ce qu' il peut dire, est que l'échange \"est\" ou pas.\n"
+        description: "### Le praticien place un doigt ou une main de chaque côté de la suture.\n\n### L’un émet une contrainte \_(un appui par exemple), l’autre main perçoit ou&#xA;pas, *l’onde* créée\_; de la même&#xA;façon que le «\_LA\_» créé par le diapason est reçu par l’oreil.\n\n### Il y a un émetteur et un récepteur.\n\n### Le terme *onde* employé&#xA;ici, est tout à fait arbitraire ne connaissant pas la nature de cet échange\_;&#xA;est-il vibratoire, nanométrique, neuro-végétatif\_? L’ostéopathe n’est pas&#xA;qualifié pour le dire, mais ce qu'il peut dire, est que l'échange \"est\" ou pas.\n"
         image: /uploads/Volent les notes (1).png
       - title: 'Le sphénoïde '
         subtitle: Telle une chauve-souris
