@@ -69,14 +69,14 @@ blocks:
           style: float
         title: La "boîte"  .... crânienne
         text: >
-          Le vocabulaire employé est très révélateur de la pensée présente.
+          #### Le vocabulaire employé est très révélateur de la pensée présente.
 
 
-          Considérer le crâne comme une "boîte", préjuge d'un déterminisme  déjà
-          établi.
+          #### Considérer le crâne comme une "boîte", préjuge d'un déterminisme 
+          déjà établi.
 
 
-          Ce crâne est-il vraiment qu'une boîte, qu'un emballage ?
+          #### Ce crâne est-il vraiment qu'une boîte, qu'un emballage ?
 
 
           * Le crâne est un **contenant**
@@ -84,19 +84,42 @@ blocks:
           * L'encéphale est un **contenu**.
 
 
-          Tous les deux baignent dans le liquide cérébrospinal, tous les deux
-          sont entourés par la méninge dure-mérienne, ils partagent une certaine
-          intimité de vie.
+          #### Tous les deux baignent dans le liquide cérébrospinal, tous les
+          deux sont entourés par la méninge dure-mérienne, ils partagent une
+          certaine intimité de vie.
 
 
-          Mais comment la vie de l'un, pourrait-elle être aussi indépendante à
-          la vie de l'autre ?
+          #### Mais comment la vie de l'un, pourrait-elle être aussi
+          indépendante à la vie de l'autre ?
+      - icon:
+          image: /uploads/clé.png
+          name: ''
+          color: ''
+          style: float
+        title: Sacré Sacrum
+        text: >
+          #### Le bassin est formé de trois os : le sacrum au centre et deux
+          ailes iliaques de chaque côté.
+
+
+          #### De part la disposition morphologique, le sacrum, assez étroit,
+          peut être considéré comme une clé de voute entre les deux ailes
+          iliaques, très larges; conférant ainsi stabilité et immobilité .
+
+
+          #### Pourtant les anatomistes employent le vocable "**Aile** iliaque".
+
+
+          #### Le  rostre de l'oiseau en plein vole , booste ses deux ailes
+          déployées . En reprenant cette  même image on peut facilement comparer
+          le sacrum au rostre qui impulse un mouvement aux ailes, cela
+          impliquerai ipso facto l'acceptation d'une dynamique pelvienne.
       - icon:
           image: /uploads/Feuille 2.jpg
           color: blue
           style: float
         title: Réflexion
-        text: "## Si tout le monde est contre toi,\_c'est toi qui a raison, car il est impossible que le monde soit peuplé de tant de sages.\n"
+        text: "![](/uploads/un_penseur_sur_sa_chaise_SunOf.net_.png)\n\n#### Si tout le monde est contre toi,\_c'est toi qui a raison, car il est impossible que le monde soit peuplé de tant de sages.\n"
     color: tint
     _template: features
   - list:
@@ -176,8 +199,26 @@ blocks:
         image: /uploads/Image Tango.jpg
       - title: Le Diapason
         subtitle: 'Quand on a la chance d''accéder à ce toucher, on ne l''oublie jamais.'
-        description: "### Le praticien place un doigt ou une main de chaque côté de la suture.\n\n### L’un émet une contrainte \_(un appui par exemple), l’autre main perçoit ou&#xA;pas, *l’onde* créée\_; de la même&#xA;façon que le «\_LA\_» créé par le diapason est reçu par l’oreil.\n\n### Il y a un émetteur et un récepteur.\n\n### Le terme *onde* employé&#xA;ici, est tout à fait arbitraire ne connaissant pas la nature de cet échange\_;&#xA;est-il vibratoire, nanométrique, neuro-végétatif\_? L’ostéopathe n’est pas&#xA;qualifié pour le dire, mais ce qu' il peut dire, est que l'échange \"est\" ou pas.\n"
+        description: "### Le praticien place un doigt ou une main de chaque côté de la suture.\n\n### L’un émet une contrainte \_(un appui par exemple), l’autre main perçoit ou&#xA;pas, *l’onde* créée\_; de la même&#xA;façon que le «\_LA\_» créé par le diapason est reçu par l’oreil.\n\n### Il y a un émetteur et un récepteur.\n\n### Le terme *onde* employé&#xA;ici, est tout à fait arbitraire ne connaissant pas la nature de cet échange\_;&#xA;est-il vibratoire, nanométrique, neuro-végétatif\_? L’ostéopathe n’est pas&#xA;qualifié pour le dire, mais ce qu'il peut dire, est que l'échange \"est\" ou pas.\n"
         image: /uploads/Volent les notes (1).png
+      - title: L'arabesque
+        subtitle: Les trois vertèbres crâniennes
+        description: >
+          #### Le crâne comme le bassin sont les extrémités de la colonne
+          vertébrale. Durant l'embryogénèse leurs cellules sont les mêmes que
+          celles des vertèbres. D'une manière générale le développement osseux
+          est beaucoup plus tardif que celui des organes.
+
+
+          #### Il n'est pas stupide de considérer le crâne comme en quelque
+          sorte des vertèbres modifiées. Trois os crâniens constituant en
+          quelque sorte un axe vertébrale crânien, d'arrière en avant, on trouve
+          : l'occiput, le sphénoïde et l'éthmoïde.
+
+
+          #### Un échange, une "résonnance" satisfaisante entre ces trois os
+          influence d'une manière significative l'état neuro-végétatif.
+        image: /uploads/Arabesque.png
       - title: 'Le sphénoïde '
         subtitle: Telle une chauve-souris
         description: >
