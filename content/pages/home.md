@@ -121,7 +121,7 @@ blocks:
           color: blue
           style: float
         title: Réflexion
-        text: "## Si tout le monde est contre toi,\_c'est toi qui a raison, car il est impossible que le monde soit peuplé de tant de sages.\n"
+        text: "![](/uploads/un_penseur_sur_sa_chaise_SunOf.net_.png)\n\n#### Si tout le monde est contre toi,\_c'est toi qui a raison, car il est impossible que le monde soit peuplé de tant de sages.\n"
     color: tint
     _template: features
   - list:
