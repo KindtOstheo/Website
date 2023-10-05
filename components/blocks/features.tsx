@@ -113,7 +113,7 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
           {data.items &&
             data.items.map(function (block, i) {
               return <SwiperSlide key={i} data-tina-field={tinaField(block, 'icon')} 
-                      className="" 
+                      className="max-w-lg"
                         style={{height: "unset"}}>
                   <Feature featuresColor={data.color} key={i} data={block} />
                 </SwiperSlide>;
