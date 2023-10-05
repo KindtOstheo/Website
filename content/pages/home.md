@@ -69,14 +69,14 @@ blocks:
           style: float
         title: La "boîte"  .... crânienne
         text: >
-          Le vocabulaire employé est très révélateur de la pensée présente.
+          #### Le vocabulaire employé est très révélateur de la pensée présente.
 
 
-          Considérer le crâne comme une "boîte", préjuge d'un déterminisme  déjà
-          établi.
+          #### Considérer le crâne comme une "boîte", préjuge d'un déterminisme 
+          déjà établi.
 
 
-          Ce crâne est-il vraiment qu'une boîte, qu'un emballage ?
+          #### Ce crâne est-il vraiment qu'une boîte, qu'un emballage ?
 
 
           * Le crâne est un **contenant**
@@ -84,13 +84,13 @@ blocks:
           * L'encéphale est un **contenu**.
 
 
-          Tous les deux baignent dans le liquide cérébrospinal, tous les deux
-          sont entourés par la méninge dure-mérienne, ils partagent une certaine
-          intimité de vie.
+          #### Tous les deux baignent dans le liquide cérébrospinal, tous les
+          deux sont entourés par la méninge dure-mérienne, ils partagent une
+          certaine intimité de vie.
 
 
-          Mais comment la vie de l'un, pourrait-elle être aussi indépendante à
-          la vie de l'autre ?
+          #### Mais comment la vie de l'un, pourrait-elle être aussi
+          indépendante à la vie de l'autre ?
       - icon:
           image: /uploads/clé.png
           name: ''
