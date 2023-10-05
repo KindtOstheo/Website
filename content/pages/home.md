@@ -31,27 +31,6 @@ blocks:
       ##### **L'ostéopathie crânienne ne rentre pas dans ces deux approches.**
     items:
       - icon:
-          image: /uploads/clé.png
-          name: ''
-          color: ''
-          style: float
-        title: Sacré Sacrum
-        text: >
-          #### Le bassin est formé de trois os : le sacrum au centre et deux
-          ailes iliaques de chaque côté.
-
-
-          #### De part la disposition morphologique, le sacrum, assez étroit,
-          peut être considéré comme une clé de voute entre les deux ailes
-          iliaques, très larges; conférant ainsi une stabilité et une immobilité
-          écrasante.
-
-
-          #### Pourtant les anatomistes employent le vocable "Aile iliaque",
-          dans la même symbolique ;  en plein vole , le rostre de l'oiseau, tel
-          un sacrum, booste ses deux ailes déployées . Cette image implique ipso
-          facto une mobilité du sacrum par rapport aux ailes iliaques.
-      - icon:
           image: /uploads/Feuille 2.jpg
           name: ''
           color: ''
@@ -112,6 +91,27 @@ blocks:
 
           Mais comment la vie de l'un, pourrait-elle être aussi indépendante à
           la vie de l'autre ?
+      - icon:
+          image: /uploads/clé.png
+          name: ''
+          color: ''
+          style: float
+        title: Sacré Sacrum
+        text: >
+          #### Le bassin est formé de trois os : le sacrum au centre et deux
+          ailes iliaques de chaque côté.
+
+
+          #### De part la disposition morphologique, le sacrum, assez étroit,
+          peut être considéré comme une clé de voute entre les deux ailes
+          iliaques, très larges; conférant ainsi une stabilité et une immobilité
+          écrasante.
+
+
+          #### Pourtant les anatomistes employent le vocable "Aile iliaque",
+          dans la même symbolique ;  en plein vole , le rostre de l'oiseau, tel
+          un sacrum, booste ses deux ailes déployées . Cette image implique ipso
+          facto une mobilité du sacrum par rapport aux ailes iliaques.
       - icon:
           image: /uploads/Feuille 2.jpg
           color: blue
