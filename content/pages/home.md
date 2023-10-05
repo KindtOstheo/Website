@@ -124,6 +124,12 @@ blocks:
     color: tint
     _template: features
   - list:
+      - title: L'arabesque
+        subtitle: sub speciality
+        description: >
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
+        image: /blocks/spec.png
       - title: Le crâne
         subtitle: Première approche
         description: >
