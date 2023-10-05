@@ -212,8 +212,8 @@ blocks:
 
           #### Il n'est pas stupide de considérer le crâne comme en quelque
           sorte des vertèbres modifiées. Trois os crâniens constituant en
-          quelque sorte un axe vertébrale crânien, d'arrière en avant on trouve
-          l'occiput, le sphénoïde et l'éthmoïde.
+          quelque sorte un axe vertébrale crânien, d'arrière en avant, on trouve
+          : l'occiput, le sphénoïde et l'éthmoïde.
 
 
           #### Un échange, une "résonnance" satisfaisante entre ces trois os
