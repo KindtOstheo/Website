@@ -123,24 +123,6 @@ blocks:
     color: tint
     _template: features
   - list:
-      - title: L'arabesque
-        subtitle: Les trois vertèbres crâniennes
-        description: >
-          Le crâne comme le bassin sont les extrémités de la colonne vertébrale.
-          Durant l'embryogénèse leurs cellules sont les mêmes que celles des
-          vertèbres. D'une manière générale le développement osseux est beaucoup
-          plus tardif que celui des organes.
-
-
-          Il n'est pas stupide de considérer le crâne comme en quelque sorte des
-          vertèbres modifiées. Trois os crâniens constituant en quelque sorte un
-          axe vertébrale crânien, d'arrière en avant , l'occiput, le sphénoïde ,
-          l'éthmoïde.
-
-
-          Un échange, une "résonnance" satisfaisante entre ces trois os
-          influence d'une manière significative l'état neuro-végétatif.
-        image: /uploads/Arabesque.png
       - title: Le crâne
         subtitle: Première approche
         description: >
@@ -219,6 +201,24 @@ blocks:
         subtitle: 'Quand on a la chance d''accéder à ce toucher, on ne l''oublie jamais.'
         description: "### Le praticien place un doigt ou une main de chaque côté de la suture.\n\n### L’un émet une contrainte \_(un appui par exemple), l’autre main perçoit ou&#xA;pas, *l’onde* créée\_; de la même&#xA;façon que le «\_LA\_» créé par le diapason est reçu par l’oreil.\n\n### Il y a un émetteur et un récepteur.\n\n### Le terme *onde* employé&#xA;ici, est tout à fait arbitraire ne connaissant pas la nature de cet échange\_;&#xA;est-il vibratoire, nanométrique, neuro-végétatif\_? L’ostéopathe n’est pas&#xA;qualifié pour le dire, mais ce qu'il peut dire, est que l'échange \"est\" ou pas.\n"
         image: /uploads/Volent les notes (1).png
+      - title: L'arabesque
+        subtitle: Les trois vertèbres crâniennes
+        description: >
+          #### Le crâne comme le bassin sont les extrémités de la colonne
+          vertébrale. Durant l'embryogénèse leurs cellules sont les mêmes que
+          celles des vertèbres. D'une manière générale le développement osseux
+          est beaucoup plus tardif que celui des organes.
+
+
+          #### Il n'est pas stupide de considérer le crâne comme en quelque
+          sorte des vertèbres modifiées. Trois os crâniens constituant en
+          quelque sorte un axe vertébrale crânien, d'arrière en avant on trouve
+          l'occiput, le sphénoïde et l'éthmoïde.
+
+
+          #### Un échange, une "résonnance" satisfaisante entre ces trois os
+          influence d'une manière significative l'état neuro-végétatif.
+        image: /uploads/Arabesque.png
       - title: 'Le sphénoïde '
         subtitle: Telle une chauve-souris
         description: >
