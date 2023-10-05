@@ -107,8 +107,7 @@ blocks:
           iliaques, très larges; conférant ainsi stabilité et immobilité .
 
 
-          #### Pourtant les anatomistes employent le vocable "**Aile**
-          iliaque". 
+          #### Pourtant les anatomistes employent le vocable "**Aile** iliaque".
 
 
           #### Le  rostre de l'oiseau en plein vole , booste ses deux ailes
@@ -125,11 +124,23 @@ blocks:
     _template: features
   - list:
       - title: L'arabesque
-        subtitle: sub speciality
+        subtitle: Les trois vertèbres crâniennes
         description: >
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
-        image: /blocks/spec.png
+          Le crâne comme le bassin sont les extrémités de la colonne vertébrale.
+          Durant l'embryogénèse leurs cellules sont les mêmes que celles des
+          vertèbres. D'une manière générale le développement osseux est beaucoup
+          plus tardif que celui des organes.
+
+
+          Il n'est pas stupide de considérer le crâne comme en quelque sorte des
+          vertèbres modifiées. Trois os crâniens constituant en quelque sorte un
+          axe vertébrale crânien, d'arrière en avant , l'occiput, le sphénoïde ,
+          l'éthmoïde.
+
+
+          Un échange, une "résonnance" satisfaisante entre ces trois os
+          influence d'une manière significative 
+        image: /uploads/Arabesque.png
       - title: Le crâne
         subtitle: Première approche
         description: >
