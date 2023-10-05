@@ -31,6 +31,27 @@ blocks:
       ##### **L'ostéopathie crânienne ne rentre pas dans ces deux approches.**
     items:
       - icon:
+          name: ''
+          color: ''
+          style: float
+        title: Sacré Sacrum
+        text: >
+          #### Le bassin est formé de trois os : le sacrum au centre et deux
+          ailes iliaques de chaque côté.
+
+
+          #### De part la disposition morphologique, le sacrum, assez étroit,
+          peut être considéré comme une clé de voute entre les deux ailes
+          iliaques, très larges; conférant ainsi une stabilité et une immobilité
+          écrasante.
+
+
+          #### Pourtant les anatomistes employent le vocable "Aile iliaque",
+          dans la même symbolique, on pourrait comparer le sacrum comme le
+          rostre de l'oiseau, entre ses deux ailes déployées, en plein vole.
+          Cette image implique ipso facto une mobilité du sacrum par rapport aux
+          ailes iliaques.
+      - icon:
           image: /uploads/Feuille 2.jpg
           name: ''
           color: ''
