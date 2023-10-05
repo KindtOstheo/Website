@@ -139,7 +139,7 @@ blocks:
 
 
           Un échange, une "résonnance" satisfaisante entre ces trois os
-          influence d'une manière significative 
+          influence d'une manière significative l'état neuro-végétatif.
         image: /uploads/Arabesque.png
       - title: Le crâne
         subtitle: Première approche
