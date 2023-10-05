@@ -40,13 +40,13 @@ blocks:
           ailes iliaques de chaque côté.
 
 
-          De part la disposition morphologique, le sacrum, assez étroit, peut
-          être considéré comme une clé de voute entre les deux ailes iliaques,
-          très larges; conférant ainsi une stabilité et une immobilité
+          #### De part la disposition morphologique, le sacrum, assez étroit,
+          peut être considéré comme une clé de voute entre les deux ailes
+          iliaques, très larges; conférant ainsi une stabilité et une immobilité
           écrasante.
 
 
-          ###### Pourtant les anatomistes employent le vocable "Aile iliaque",
+          #### Pourtant les anatomistes employent le vocable "Aile iliaque",
           dans la même symbolique ;  en plein vole , le rostre de l'oiseau, tel
           un sacrum, booste ses deux ailes déployées . Cette image implique ipso
           facto une mobilité du sacrum par rapport aux ailes iliaques.
