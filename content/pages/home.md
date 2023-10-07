@@ -36,7 +36,7 @@ blocks:
           color: ''
           style: float
         title: La résonance
-        text: "La résonance\n\nDeux points A et B\_; une pression en A sera reçue en B\nd’une manière différente suivant que la ligne reliant les deux points sera\npleine ou brisée.\n\n\_Si les deux points\nappartiennent au même os ou sont de chaque côté de la suture, la réponse\_ ne sera pas la même. \n\nOn pourrait dire que «\_La résonance\_» est l’analyse\ntactile de la différence.\n"
+        text: "#### La résonance\n\n#### Deux points A et B\_; une pression en A sera reçue en B&#xA;d’une manière différente suivant que la ligne reliant les deux points sera&#xA;pleine ou brisée.\n\n#### \_Si les deux points&#xA;appartiennent au même os ou sont de chaque côté de la suture, la réponse\_ ne sera pas la même. \n\n#### On pourrait dire que «\_La résonance\_» est l’analyse&#xA;tactile de la différence.\n"
       - icon:
           image: /uploads/Feuille 2.jpg
           name: ''
