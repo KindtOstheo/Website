@@ -36,9 +36,7 @@ blocks:
           color: ''
           style: float
         title: La résonance
-        text: >
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
+        text: "La résonance\n\nDeux points A et B\_; une pression en A sera reçue en B\nd’une manière différente suivant que la ligne reliant les deux points sera\npleine ou brisée.\n\n\_Si les deux points\nappartiennent au même os ou sont de chaque côté de la suture, la réponse\_ ne sera pas la même. \n\nOn pourrait dire que «\_La résonance\_» est l’analyse\ntactile de la différence.\n"
       - icon:
           image: /uploads/Feuille 2.jpg
           name: ''
