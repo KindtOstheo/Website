@@ -31,6 +31,15 @@ blocks:
       ##### **L'ostéopathie crânienne ne rentre pas dans ces deux approches.**
     items:
       - icon:
+          image: /uploads/Ligne brisée.png
+          name: ''
+          color: ''
+          style: float
+        title: La résonance
+        text: >
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
+      - icon:
           image: /uploads/Feuille 2.jpg
           name: ''
           color: ''
