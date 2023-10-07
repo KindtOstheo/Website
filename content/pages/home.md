@@ -31,13 +31,6 @@ blocks:
       ##### **L'ostéopathie crânienne ne rentre pas dans ces deux approches.**
     items:
       - icon:
-          image: /uploads/Ligne brisée.png
-          name: ''
-          color: ''
-          style: float
-        title: La résonance
-        text: "#### La résonance\n\n#### Deux points A et B\_; une pression en A sera reçue en B&#xA;d’une manière différente suivant que la ligne reliant les deux points sera&#xA;pleine ou brisée.\n\n#### \_Si les deux points&#xA;appartiennent au même os ou sont de chaque côté de la suture, la réponse\_ ne sera pas la même. \n\n#### On pourrait dire que «\_La résonance\_» est l’analyse&#xA;tactile de la différence.\n"
-      - icon:
           image: /uploads/Feuille 2.jpg
           name: ''
           color: ''
@@ -127,6 +120,13 @@ blocks:
           style: float
         title: Réflexion
         text: "![](/uploads/un_penseur_sur_sa_chaise_SunOf.net_.png)\n\n#### Si tout le monde est contre toi,\_c'est toi qui a raison, car il est impossible que le monde soit peuplé de tant de sages.\n"
+      - icon:
+          image: /uploads/Ligne brisée.png
+          name: ''
+          color: ''
+          style: float
+        title: La résonance
+        text: "#### La résonance\n\n#### Deux points A et B\_; une pression en A sera reçue en B&#xA;d’une manière différente suivant que la ligne reliant les deux points sera&#xA;pleine ou brisée.\n\n#### \_Si les deux points&#xA;appartiennent au même os ou sont de chaque côté de la suture, la réponse\_ ne sera pas la même. \n\n#### On pourrait dire que «\_La résonance\_» est l’analyse&#xA;tactile de la différence.\n"
     color: tint
     _template: features
   - list:
