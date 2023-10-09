@@ -118,8 +118,8 @@ blocks:
           image: /uploads/Feuille 2.jpg
           color: blue
           style: float
-        title: Réflexion
-        text: "L'oeil ne perçoit que ce que l'espritest prêt à comprendre\n\n![](</uploads/penseur N1/un_penseur_sur_sa_chaise_SunOf.net_.png>)\n\n#### Si tout le monde est contre toi,\_c'est toi qui a raison, car il est impossible que le monde soit peuplé de tant de sages.\n"
+        title: Pensées
+        text: "#### L'oeil ne perçoit que ce que l'espritest prêt à comprendre\n\n![](</uploads/penseur N1/un_penseur_sur_sa_chaise_SunOf.net_.png>)\n\n#### Si tout le monde est contre toi,\_c'est toi qui a raison, car il est impossible que le monde soit peuplé de tant de sages.\n"
       - icon:
           image: /uploads/Ligne brisée.png
           name: ''
