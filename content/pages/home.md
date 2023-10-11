@@ -119,7 +119,7 @@ blocks:
           color: blue
           style: float
         title: Pensées
-        text: "<Space height={10} />\n\n#### L'oeil ne perçoit que ce que l'esprit est prêt à comprendre\n\n![](</uploads/penseur N1/un_penseur_sur_sa_chaise_SunOf.net_.png>)\n\n#### Si tout le monde est contre toi,\_c'est toi qui a raison, car il est impossible que le monde soit peuplé de tant de sages.\n"
+        text: "<Space height={39} />\n\n#### L'oeil ne perçoit que ce que l'esprit est prêt à comprendre\n\n![](</uploads/penseur N1/un_penseur_sur_sa_chaise_SunOf.net_.png>)\n\n#### Si tout le monde est contre toi,\_c'est toi qui a raison, car il est impossible que le monde soit peuplé de tant de sages.\n"
       - icon:
           image: /uploads/Ligne brisée.png
           name: ''
