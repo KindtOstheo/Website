@@ -57,10 +57,11 @@
     @import 'node_modules/swiper/swiper.scss';
     .swiper-pagination-bullet {
         --swiper-theme-color: #8f6d5f;
+        width: 20px;
+        height: 20px;   
     }
-
-}
-
+} 
+   
 #TinaMarkdown p{
     margin-top: 1.25em;
     margin-bottom: 1.25em;
