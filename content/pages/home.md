@@ -140,6 +140,9 @@ blocks:
           #### le sacrum au centre et deux ailes iliaques de chaque côté.
 
 
+          <Space height={12} />
+
+
           #### De part la disposition morphologique, le sacrum, assez étroit,
           peut être considéré comme une clé de voute entre les deux ailes
           iliaques, très larges; conférant ainsi stabilité et immobilité .
