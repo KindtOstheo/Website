@@ -75,7 +75,7 @@ blocks:
           style: float
         title: La "mal nommée"
         text: >
-          <Space height={15} />
+          <Space height={25} />
 
 
           #### La boîte crânienne
