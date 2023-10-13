@@ -66,6 +66,9 @@ blocks:
           * Le plan horizontal
 
 
+          <Space height={20} />
+
+
           #### La perte de mobilité peut-être plus ou moins complète, dans un ou
           plusieurs de ces plans.
       - icon:
