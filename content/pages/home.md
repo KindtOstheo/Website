@@ -75,7 +75,7 @@ blocks:
           style: float
         title: La "mal nommée"
         text: >
-          <Space height={23} />
+          #### La boîte crânienne
 
 
           #### Le vocabulaire employé est très révélateur de la pensée présente.
