@@ -94,7 +94,7 @@ blocks:
           #### Ce crâne est-il vraiment qu'une boîte, qu'un emballage ?
 
 
-          <Space height={20} />
+          <Space height={30} />
 
 
           * Le crâne est un **contenant**
