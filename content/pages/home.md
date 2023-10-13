@@ -159,8 +159,14 @@ blocks:
 
           #### Le  rostre de l'oiseau en plein vole , booste ses deux ailes
           déployées . En reprenant cette  même image on peut facilement comparer
-          le sacrum au rostre qui impulse un mouvement aux ailes, cela
-          impliquerai ipso facto l'acceptation d'une dynamique pelvienne.
+          le sacrum au rostre qui impulse un mouvement aux ailes.
+
+
+          <Space height={12} />
+
+
+          #### Cette conception, impliquerai ipso facto l'acceptation d'une
+          dynamique pelvienne.
       - icon:
           image: /uploads/Feuille 2.jpg
           color: blue
