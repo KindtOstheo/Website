@@ -12,6 +12,8 @@ blocks:
     feature_title: L'ostéopathie au service de la santé du corps
     f_title: 25
     feature_description: >
+
+
       ### L'ostéopathie est née il y a plus de 150 ans avec des précurseurs
       comme les Docteurs Still, Sutherland, Viola Frymann.
 
