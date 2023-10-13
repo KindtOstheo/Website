@@ -81,6 +81,9 @@ blocks:
           #### La boîte crânienne
 
 
+          <Space height={15} />
+
+
           #### Le vocabulaire employé est très révélateur de la pensée présente.
 
 
