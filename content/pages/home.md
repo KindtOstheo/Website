@@ -102,6 +102,9 @@ blocks:
           * L'encéphale est un **contenu**.
 
 
+          <Space height={30} />
+
+
           #### Tous les deux baignent dans le liquide cérébrospinal, tous les
           deux sont entourés par la méninge dure-mérienne, ils partagent une
           certaine intimité de vie.
