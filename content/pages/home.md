@@ -73,8 +73,11 @@ blocks:
           name: ''
           color: ''
           style: float
-        title: La "boîte"  .... crânienne
+        title: La "mal nommée"
         text: >
+          <Space height={23} />
+
+
           #### Le vocabulaire employé est très révélateur de la pensée présente.
 
 
