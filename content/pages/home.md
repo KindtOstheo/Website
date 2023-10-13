@@ -30,6 +30,8 @@ blocks:
       # §
 
 
+
+
       ##### **L'ostéopathie crânienne ne rentre pas dans ces deux approches.**
     items:
       - icon:
