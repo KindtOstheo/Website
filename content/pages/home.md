@@ -128,8 +128,16 @@ blocks:
           style: float
         title: Sacré Sacrum
         text: >
-          #### Le bassin est formé de trois os : le sacrum au centre et deux
-          ailes iliaques de chaque côté.
+          <Space height={20} />
+
+
+          #### Le bassin est formé de 
+
+
+          #### trois os : 
+
+
+          #### le sacrum au centre et deux ailes iliaques de chaque côté.
 
 
           #### De part la disposition morphologique, le sacrum, assez étroit,
