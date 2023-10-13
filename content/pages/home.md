@@ -143,9 +143,9 @@ blocks:
           <Space height={12} />
 
 
-          #### De part la disposition morphologique, le sacrum, assez étroit,
-          peut être considéré comme une clé de voute entre les deux ailes
-          iliaques, très larges; conférant ainsi stabilité et immobilité .
+          #### De part la disposition morphologique ; le sacrum, assez étroit,
+          est souvent considéré comme une clé de voute entre les deux ailes
+          iliaques, très larges ; conférant ainsi stabilité et immobilité .
 
 
           <Space height={12} />
