@@ -94,6 +94,9 @@ blocks:
           #### Ce crâne est-il vraiment qu'une boîte, qu'un emballage ?
 
 
+          <Space height={20} />
+
+
           * Le crâne est un **contenant**
 
           * L'encéphale est un **contenu**.
