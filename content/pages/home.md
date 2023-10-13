@@ -148,6 +148,9 @@ blocks:
           iliaques, très larges; conférant ainsi stabilité et immobilité .
 
 
+          <Space height={12} />
+
+
           #### Pourtant les anatomistes employent le vocable "**Aile** iliaque".
 
 
