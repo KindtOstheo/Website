@@ -78,7 +78,7 @@ blocks:
           <Space height={25} />
 
 
-          #### &#x20;   -  La boîte crânienne  -
+          #### &#x20;   -    La boîte crânienne    -
 
 
           <Space height={25} />
