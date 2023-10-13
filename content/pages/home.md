@@ -43,6 +43,9 @@ blocks:
           style: float
         title: La lésion ostéopathique
         text: >
+          <Space height={83} />
+
+
           #### Lorsqu'il y a un dysfonctionnement articulaire, dû à un
           dérèglement de tension musculaire ou ligamentaire, on peut parler de
           lésion ostéopathique articulaire.
@@ -51,6 +54,9 @@ blocks:
           #### Par exemple, une lésion ostéopathique vertèbrale, signifie que la
           vertèbre a perdu sa mobilité dans un ou plusieurs des trois plans de
           l'espace.
+
+
+          <Space height={20} />
 
 
           * Le plan sagittal
