@@ -266,8 +266,8 @@ blocks:
 
 
           ### Le déroulement embryologique, permet de considérer le crâne comme
-          des vertèbres modifiées et d'envisager un axe vertébrale crânien,
-          constitué de trois os , d'arrière en avant :
+          des vertèbres modifiées et d'envisager un axe vertébrale crânien, qui
+          serait constitué des trois os , d'arrière en avant :
 
 
           ### &#x20;     - l'occiput - le sphénoïde - L'éthmoïde -
