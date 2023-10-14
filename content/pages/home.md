@@ -266,16 +266,17 @@ blocks:
 
 
           ### Le déroulement embryologique, permet de considérer le crâne comme
-          des vertèbres modifiées et d'envisager un axe vertébrale crânien, qui
-          serait constitué des trois os , d'arrière en avant :
+          des vertèbres modifiées et envisager un axe vertébrale crânien, ne
+          serait pas irrationnel. Il serait constitué de trois os , d'arrière en
+          avant :
 
 
           ### &#x20;     - l'occiput - le sphénoïde - L'éthmoïde -
 
 
           ### L'expérience ostéopathique montre que lorsque la qualite  de
-          l'échange, de la  résonnance, entre ces trois os est altérée, il y a
-          une modification de l'état neuro-végétatif.
+          l'échange, de la  résonnance, entre un de ces trois os, est altérée ;
+          il y a une modification de l'état neuro-végétatif.
         image: /uploads/Arabesque.png
       - title: 'Le sphénoïde '
         subtitle: Telle une chauve-souris
