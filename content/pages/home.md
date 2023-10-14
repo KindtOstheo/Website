@@ -174,7 +174,7 @@ blocks:
           name: ''
           color: ''
           style: float
-        title: 'La résonance, l''analyse d''une différence.'
+        title: 'La résonance : l''analyse d''une différence.'
         text: "<Space height={19} />\n\n#### Soit deux points, A et B; sur une même ligne.\n\n<Space height={16} />\n\n#### Une pression en A sera reçue en B&#xA;d’une manière différente suivant que la ligne reliant les deux points sera&#xA;pleine ou brisée.\n\n<Space height={16} />\n\n#### \_Si les deux points&#xA;appartiennent au même os ou sont de chaque côté de la suture, la réponse\_ ne sera pas la même; la résonnance sera différente.\n\n<Space height={16} />\n\n#### On peut définire la résonance comme un ressenti tactil de la différence.\n"
     color: tint
     _template: features
