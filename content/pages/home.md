@@ -12,8 +12,6 @@ blocks:
     feature_title: L'ostéopathie au service de la santé du corps
     f_title: 25
     feature_description: >
-
-
       ### L'ostéopathie est née il y a plus de 150 ans avec des précurseurs
       comme les Docteurs Still, Sutherland, Viola Frymann.
 
@@ -27,14 +25,11 @@ blocks:
       ostéopathiques ; l'une structurelle, l'autre fonctionnelle.
 
 
-
-
       # §
 
 
-
-
       ##### **L'ostéopathie crânienne ne rentre pas dans ces deux approches.**
+    f_description: 14
     items:
       - icon:
           image: /uploads/Feuille 2.jpg
@@ -131,10 +126,10 @@ blocks:
           <Space height={20} />
 
 
-          #### Le bassin est formé de 
+          #### Le bassin est formé de
 
 
-          #### trois os : 
+          #### trois os :
 
 
           #### le sacrum au centre et deux ailes iliaques de chaque côté.
