@@ -281,7 +281,7 @@ blocks:
           <Space height={14} />
 
 
-          ###### Modifié certes, mais on retrouve sur chacun les différentes
+          ###### Modifié certes, mais on retrouve sur chacun,  les différentes
           parties constituant une vertèbre.
 
 
