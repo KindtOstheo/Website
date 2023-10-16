@@ -270,12 +270,16 @@ blocks:
 
 
           ### Le déroulement embryologique, permet de considérer le crâne comme
-          des vertèbres modifiées et envisager un axe vertébrale crânien, ne
-          serait pas irrationnel. Il serait constitué de trois os , d'arrière en
-          avant :
+          des vertèbres modifiées et envisager un axe vertébrale crânien,
+          serait-il si irrationnel ? La morphologie nous montre  trois os ,
+          d'arrière en avant :
 
 
           ### &#x20;     - l'occiput - le sphénoïde - L'éthmoïde -
+
+
+          ###### Modifié certes, mais on retrouve sur chacun les différentes
+          parties constituant une vertèbre.
 
 
           ### L'expérience ostéopathique montre que lorsque la qualite  de
