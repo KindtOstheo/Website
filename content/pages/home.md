@@ -278,6 +278,9 @@ blocks:
           ### &#x20;     - l'occiput - le sphénoïde - L'éthmoïde -
 
 
+          <Space height={14} />
+
+
           ###### Modifié certes, mais on retrouve sur chacun les différentes
           parties constituant une vertèbre.
 
