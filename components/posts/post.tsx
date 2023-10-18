@@ -29,6 +29,7 @@ const components: Components<{
   BlockQuote: {
     children: TinaMarkdownContent;
     authorName: string;
+    position: string;
   };
   DateTime: {
     format?: string;
@@ -56,10 +57,14 @@ const components: Components<{
   BlockQuote: (props: {
     children: TinaMarkdownContent;
     authorName: string;
+    position: string;
   }) => {
+    const Styles = {
+        textAlign: (props.position ? props.position : 'center') as any
+    };
     return (
       <div>
-        <blockquote className="rounded-xl border border-border-secondary border-white bg-body px-8 py-3  italic">
+        <blockquote className="rounded-xl border border-border-secondary border-white bg-body px-8 py-3  italic" style={Styles}>
           <TinaMarkdown content={props.children} />
           <span className={`m-0 block border-t border-border-secondary not-italic border-white pt-3 text-base font-normal text-text after:hidden ${props.authorName ? "":"hidden"}`}>
             {props.authorName}

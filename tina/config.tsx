@@ -119,6 +119,21 @@ const config = defineConfig({
                     label: "Author",
                     type: "string",
                   },
+                  {
+                    type: "string",
+                    name: "position",
+                    label: "Alignement",
+                    options: [{
+                        value: "center",
+                        label: "Centre"
+                      }, {
+                        value: "end",
+                        label: "Droite"
+                      }, {
+                        value: "start",
+                        label: "Gauche"
+                      }]
+                },
                 ],
               },
               {
