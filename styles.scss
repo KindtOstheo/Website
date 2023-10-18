@@ -65,9 +65,18 @@
     margin-top: 1.25em;
     margin-bottom: 1.25em;
 }
-#TinaMarkdown ol,ul{
-    list-style: auto;
-    padding: revert;
+#TinaMarkdown{
+    ol{
+        list-style: decimal;
+        padding: revert;
+    }
+    ul{
+        list-style: disc;
+        padding: revert;
+    }
+
+
+
 }
 
 h1,h2,h3 {
