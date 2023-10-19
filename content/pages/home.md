@@ -77,12 +77,12 @@ blocks:
           name: ''
           color: ''
           style: float
-        title: La "mal nommée"
+        title: La boîte crânienne
         text: >
           <Space height={25} />
 
 
-          #### &#x20;   -    \[ La boîte crânienne ]   -
+          #### &#x20;   La mal nommée
 
 
           <Space height={25} />
