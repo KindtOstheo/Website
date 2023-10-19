@@ -221,7 +221,7 @@ blocks:
           ### C'est une membrane fibreuse, peu élastique, épaisse et très
           résistante, d'une extrème sensibilité. Elle appartient aussi bien aux
           os crâniens qu'à l'encéphale.
-        image: /uploads/1688411679257.jpg
+        image: /uploads/Dure-mère un lien puissant.png
       - title: 'Les os constituant le "bol" crânien, sont-ils impassibles ?'
         subtitle: Une hypothèse d'école
         description: >
