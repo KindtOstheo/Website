@@ -25,11 +25,7 @@ blocks:
       ostéopathiques ; l'une structurelle, l'autre fonctionnelle.
 
 
-
-
       # §
-
-
 
 
       ##### **L'ostéopathie crânienne ne rentre pas dans ces deux approches.**
@@ -226,14 +222,17 @@ blocks:
           résistante, d'une extrème sensibilité. Elle appartient aussi bien aux
           os crâniens qu'à l'encéphale.
         image: /uploads/1688411679257.jpg
-      - title: 'Les os constituant le "bol" crânien, sont-ils sourds ?'
+      - title: 'Les os constituant le "bol" crânien, sont-ils impassibles ?'
         subtitle: Une hypothèse d'école
         description: >
           ### La vie est mouvement, la mort est inertie.
 
 
-          ### le cerveau pèse 40 gr. in situ et 1 kg&#xA;400 lorsqu'il est posé
-          sur la table.
+          ### Notre cerveau baigne dans 150 Ml d'un liquide appelé liquide
+          cérébrospinal LCR. Ce liquide peut atteindre suivant les endroits de
+          l'encéphale une vitesse de 10 cm par seconde, les auteurs parlent de
+          "[maelström](https://www.pourlascience.fr/sd/neurosciences/liquide-cephalorachidien-vingt-mille-lieues-sous-un-crane-22396.php#:~\:text=Notre%20cerveau%20n'est%20pas,dit%20%C2%AB%20sous%2Darachno%C3%AFdien%20%C2%BB.
+          "Liquide céphalorachidien : vingt mille lieues sous un crâne")".
 
 
           ### L’encéphale et l’ensemble des cellules gliales ont
