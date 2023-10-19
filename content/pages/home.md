@@ -126,7 +126,10 @@ blocks:
           <Space height={20} />
 
 
-          #### Le bassin est formé de
+          #### L'autre extrémité de la colonne vertébrale : le bassin.
+
+
+          #### Il est formé de
 
 
           #### trois os :
@@ -139,7 +142,7 @@ blocks:
 
 
           #### De part la disposition morphologique ; le sacrum, assez étroit,
-          est souvent considéré comme une clé de voute entre les deux ailes
+          est souvent considéré comme une clé de voûte entre les deux ailes
           iliaques, très larges ; conférant ainsi stabilité et immobilité .
 
 
@@ -152,7 +155,7 @@ blocks:
           <Space height={12} />
 
 
-          #### Le  rostre de l'oiseau en plein vole , booste ses deux ailes
+          #### Le  rostre de l'oiseau en plein vol , booste ses deux ailes
           déployées . En reprenant cette  même image on peut facilement comparer
           le sacrum au rostre qui impulse un mouvement aux ailes.
 
@@ -160,7 +163,7 @@ blocks:
           <Space height={12} />
 
 
-          #### Cette conception, impliquerai ipso facto l'acceptation d'une
+          #### Cette conception, impliquerait ipso facto l'acceptation d'une
           dynamique pelvienne.
       - icon:
           image: /uploads/Feuille 2.jpg
