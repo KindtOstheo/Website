@@ -266,14 +266,16 @@ blocks:
           ### Le crâne n'est-il pas l'extrémité de la colonne vertébrale?
 
 
-          ### Au départ de l'embryogénèse, les cellules des os du crâne comme
+          ### Au départ de l'embryogénèse, les cellules des os du crâne et
           celles des vertèbres, sont les mêmes. 
 
 
           ### Le déroulement embryologique, permet de considérer le crâne comme
           des vertèbres modifiées et envisager un axe vertébrale crânien,
-          serait-il si irrationnel ? La morphologie nous montre  trois os ,
-          d'arrière en avant :
+          serait-il si irrationnel ?
+
+
+          ### &#x20;La morphologie nous montre  trois os , d'arrière en avant :
 
 
           ### &#x20;     - l'occiput - le sphénoïde - L'éthmoïde -
@@ -282,11 +284,11 @@ blocks:
           <Space height={14} />
 
 
-          ###### Modifié certes, mais on retrouve sur chacun,  les différentes
+          ###### Modifiés certes, mais on retrouve sur chacun,  les différentes
           parties constituant une vertèbre.
 
 
-          ### La colonne crânienne deviendrait donc le prolongement de la
+          ### La "colonne crânienne " deviendrait donc le prolongement de la
           colonne cervicale et l'éthmoïde deviendrait en quelque sorte la
           première vertèbre.
 
