@@ -114,6 +114,9 @@ blocks:
           certaine intimité de vie.
 
 
+          <Space height={20} />
+
+
           #### Comment alors, la vie de l'un, pourrait-elle être aussi
           indépendante de la vie de l'autre ?
       - icon:
