@@ -138,7 +138,7 @@ blocks:
           #### trois os :
 
 
-          #### le sacrum au centre et une aile iliaques de chaque côté.
+          #### le sacrum au centre et une aile iliaque de chaque côté.
 
 
           <Space height={12} />
