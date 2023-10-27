@@ -170,18 +170,12 @@ blocks:
           #### Cette conception, impliquerait ipso facto l'acceptation d'une
           dynamique pelvienne.
       - icon:
-          image: /uploads/Feuille 2.jpg
-          color: blue
-          style: float
-        title: Pensées
-        text: "<Space height={39} />\n\n#### L'oeil ne perçoit que ce que l'esprit est prêt à comprendre\n\n<Space height={55} />\n\n![](</uploads/penseur N1/un_penseur_sur_sa_chaise_SunOf.net_.png>)\n\n<Space height={57} />\n\n#### Si tout le monde est contre toi,\_c'est toi qui a raison, car il est impossible que le monde soit peuplé de tant de sages.\n"
-      - icon:
           image: /uploads/Ligne brisée.png
           name: ''
           color: ''
           style: float
         title: 'La résonance : l''analyse d''une différence.'
-        text: "<Space height={19} />\n\n#### Soit deux points, A et B; sur une même ligne.\n\n<Space height={16} />\n\n#### Une pression en A sera reçue en B&#xA;d’une manière différente suivant que la ligne reliant les deux points sera&#xA;pleine ou brisée.\n\n<Space height={16} />\n\n#### \_Si les deux points&#xA;appartiennent à une même structure osseuse ou sont de chaque côté d'une suture, la réponse\_ ne sera pas la même; la résonnance sera différente.\n\n<Space height={16} />\n\n#### On peut définire la résonance comme un ressenti tactil de la différence.\n"
+        text: "<Space height={40} />\n\n#### Soit deux points, A et B; sur une même ligne.\n\n<Space height={16} />\n\n#### Une pression en A sera reçue en B&#xA;d’une manière différente suivant que la ligne reliant les deux points sera&#xA;pleine ou brisée.\n\n<Space height={16} />\n\n#### \_Si les deux points&#xA;appartiennent à une même structure osseuse ou sont de chaque côté d'une suture, la réponse\_ ne sera pas la même; la résonnance sera différente.\n\n<Space height={16} />\n\n#### On peut définire la résonance comme un ressenti tactil de la différence.\n"
     color: tint
     _template: features
   - list:
