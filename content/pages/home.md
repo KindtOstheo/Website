@@ -263,10 +263,11 @@ blocks:
       - title: L'arabesque vertébrale
         subtitle: Les trois vertèbres crâniennes
         description: >
-          ### Le crâne comme le bassin sont les extrémités de la colonne
-          vertébrale. Durant l'embryogénèse leurs cellules sont les mêmes que
-          celles des vertèbres. D'une manière générale le développement osseux
-          est beaucoup plus tardif que celui des organes mous.
+          ### Le crâne n'est-il pas l'extrémité de la colonne vertébrale?
+
+
+          ### Au départ de l'embryogénèse, les cellules des os du crâne comme
+          celles des vertèbres, sont les mêmes. 
 
 
           ### Le déroulement embryologique, permet de considérer le crâne comme
@@ -283,6 +284,11 @@ blocks:
 
           ###### Modifié certes, mais on retrouve sur chacun,  les différentes
           parties constituant une vertèbre.
+
+
+          ### La colonne crânienne deviendrait donc le prolongement de la
+          colonne cervicale et l'éthmoïde deviendrait en quelque sorte la
+          première vertèbre.
 
 
           ### L'expérience ostéopathique montre que lorsque la qualite  de
