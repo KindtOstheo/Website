@@ -129,7 +129,7 @@ blocks:
           <Space height={20} />
 
 
-          #### L'autre extrémité de la colonne vertébrale : le bassin.
+          #### Une extrémité de la colonne vertébrale : le bassin.
 
 
           #### Il est formé de
@@ -138,7 +138,8 @@ blocks:
           #### trois os :
 
 
-          #### le sacrum au centre et une aile iliaque de chaque côté.
+          #### le sacrum au centre et de chaque côté,  l'os iliaque, appelé :
+          "aile iliaque".
 
 
           <Space height={12} />
