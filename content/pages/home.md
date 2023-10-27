@@ -271,7 +271,7 @@ blocks:
 
 
           ### Le déroulement embryologique, permet de considérer le crâne comme
-          des vertèbres modifiées et envisager un axe vertébrale crânien,
+          des vertèbres modifiées et envisager un axe vertébral crânien,
           serait-il si irrationnel ?
 
 
