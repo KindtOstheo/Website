@@ -284,11 +284,11 @@ blocks:
           <Space height={14} />
 
 
-          ###### Modifiés certes, mais on retrouve sur chacun,  les différentes
-          parties constituant une vertèbre.
+          ###### Modifiés certes, mais on retrouve sur chacun de ces os, les
+          différentes parties constituant une vertèbre.
 
 
-          ### La "colonne crânienne " deviendrait donc le prolongement de la
+          ### Cette "colonne crânienne " deviendrait donc le prolongement de la
           colonne cervicale et l'éthmoïde deviendrait en quelque sorte la
           première vertèbre.
 
