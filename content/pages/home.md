@@ -294,7 +294,7 @@ blocks:
 
 
           ### L'expérience ostéopathique montre que lorsque la qualite  de
-          l'échange, de la  résonnance, entre un de ces trois os, est altérée ;
+          l'échange, de la  résonance, entre un de ces trois os, est altérée ;
           il y a une modification de l'état neuro-végétatif.
         image: /uploads/Arabesque.png
       - title: 'Le sphénoïde '
