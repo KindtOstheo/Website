@@ -175,7 +175,7 @@ blocks:
           color: ''
           style: float
         title: 'La résonance : l''analyse d''une différence.'
-        text: "<Space height={40} />\n\n#### Soit deux points, A et B; sur une même ligne.\n\n<Space height={30} />\n\n#### Une pression en A sera reçue en B&#xA;d’une manière différente suivant que la ligne reliant les deux points sera&#xA;pleine ou brisée.\n\n<Space height={16} />\n\n#### \_Si les deux points&#xA;appartiennent à une même structure osseuse ou sont de chaque côté d'une suture, la réponse\_ ne sera pas la même; la résonnance sera différente.\n\n<Space height={16} />\n\n#### On peut définire la résonance comme un ressenti tactil de la différence.\n"
+        text: "<Space height={40} />\n\n#### Soit deux points A et B sur une même ligne.\n\n<Space height={30} />\n\n#### Une pression en A sera reçue en B&#xA;d’une manière différente suivant que la ligne reliant les deux points sera&#xA;pleine ou brisée.\n\n<Space height={16} />\n\n#### \_Si les deux points&#xA;appartiennent à une même structure osseuse ou sont de chaque côté d'une suture, la réponse\_ ne sera pas la même; la résonance sera différente.\n\n<Space height={16} />\n\n#### On peut définire la résonance comme un ressenti tactile de la différence.\n"
     color: tint
     _template: features
   - list:
@@ -258,7 +258,7 @@ blocks:
         image: /uploads/Image Tango.jpg
       - title: Le Diapason
         subtitle: 'Quand on a la chance d''accéder à ce toucher, on ne l''oublie jamais.'
-        description: "### Le praticien place un doigt ou une main de chaque côté de la suture.\n\n### L’un émet une contrainte \_(un appui par exemple), l’autre main perçoit ou&#xA;pas, *l’onde* créée\_; de la même&#xA;façon que le «\_LA\_» créé par le diapason est reçu par l’oreil.\n\n### Il y a un émetteur et un récepteur.\n\n### Le terme *onde* employé&#xA;ici, est tout à fait arbitraire ne connaissant pas la nature de cet échange\_;&#xA;est-il vibratoire, nanométrique, neuro-végétatif\_? L’ostéopathe n’est pas&#xA;qualifié pour le dire, mais ce qu'il peut dire, est que l'échange \"est\" ou pas.\n"
+        description: "### Le praticien place un doigt ou une main de chaque côté de la suture.\n\n### L’un émet une contrainte \_(un appui par exemple), l’autre main perçoit ou&#xA;pas, *l’onde* créée\_; de la même&#xA;façon que le «\_LA\_» créé par le diapason est reçu par l’oreille.\n\n### Il y a un émetteur et un récepteur.\n\n### Le terme *onde* employé&#xA;ici, est tout à fait arbitraire ne connaissant pas la nature de cet échange\_;&#xA;est-il vibratoire, nanométrique, neuro-végétatif\_? L’ostéopathe n’est pas&#xA;qualifié pour le dire, mais ce qu'il peut dire, est que l'échange existe ou pas.\n"
         image: /uploads/Volent les notes (1).png
       - title: L'arabesque vertébrale
         subtitle: Les trois vertèbres crâniennes
@@ -267,7 +267,7 @@ blocks:
 
 
           ### Au départ de l'embryogénèse, les cellules des os du crâne et
-          celles des vertèbres, sont les mêmes. 
+          celles des vertèbres, sont les mêmes.
 
 
           ### Le déroulement embryologique, permet de considérer le crâne comme
