@@ -4,7 +4,7 @@ blocks:
   - b_title: true
     title: La vie est mouvement
     a_title: center
-    f_title: 47
+    f_title: 48
     b_image: true
     banner_image: /uploads/Couverture M.Faciale.png
     _template: banner
@@ -26,6 +26,8 @@ blocks:
 
 
       # §
+
+
 
 
       ##### **L'ostéopathie crânienne ne rentre pas dans ces deux approches.**
