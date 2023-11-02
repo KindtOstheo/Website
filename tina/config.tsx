@@ -56,6 +56,13 @@ const config = defineConfig({
         },
         fields: [
           {
+            name: 'draft',
+            label: 'Draft',
+            type: 'boolean',
+            required: true,
+            description: 'Si cette case est cochée, le blog ne sera pas publié.',
+          },
+          {
             type: "string",
             label: "Title",
             name: "title",
@@ -93,21 +100,26 @@ const config = defineConfig({
             name: "_body",
             templates: [
               {
-                name: "DateTime",
-                label: "Date & Time",
-                inline: true,
+                name: "Space",
+                label: "Espace",
                 fields: [
                   {
-                    name: "format",
-                    label: "Format",
-                    type: "string",
-                    options: ["utc", "iso", "local"],
-                  },
-                ],
+                    name: "height",
+                    label: "Hauteur de l'espace en px",
+                    type: "number",
+                    ui:{
+                      validate: (val)=>{
+                          if(val < 0 ) {
+                              return 'Le nombre doit etre plus grand ou egale a 0'
+                          }
+                      }
+                    }
+                  }
+                ]
               },
               {
                 name: "BlockQuote",
-                label: "Block Quote",
+                label: "Citation",
                 fields: [
                   {
                     name: "children",
@@ -137,57 +149,6 @@ const config = defineConfig({
                 ],
               },
               {
-                name: "NewsletterSignup",
-                label: "Newsletter Sign Up",
-                fields: [
-                  {
-                    name: "children",
-                    label: "CTA",
-                    type: "rich-text",
-                  },
-                  {
-                    name: "placeholder",
-                    label: "Placeholder",
-                    type: "string",
-                  },
-                  {
-                    name: "buttonText",
-                    label: "Button Text",
-                    type: "string",
-                  },
-                  {
-                    name: "disclaimer",
-                    label: "Disclaimer",
-                    type: "rich-text",
-                  },
-                ],
-                ui: {
-                  defaultItem: {
-                    placeholder: "Enter your email",
-                    buttonText: "Notify Me",
-                  },
-                },
-              },
-              {
-                name: "Youtube",
-                label: "Video Youtube",
-                fields:[
-                  {
-                      name: "url",
-                      label: "Id de la video",
-                      type: "string",
-                      ui: {
-                          description: "Récupérer le lien de la vidéo sur YouTube https://www.youtube.com/watch?v=AnuHskLUPL0 et récupérer l'id exemple avec ce lien l'id est AnuHskLUPL0"
-                      }
-                  },
-                  {
-                      name: "title",
-                      label: "Titre de la video",
-                      type: "string",
-                  },
-                ]
-              },
-              {
                 name: "ImagesHeight",
                 label: "Image avec hauteur paramétrable ",
                 fields:[
@@ -208,25 +169,72 @@ const config = defineConfig({
                   },
                 ]
               },
+              // {
+              //   name: "NewsletterSignup",
+              //   label: "Newsletter Sign Up",
+              //   fields: [
+              //     {
+              //       name: "children",
+              //       label: "CTCitation A",
+              //       type: "rich-text",
+              //     },
+              //     {
+              //       name: "placeholder",
+              //       label: "Placeholder",
+              //       type: "string",
+              //     },
+              //     {
+              //       name: "buttonText",
+              //       label: "Button Text",
+              //       type: "string",
+              //     },
+              //     {
+              //       name: "disclaimer",
+              //       label: "Disclaimer",
+              //       type: "rich-text",
+              //     },
+              //   ],
+              //   ui: {
+              //     defaultItem: {
+              //       placeholder: "Enter your email",
+              //       buttonText: "Notify Me",
+              //     },
+              //   },
+              // },
               {
-                name: "Space",
-                label: "Espace",
+                name: "Youtube",
+                label: "Video Youtube",
+                fields:[
+                  {
+                      name: "url",
+                      label: "Id de la video",
+                      type: "string",
+                      ui: {
+                          description: "Récupérer le lien de la vidéo sur YouTube https://www.youtube.com/watch?v=AnuHskLUPL0 et récupérer l'id exemple avec ce lien l'id est AnuHskLUPL0"
+                      }
+                  },
+                  {
+                      name: "title",
+                      label: "Titre de la video",
+                      type: "string",
+                  },
+                ]
+              },
+              {
+                name: "DateTime",
+                label: "Date & Heure",
+                inline: true,
                 fields: [
                   {
-                    name: "height",
-                    label: "Hauteur de l'espace en px",
-                    type: "number",
-                    ui:{
-                      validate: (val)=>{
-                          if(val < 0 ) {
-                              return 'Le nombre doit etre plus grand ou egale a 0'
-                          }
-                      }
-                    }
-                  }
-                ]
-              }
+                    name: "format",
+                    label: "Format",
+                    type: "string",
+                    options: ["utc", "iso", "local"],
+                  },
+                ],
+              },
             ],
+            
             isBody: true,
           },
         ],
