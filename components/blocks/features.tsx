@@ -123,11 +123,13 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
         >
           {data.items &&
             data.items.map(function (block, i) {
-              return <SwiperSlide key={i} data-tina-field={tinaField(block, 'icon')} 
+              if (block.feature_draft) {
+                return <SwiperSlide key={i} data-tina-field={tinaField(block, 'icon')} 
                       className="max-w-lg"
                         style={{height: "unset"}}>
                   <Feature featuresColor={data.color} key={i} data={block} />
                 </SwiperSlide>;
+              }
             })
           }
         </Swiper>
@@ -261,15 +263,24 @@ export const featureBlockSchema = {
       list: true,
       ui: {
         itemProps: (item) => {
-          return {
-            label: item?.title,
-          };
+          if (item?.feature_draft) {
+            return { label: item?.title };
+          }
+          else {
+            return { label: item?.title, style: {backgroundColor: "#9691a5"} };
+          }
+          
         },
         defaultItem: {
           ...defaultFeature,
         },
       },
       fields: [
+        {
+          type: "boolean",
+          name: "feature_draft",
+          label: "Activer la pour afficher la feature",
+        },
         iconSchema,
         {
           type: "string",

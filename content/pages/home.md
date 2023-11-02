@@ -25,17 +25,14 @@ blocks:
       ostéopathiques ; l'une structurelle, l'autre fonctionnelle.
 
 
-
-
       # §
-
-
 
 
       ##### **L'ostéopathie crânienne ne rentre pas dans ces deux approches.**
     f_description: 14
     items:
-      - icon:
+      - feature_draft: true
+        icon:
           image: /uploads/Feuille 2.jpg
           name: ''
           color: ''
@@ -70,13 +67,15 @@ blocks:
 
           #### La perte de mobilité peut-être plus ou moins complète, dans un ou
           plusieurs de ces plans.
-      - icon:
+      - feature_draft: true
+        icon:
           name: BiDroplet
           color: ''
           style: float
         title: L'Homéostasie
         text: "<Space height={96} />\n\n#### l'homéostasie est une formidable fonction qu'a notre organisme. Il a la capacité à équilibrer en permanence le somatique comme le psychique.\n\n#### Autrement dit une lésion ostéopathique peut très bien se normaliser\_ elle-même, grâce à ce système d'auto-régulation.\n\n<Space height={20} />\n\n#### *Nous sommes équilibrés dans un déséquilibre permanent.*\n\n<Space height={20} />\n\n#### Quand le corps n'arrive plus à se rééquilibrer lui-même, le désordre s'installe, la vertèbre est en lésion.\n"
-      - icon:
+      - feature_draft: true
+        icon:
           image: /uploads/Feuille 2.jpg
           name: ''
           color: ''
@@ -123,7 +122,8 @@ blocks:
 
           #### Comment alors, la vie de l'un, pourrait-elle être aussi
           indépendante de la vie de l'autre ?
-      - icon:
+      - feature_draft: true
+        icon:
           image: /uploads/clé.png
           name: ''
           color: ''
@@ -173,7 +173,8 @@ blocks:
 
           #### Cette conception, impliquerait ipso facto l'acceptation d'une
           dynamique pelvienne.
-      - icon:
+      - feature_draft: true
+        icon:
           image: /uploads/Ligne brisée.png
           name: ''
           color: ''
@@ -183,7 +184,8 @@ blocks:
     color: tint
     _template: features
   - list:
-      - title: Le crâne
+      - speciality_draft: true
+        title: Le crâne
         subtitle: Première approche
         description: >
           ### Très tôt les ostéopathes américains se sont intéressés au crâne ,
@@ -206,11 +208,13 @@ blocks:
           sont des articulations dites immobiles. Mais, ces os conservent-ils
           leur indépendance pour autant, sont-ils libres, entre-eux ?
         image: /uploads/Squelette 2.jpg
-      - title: La suture crânienne
+      - speciality_draft: true
+        title: La suture crânienne
         subtitle: Contiguïté n'égale pas continuité
         description: "### La suture crânienne présente anatomiquement une identité qui lui est propre, distincte de l'os.\n\n### Dans une grande majorité de cas, lors d'une autopsie, un crâne peut-être désarticulé ; quelque soit l'âge.\n\n### L'étude histologique d'une suture crânienne montre deux éléments bien différents .\n\n### 1° Une\_[contiguïté](https://www.google.com/search?q=contigu\\\\\\&sxsrf=APwXEdfQS3lChPJnF28Mqw0Utsnb982dNw%3A1687766143329\\\\\\&ei=f0SZZJPVE-zFkdUP5euoyAk\\\\\\&oq=contigu\\\\\\&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgwIIxCKBRAnEEYQ-QEyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBwgAEIoFEEMyCAgAEIAEEMsBMgUIABCABDIFCAAQgAQyCAgAEIAEEMsBMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQgAQQCjogCAAQigUQRhD5ARCXBRCMBRDdBBBGEPQDEPUDEPYDGAFKBAhBGABQoghYzhFg8SZoAXABeACAAYEBiAGeApIBAzIuMZgBAKABAcABAcgBCtoBBggBEAEYEw\\\\\\&sclient=gws-wiz-serp%20%22contigu%22)\_osseuse, les os se touchent mais ne se collent pas.\n\n### 2° Une\_[continuité]()\_membraneuse, la membrane dure-mérienne, tapisse et relie les os crâniens, sans discontinuité.\n"
         image: /uploads/Suture C 8 (1).png
-      - title: La Dure-mère
+      - speciality_draft: true
+        title: La Dure-mère
         subtitle: Même communauté de vie avec l'os
         description: >
           ### La dure-mère est la membrane méningée la plus externe . Elle fait
@@ -227,7 +231,8 @@ blocks:
           résistante, d'une extrème sensibilité. Elle appartient aussi bien aux
           os crâniens qu'à l'encéphale.
         image: /uploads/Dure-mère un lien puissant.png
-      - title: 'Les os constituant le "bol" crânien, sont-ils impassibles ?'
+      - speciality_draft: true
+        title: 'Les os constituant le "bol" crânien, sont-ils impassibles ?'
         subtitle: Une hypothèse d'école
         description: >
           ### La vie est mouvement, la mort est inertie.
@@ -255,16 +260,19 @@ blocks:
 
           ##
         image: /uploads/Le cerveau humain 2.jpg
-      - title: le Toucher crânien
+      - speciality_draft: true
+        title: le Toucher crânien
         f_title: 32
         subtitle: Le mystère Haptique
         description: "### Le Toucher est le premier des cinq sens de l’être humain.\n\n### La pensée médicale actuelle considère que le crâne est un&#xA;tout et l’idée que les os du crâne aient des échanges entre eux, est un leurre.\n\n### Pourtant, grâce au toucher, \_l’ostéopathe exercé à cette pratique exigeante et selon&#xA;un protocole réfléchi, perçoit ou pas, un échange entre les deux os d’une même&#xA;suture.\n\n### Mais de quel ordre est-il cet échange\_?\n"
         image: /uploads/Image Tango.jpg
-      - title: Le Diapason
+      - speciality_draft: true
+        title: Le Diapason
         subtitle: 'Quand on a la chance d''accéder à ce toucher, on ne l''oublie jamais.'
         description: "### Le praticien place un doigt ou une main de chaque côté de la suture.\n\n### L’un émet une contrainte \_(un appui par exemple), l’autre main perçoit ou&#xA;pas, *l’onde* créée\_; de la même&#xA;façon que le «\_LA\_» créé par le diapason est reçu par l’oreille.\n\n### Il y a un émetteur et un récepteur.\n\n### Le terme *onde* employé&#xA;ici, est tout à fait arbitraire ne connaissant pas la nature de cet échange\_;&#xA;est-il vibratoire, nanométrique, neuro-végétatif\_? L’ostéopathe n’est pas&#xA;qualifié pour le dire, mais ce qu'il peut dire, est que l'échange existe ou pas.\n"
         image: /uploads/Volent les notes (1).png
-      - title: L'arabesque vertébrale
+      - speciality_draft: true
+        title: L'arabesque vertébrale
         subtitle: Les trois vertèbres crâniennes
         description: >
           ### Le crâne n'est-il pas l'extrémité de la colonne vertébrale?
@@ -301,7 +309,8 @@ blocks:
           l'échange, de la  résonance, entre un de ces trois os, est altérée ;
           il y a une modification de l'état neuro-végétatif.
         image: /uploads/Arabesque.png
-      - title: 'Le sphénoïde '
+      - speciality_draft: true
+        title: 'Le sphénoïde '
         subtitle: Telle une chauve-souris
         description: >
           ### Le sphénoïde est l'os situé au centre du crâne. Quand on le

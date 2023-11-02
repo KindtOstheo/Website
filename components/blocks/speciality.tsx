@@ -93,7 +93,9 @@ export const Specialitys = ({ data }: { data: PageBlocksSpeciality }) => {
       >
        {data.list &&
           data.list.map(function (item, i) {
-            return <Speciality key={i} item={item} index={i} />;
+            if (item.speciality_draft) {
+              return <Speciality key={i} item={item} index={i} />;
+            }
           })}
       </Container>
     </Section>
@@ -125,14 +127,24 @@ export const specialityBlockSchema: Template = {
       list: true,
       ui: {
           itemProps: (item) => {
-          // Field values are accessed by title?.<Field name>
+            if (item?.speciality_draft) {
               return { label: item?.title };
+            }
+            else {
+              return { label: item?.title, style: {backgroundColor: "#9691a5"} };
+            }
+          // Field values are accessed by title?.<Field name>
           },
           defaultItem: {
             ...defaultSpeciality,
           },
       },
       fields: [
+          {
+            type: "boolean",
+            name: "speciality_draft",
+            label: "Activer la pour afficher la specialiter",
+          },
           {
               type: "string",
               name: "title",
@@ -180,7 +192,7 @@ export const specialityBlockSchema: Template = {
                 value: "bold;",
                 label: "Gras"
               }, {
-                value: "900",
+                value: "bolder",
                 label: "Tres Gras"
               }]
           }, 
