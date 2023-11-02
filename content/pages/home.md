@@ -25,11 +25,7 @@ blocks:
       ostéopathiques ; l'une structurelle, l'autre fonctionnelle.
 
 
-
-
       # §
-
-
 
 
       ##### **L'ostéopathie crânienne ne rentre pas dans ces deux approches.**
@@ -233,8 +229,8 @@ blocks:
           ### La vie est mouvement, la mort est inertie.
 
 
-          ### Notre cerveau baigne dans 150 Ml d'un liquide appelé liquide
-          cérébrospinal LCR. Ce liquide peut atteindre suivant les endroits de
+          ### Notre cerveau baigne dans 150 ml d'un liquide appelé liquide
+          cérébrospinal. Ce liquide peut atteindre suivant les endroits de
           l'encéphale une vitesse de 10 cm par seconde, les auteurs parlent de
           "[Maelström](https://www.pourlascience.fr/sd/neurosciences/liquide-cephalorachidien-vingt-mille-lieues-sous-un-crane-22396.php#:~\:text=Notre%20cerveau%20n'est%20pas,dit%20%C2%AB%20sous%2Darachno%C3%AFdien%20%C2%BB.
           "Liquide céphalorachidien : vingt mille lieues sous un crâne")".
