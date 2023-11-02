@@ -52,6 +52,11 @@ const components: Components<{
   Space: {
     height: number;
   };
+  Listing: {
+    type: string;
+    font: string;
+    list: {txt:string}[];
+  };
 }> = {
   code_block: (props) => <Prism {...props} />,
   BlockQuote: (props: {
@@ -151,6 +156,20 @@ const components: Components<{
   ),
   Space: (props) => (
     <div style={{height: props.height+'px'}} className={`h-[${props.height}px]`}></div>
+  ),
+  Listing: (props) => (
+    <div className={`${props.font}`}>
+      <ol style={{listStyle:props.type}}>
+        {props.list &&
+        props.list.map((item,i)=> {
+          return (
+            <li key={`${i}`}>
+              {item.txt}
+            </li>
+          )
+        })}
+      </ol>
+    </div>
   ),
 };
 
