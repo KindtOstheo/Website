@@ -238,8 +238,8 @@ blocks:
           ### La vie est mouvement, la mort est inertie.
 
 
-          ### Notre cerveau baigne dans 150 Ml d'un liquide appelé liquide
-          cérébrospinal LCR. Ce liquide peut atteindre suivant les endroits de
+          ### Notre cerveau baigne dans 150 ml d'un liquide appelé liquide
+          cérébrospinal. Ce liquide peut atteindre suivant les endroits de
           l'encéphale une vitesse de 10 cm par seconde, les auteurs parlent de
           "[Maelström](https://www.pourlascience.fr/sd/neurosciences/liquide-cephalorachidien-vingt-mille-lieues-sous-un-crane-22396.php#:~\:text=Notre%20cerveau%20n'est%20pas,dit%20%C2%AB%20sous%2Darachno%C3%AFdien%20%C2%BB.
           "Liquide céphalorachidien : vingt mille lieues sous un crâne")".
@@ -264,7 +264,7 @@ blocks:
         title: le Toucher crânien
         f_title: 32
         subtitle: Le mystère Haptique
-        description: "### Le Toucher est le premier des cinq sens de l’être humain.\n\n### La pensée médicale actuelle considère que le crâne est un&#xA;tout et l’idée que les os du crâne aient des échanges entre eux, est un leurre.\n\n### Pourtant, grâce au toucher, \_l’ostéopathe exercé à cette pratique exigeante et selon&#xA;un protocole réfléchi, perçoit ou pas, un échange entre les deux os d’une même&#xA;suture.\n\n### Mais de quel ordre est-il cet échange\_?\n"
+        description: "### Le Toucher est le premier des cinq sens de l’être humain.\n\n### La pensée médicale actuelle considère que le crâne est un&#xA;tout et l’idée que les os du crâne aient des échanges entre eux, est un leurre.\n\n### Pourtant, grâce au toucher, \_l’ostéopathe exercé à cette pratique exigeante et selon&#xA;un protocole réfléchi, perçoit ou pas, un échange entre les deux os d’une même&#xA;suture.\n\n### Mais de quel ordre est cet échange\_?\n"
         image: /uploads/Image Tango.jpg
       - speciality_draft: true
         title: Le Diapason
@@ -282,9 +282,9 @@ blocks:
           celles des vertèbres, sont les mêmes.
 
 
-          ### Le déroulement embryologique, permet de considérer le crâne comme
-          des vertèbres modifiées et envisager un axe vertébral crânien,
-          serait-il si irrationnel ?
+          ### Le déroulement embryologique permet de considérer le crâne comme
+          des vertèbres modifiées ; est-ce qu'envisager un axe vertébral
+          crânien, serait-il si irrationnel ?
 
 
           ### &#x20;La morphologie nous montre  trois os , d'arrière en avant :
@@ -305,9 +305,9 @@ blocks:
           première vertèbre.
 
 
-          ### L'expérience ostéopathique montre que lorsque la qualite  de
-          l'échange, de la  résonance, entre un de ces trois os, est altérée ;
-          il y a une modification de l'état neuro-végétatif.
+          ### L'expérience ostéopathique montre que lorsque la qualité de
+          l'échange, de la  résonance, entre un de ces trois os, est altérée; il
+          y a une modification de l'état neuro-végétatif.
         image: /uploads/Arabesque.png
       - speciality_draft: true
         title: 'Le sphénoïde '
