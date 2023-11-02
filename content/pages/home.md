@@ -254,7 +254,7 @@ blocks:
       - title: le Toucher crânien
         f_title: 32
         subtitle: Le mystère Haptique
-        description: "### Le Toucher est le premier des cinq sens de l’être humain.\n\n### La pensée médicale actuelle considère que le crâne est un&#xA;tout et l’idée que les os du crâne aient des échanges entre eux, est un leurre.\n\n### Pourtant, grâce au toucher, \_l’ostéopathe exercé à cette pratique exigeante et selon&#xA;un protocole réfléchi, perçoit ou pas, un échange entre les deux os d’une même&#xA;suture.\n\n### Mais de quel ordre est-il cet échange\_?\n"
+        description: "### Le Toucher est le premier des cinq sens de l’être humain.\n\n### La pensée médicale actuelle considère que le crâne est un&#xA;tout et l’idée que les os du crâne aient des échanges entre eux, est un leurre.\n\n### Pourtant, grâce au toucher, \_l’ostéopathe exercé à cette pratique exigeante et selon&#xA;un protocole réfléchi, perçoit ou pas, un échange entre les deux os d’une même&#xA;suture.\n\n### Mais de quel ordre est cet échange\_?\n"
         image: /uploads/Image Tango.jpg
       - title: Le Diapason
         subtitle: 'Quand on a la chance d''accéder à ce toucher, on ne l''oublie jamais.'
