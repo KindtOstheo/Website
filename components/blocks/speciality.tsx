@@ -28,10 +28,12 @@ export const Speciality = ({
   const Styles = {
     subtitle : {
       fontSize: item?.f_subtitle ? item.f_subtitle : 20,
+      fontWeight: (item?.w_title ? item?.w_title : "normal") as any,
       textAlign: (item?.a_subtitle ? item.a_subtitle : "center") as any
     },
     title : {
       fontSize: item?.f_title ? item.f_title : 40,
+      fontWeight: (item?.w_title ? item?.w_title : "normal") as any,
       textAlign:(item?.a_title ? item.a_title : "center") as any
     },
   };
@@ -162,6 +164,25 @@ export const specialityBlockSchema: Template = {
                       }
                   }
               }
+          },
+          {
+            type: "string",
+            name: "w_title",
+            label: "Niveaux de gras du Titre",
+            options: [
+              {
+                value: "lighter",
+                label: "Fin"
+              },{
+                value: "normal",
+                label: "Normal"
+              }, {
+                value: "bold;",
+                label: "Gras"
+              }, {
+                value: "900",
+                label: "Tres Gras"
+              }]
           }, 
           {
               type: "string",
@@ -194,7 +215,26 @@ export const specialityBlockSchema: Template = {
                       }
                   }
               }
-          }, 
+          },
+          {
+            type: "string",
+            name: "w_subtitle",
+            label: "Niveaux de gras du Titre",
+            options: [
+              {
+                value: "lighter",
+                label: "Fin"
+              },{
+                value: "normal",
+                label: "Normal"
+              }, {
+                value: "bold;",
+                label: "Gras"
+              }, {
+                value: "bolder",
+                label: "Tres Gras"
+              }]
+          },  
           {
               type: "rich-text",
               name: "description",

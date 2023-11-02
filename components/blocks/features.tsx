@@ -71,6 +71,7 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
   const Styles = {
     feature : {
       fontSize: data.f_title ? data.f_title : 48,
+      fontWeight: (data.w_title ? data.w_title : "normal") as any,
       textAlign: (data.a_title ? data.a_title : "center") as any
     },
     feature_desc : {
@@ -191,6 +192,25 @@ export const featureBlockSchema = {
                 }
             }
         }
+    },
+    {
+      type: "string",
+      name: "w_title",
+      label: "Niveaux de gras du Titre",
+      options: [
+        {
+          value: "lighter",
+          label: "Fin"
+        },{
+          value: "normal",
+          label: "Normal"
+        }, {
+          value: "bold;",
+          label: "Gras"
+        }, {
+          value: "900",
+          label: "Tres Gras"
+        }]
     }, 
     {
         type: "string",

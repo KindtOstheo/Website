@@ -10,6 +10,7 @@ export const Banner = ({ data }: { data: PageBlocksBanner }) => {
   const Styles = {
     baner :{
       fontSize: data.f_title ? data.f_title : 61,
+      fontWeight: (data.w_title ? data.w_title : "bold") as any,
       textAlign: (data.a_title ? data.a_title : 'center') as any
     },
     color :{
@@ -113,7 +114,26 @@ export const bannerBlockSchema: Template = {
                 }
             }
         }
-    }, 
+    },
+    {
+      type: "string",
+      name: "w_title",
+      label: "Niveaux de gras du Titre",
+      options: [
+        {
+          value: "lighter",
+          label: "Fin"
+        },{
+          value: "normal",
+          label: "Normal"
+        }, {
+          value: "bold;",
+          label: "Gras"
+        }, {
+          value: "900",
+          label: "Tres Gras"
+        }]
+    },
     {
         type: "boolean",
         name: "b_image",
