@@ -1,6 +1,6 @@
-query pageQuery {
+query pageQuery($filter: PostFilter) {
   ...LayoutQueryFragment
-  postConnection {
+  postConnection(filter:$filter) {
     edges {
       node {
         id
