@@ -13,6 +13,11 @@ query pageQuery($filter: PostFilter, $sort: String) {
             ...AuthorParts
           }
         }
+        category {
+          ... on Category {
+            ...CategoryParts
+          }
+        }
         _sys {
           filename
         }

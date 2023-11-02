@@ -55,27 +55,31 @@ export const Posts = ({ data }: { data: PostsType[] }) => {
               <div className=" w-full max-w-none mb-5 opacity-70">
                 <TinaMarkdown content={post.excerpt} />
               </div>
-              <div className="flex items-center">
-                <div className="flex-shrink-0 mr-2">
-                  <img
-                    className="h-10 w-10 object-cover rounded-full shadow-sm"
-                    src={post?.author?.avatar}
-                    alt={post?.author?.name}
-                  />
+              <div className="flex items-center justify-between">
+                <div className="flex items-center">
+                  <div className="flex-shrink-0 mr-2">
+                    <img
+                      className="h-10 w-10 object-cover rounded-full shadow-sm"
+                      src={post?.author?.avatar}
+                      alt={post?.author?.name}
+                    />
+                  </div>
+                  <p className="text-base font-medium">
+                    {post?.author?.name}
+                  </p>
+                  {formattedDate !== "" && (
+                    <>
+                      <span className="font-bold text-gray-500 mx-2">
+                        —
+                      </span>
+                      <p className="text-base ">
+                        {formattedDate}
+                      </p>
+                    </>
+                  )}
                 </div>
-                <p className="text-base font-medium">
-                  {post?.author?.name}
-                </p>
-                {formattedDate !== "" && (
-                  <>
-                    <span className="font-bold text-gray-500 mx-2">
-                      —
-                    </span>
-                    <p className="text-base ">
-                      {formattedDate}
-                    </p>
-                  </>
-                )}
+                <h2 className="pt-0.5 pb-1.5 px-2 rounded-md text-sm text-white subpixel-antialiased font-medium bg-gray-900 cursor-pointer">{post.category.name}</h2>
+
               </div>
             </div>
           </Link>
