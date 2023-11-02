@@ -70,6 +70,12 @@ const config = defineConfig({
             required: true,
           },
           {
+            type: "number",
+            label: "Importance",
+            name: "weight",
+            required: true,
+          },
+          {
             type: "image",
             name: "heroImg",
             label: "Hero Image",
@@ -84,6 +90,12 @@ const config = defineConfig({
             label: "Author",
             name: "author",
             collections: ["author"],
+          },
+          {
+            type: "reference",
+            label: "Catégorie",
+            name: "category",
+            collections: ["category"],
           },
           {
             type: "datetime",
@@ -238,6 +250,14 @@ const config = defineConfig({
             isBody: true,
           },
         ],
+        indexes: [{
+          name: "category-weight-date",
+          fields: [
+            { name:"category" },
+            { name:"weight" },
+            { name:"date" }
+          ]
+        }]
       },
       {
         label: "Global",
@@ -469,6 +489,21 @@ const config = defineConfig({
             type: "image",
             label: "Avatar",
             name: "avatar",
+          },
+        ],
+      },
+      {
+        label: "Catégorie",
+        name: "category",
+        path: "content/category",
+        format: "md",
+        fields: [
+          {
+            type: "string",
+            label: "Name",
+            name: "name",
+            isTitle: true,
+            required: true,
           },
         ],
       },
