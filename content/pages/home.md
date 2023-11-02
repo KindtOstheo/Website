@@ -270,9 +270,9 @@ blocks:
           celles des vertèbres, sont les mêmes.
 
 
-          ### Le déroulement embryologique, permet de considérer le crâne comme
-          des vertèbres modifiées et envisager un axe vertébral crânien,
-          serait-il si irrationnel ?
+          ### Le déroulement embryologique permet de considérer le crâne comme
+          des vertèbres modifiées ; est-ce qu'envisager un axe vertébral
+          crânien, serait-il si irrationnel ?
 
 
           ### &#x20;La morphologie nous montre  trois os , d'arrière en avant :
