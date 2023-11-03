@@ -40,7 +40,7 @@ export const Posts = ({ data }: { data: PostsType[] }) => {
             key={post._sys.filename}
             href={`/posts/` + post._sys.filename}
             style={Styles.color}
-            className="shadow-[0_10px_35px_rgba(0,0,0,.05)] md:w-5/12 group block px-6 sm:px-8 md:px-10 py-10 mb-8 last:mb-0 rounded-md transition-all duration-150 ease-out hover:shadow-md "
+            className={` category ${post.category.name} shadow-[0_10px_35px_rgba(0,0,0,.05)] md:w-5/12 group block px-6 sm:px-8 md:px-10 py-10 mb-8 last:mb-0 rounded-md transition-all duration-150 ease-out hover:shadow-md`}
           >
             { post.heroImg && <img src={post.heroImg} alt={post.title} className="max-h-52 m-auto"/> }
             <div>

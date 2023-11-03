@@ -29,7 +29,7 @@ export default function HomePage(
 export const getStaticProps = async () => {
   const tinaProps = await client.queries.pageQuery({
     filter: { draft: { eq: false } },
-    sort:"category-weight-date",
+    sort:"category-weight-date"
   });
   return {
     props: {

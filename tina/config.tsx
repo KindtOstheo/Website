@@ -366,6 +366,7 @@ const config = defineConfig({
                     href: "home",
                     label: "Home",
                   },
+                  description: " pour les categories de blog mettre en Link 'category/<Nom de la category>' exemple: category/Acouphène pour la categorie du non Acouphène"
                 },
                 fields: [
                   {

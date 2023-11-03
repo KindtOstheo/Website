@@ -8,12 +8,12 @@
     "name": "Kindt Ostéopathe",
     "nav": [
       {
-        "href": "",
+        "href": "home",
         "label": "Home"
       },
       {
-        "href": "posts",
-        "label": "Blog"
+        "href": "category/Acouphène",
+        "label": "Acouphène"
       },
       {
         "href": "terms-policy",
