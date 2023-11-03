@@ -6,22 +6,8 @@ import { Layout } from "../../components/layout";
 import { InferGetStaticPropsType } from "next";
 import { useState } from "react";
 
-export async function getAllTags() {
-    const category = await client.queries.categoryConnection();
-    
-    const itemTags = category.data.categoryConnection.edges
-    .map((tag) => tag.node.name.trim().toLowerCase())
-    let memo = []
-    itemTags.forEach((tag) => {
-         memo.push(tag)
-    })
-  
-    return memo
-}
-
 export default function HomePage(
   props: InferGetStaticPropsType<typeof getStaticProps>,
-  category,
 ) {
   const posts = props.data.postConnection.edges;
   const Styles = {
