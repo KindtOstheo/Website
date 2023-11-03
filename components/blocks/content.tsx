@@ -5,16 +5,7 @@ import { Components, TinaMarkdown } from "tinacms/dist/rich-text";
 import type { Template } from "tinacms";
 import { PageBlocksContent } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
-
-const components: Components<{
-  Space: {
-    height: number;
-  };
-}> = {
-  Space: (props) => (
-    <div style={{height: props.height+'px'}} className={`h-[${props.height}px]`}></div>
-  ),
-};
+import { components } from "../util/component";
 
 export const Content = ({ data }: { data: PageBlocksContent }) => {
   
@@ -71,7 +62,72 @@ export const contentBlockSchema: Template = {
               }
             }
           ]
-        }
+        },
+        {
+          name: "Listing",
+          label: "Liste",
+          fields: [
+            {
+              name: "type",
+              label: "Type de liste",
+              type: "string",
+              options: [{
+                value: "decimal",
+                label: "Numero"
+              }, {
+                value: "disc",
+                label: "Rond"
+              }]
+            },
+            {
+              name: "font",
+              label: "Police de liste",
+              type: "string",
+              options: [
+                {
+                  value: "h1",
+                  label: "H1"
+                }, {
+                  value: "h2",
+                  label: "H2"
+                },{
+                  value: "h3",
+                  label: "H3"
+                }, {
+                  value: "h4",
+                  label: "H4"
+                },{
+                  value: "h5",
+                  label: "H5"
+                }, {
+                  value: "h6",
+                  label: "H6"
+                }, {
+                  value: "p",
+                  label: "Paragraph"
+                }
+              ]
+            },
+            {
+              type: "object",
+              name: "list",
+              label: "Liste",
+              list: true,
+              ui: {
+                itemProps: (item) => {
+                    return { label: item?.txt };  
+                },
+              },
+              fields: [
+                {
+                  type: "string",
+                  label: "text",
+                  name: "txt",
+                },
+              ],
+            }
+          ]
+        },
       ]
     },
     {
