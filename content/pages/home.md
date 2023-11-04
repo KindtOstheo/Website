@@ -11,7 +11,7 @@ blocks:
     _template: banner
   - feature_title_activate: true
     feature_title: L'ostéopathie au service de la santé du corps
-    f_title: 25
+    f_title: 30
     feature_description: >
       ### L'ostéopathie est née il y a plus de 150 ans avec des précurseurs
       comme les Docteurs Still, Sutherland, Viola Frymann.
@@ -26,7 +26,11 @@ blocks:
       ostéopathiques ; l'une structurelle, l'autre fonctionnelle.
 
 
+
+
       # §
+
+
 
 
       ##### **L'ostéopathie crânienne ne rentre pas dans ces deux approches.**
