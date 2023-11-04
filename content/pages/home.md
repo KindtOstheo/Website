@@ -26,11 +26,7 @@ blocks:
       ostéopathiques ; l'une structurelle, l'autre fonctionnelle.
 
 
-
-
       # §
-
-
 
 
       ##### **L'ostéopathie crânienne ne rentre pas dans ces deux approches.**
@@ -295,10 +291,8 @@ blocks:
           ### &#x20;La morphologie nous montre  trois os , d'arrière en avant :
 
 
-          ```ecl
-
-          l'occiput - le Sphénoïde - L'Etmoïde
-
+          ```scheme
+                              L'occiput - Le Sphénoïde - L'Ethmoïde
           ```
 
 
