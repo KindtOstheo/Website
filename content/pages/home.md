@@ -4,7 +4,7 @@ blocks:
   - b_title: true
     title: La vie est mouvement
     a_title: center
-    f_title: 48
+    f_title: 55
     w_title: normal
     b_image: true
     banner_image: /uploads/Couverture M.Faciale.png
