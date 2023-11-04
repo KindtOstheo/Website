@@ -291,15 +291,18 @@ blocks:
           ### &#x20;La morphologie nous montre  trois os , d'arrière en avant :
 
 
+          <Space height={6} />
+
+
           ```scheme
                               L'occiput - Le Sphénoïde - L'Ethmoïde
           ```
 
 
-          ### &#x20;     - l'occiput - le sphénoïde - L'éthmoïde -
+          ### &#x20;    
 
 
-          <Space height={14} />
+          <Space height={6} />
 
 
           ###### Modifiés certes, mais on retrouve sur chacun de ces os, les
