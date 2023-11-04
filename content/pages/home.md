@@ -295,7 +295,7 @@ blocks:
           ### &#x20;La morphologie nous montre  trois os , d'arrière en avant :
 
 
-          ```javascript
+          ```ecl
 
           l'occiput - le Sphénoïde - L'Etmoïde
 
