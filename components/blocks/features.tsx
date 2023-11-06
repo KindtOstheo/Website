@@ -83,7 +83,9 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
         <div className="animate">
             { data.feature_sub_title && <p className="uppercase" style={Styles.feature.textAlign} data-tina-field={tinaField(data, 'feature_sub_title')}>{data.feature_sub_title}</p>}
             { data.feature_title && <h2 className="mt-4 section-title" style={Styles.feature} data-tina-field={tinaField(data, 'feature_title')}>{data.feature_title}</h2>}
-            { data.feature_description && <div className="mt-10" style={Styles.feature_desc} data-tina-field={tinaField(data, 'feature_description')}> <TinaMarkdown components={components} content={data.feature_description} /></div>}
+            { data.feature_description && <div className="mt-10" style={Styles.feature_desc} data-tina-field={tinaField(data, 'feature_description')}>
+            <TinaMarkdown components={components} content={data.feature_description} /> 
+            </div>}
         </div>
       </Container>
       }

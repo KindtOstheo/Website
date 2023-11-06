@@ -1,5 +1,5 @@
 import React from "react";
-import type { TinaMarkdownContent, Components } from "tinacms/dist/rich-text";
+import type { Components } from "tinacms/dist/rich-text";
 
 
 export const components: Components<{
