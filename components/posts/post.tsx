@@ -193,6 +193,10 @@ export const Post = (props: PostType) => {
       color: "#222222",
       background:'#d9d9d9'
     },
+    title :{
+      fontSize: props.f_title ? props.f_title : 61,
+      fontWeight: (props.w_title ? props.w_title : "bold") as any,
+    },
   };
 
   const date = new Date(props.date);
@@ -205,6 +209,7 @@ export const Post = (props: PostType) => {
     <Section className="flex-1" color={Styles.color}>
       <Container width="small" className={`flex-1 pb-2`} size="large">
         <h2
+          style={Styles.title}
           data-tina-field={tinaField(props, "title")}
           className={`w-full relative	mb-8 text-6xl font-extrabold tracking-normal text-center title-font`}
         >

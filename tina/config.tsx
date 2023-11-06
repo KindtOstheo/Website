@@ -70,6 +70,37 @@ const config = defineConfig({
             required: true,
           },
           {
+              label: "Taille Titre en px",
+              name: "f_title",
+              type: "number",
+              ui:{
+                  validate: (val)=>{
+                      if(val <= 0 ) {
+                          return 'Le nombre doit etre plus grand que 0'
+                      }
+                  }
+              }
+          },
+          {
+            type: "string",
+            name: "w_title",
+            label: "Niveaux de gras du Titre",
+            options: [
+              {
+                value: "lighter",
+                label: "Fin"
+              },{
+                value: "normal",
+                label: "Normal"
+              }, {
+                value: "bold;",
+                label: "Gras"
+              }, {
+                value: "900",
+                label: "Tres Gras"
+              }]
+          },
+          {
             type: "number",
             label: "Importance",
             name: "weight",
