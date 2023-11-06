@@ -12,6 +12,10 @@
         "label": "Accueil"
       },
       {
+        "href": "category/Le-Maxillaire",
+        "label": "Le Maxillaire"
+      },
+      {
         "href": "category/Acouphène",
         "label": "Acouphène"
       },
