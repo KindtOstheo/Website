@@ -1,5 +1,5 @@
 ---
 name: Kindt
-avatar: /uploads/author/default.jpg
+avatar: /uploads/photo profil.jpg
 ---
 
