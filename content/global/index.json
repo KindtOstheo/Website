@@ -8,8 +8,8 @@
     "name": "Kindt Ostéopathe",
     "nav": [
       {
-        "href": "home",
-        "label": "Home"
+        "href": "posts",
+        "label": "category/Le-Maxillaire"
       },
       {
         "href": "category/Acouphène",
