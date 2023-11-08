@@ -35,7 +35,13 @@
       "mail": "dkindt83@gmail.com",
       "phone": "04 94 68 59 20",
       "loc": "https://www.google.fr/maps/place/Kindt+Dominique/@43.5377851,6.4527312,17z/data=!4m14!1m7!3m6!1s0x12ceab83f6d56cb9:0xa94946969ab8dec5!2sKindt+Dominique!8m2!3d43.5377812!4d6.4553061!16s%2Fg%2F1vh8m712!3m5!1s0x12ceab83f6d56cb9:0xa94946969ab8dec5!8m2!3d43.5377812!4d6.4553061!16s%2Fg%2F1vh8m712?entry=ttu"
-    }
+    },
+    "nav": [
+      {
+        "href": "terms-policy",
+        "label": "Condition"
+      }
+    ]
   },
   "theme": {
     "font": "sans",

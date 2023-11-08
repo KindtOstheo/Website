@@ -454,6 +454,34 @@ const config = defineConfig({
               },
               {
                 type: "object",
+                label: "Nav Links",
+                name: "nav",
+                list: true,
+                ui: {
+                  itemProps: (item) => {
+                    return { label: item?.label };
+                  },
+                  defaultItem: {
+                    href: "home",
+                    label: "Home",
+                  },
+                  description: " pour les categories de blog mettre en Link 'category/<Nom de la category>' exemple: category/Acouphène pour la categorie du non Acouphène"
+                },
+                fields: [
+                  {
+                    type: "string",
+                    label: "Link",
+                    name: "href",
+                  },
+                  {
+                    type: "string",
+                    label: "Label",
+                    name: "label",
+                  },
+                ],
+              },
+              {
+                type: "object",
                 label: "Social Links",
                 name: "social",
                 fields: [
