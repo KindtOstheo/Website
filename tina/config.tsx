@@ -599,6 +599,11 @@ const config = defineConfig({
               // },
             ],
           },
+          {
+            type: "string",
+            label: "Google Analitycs Tags",
+            name: "gtag",
+          },
         ],
       },
       {

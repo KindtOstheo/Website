@@ -62,7 +62,7 @@ export const Footer = ({ data, icon, rawData }) => {
             data.nav.map((item, i) => {
               return (
                 <><Link
-                  key={i}
+                  key={`footerlink-${i}`}
                   data-tina-field={tinaField(item, "label")}
                   href={`/${item.href}`}
                   className="relative select-none	text-base inline-block tracking-wide transition duration-150 ease-out color hover:bg-[#9e6851] hover:text-black py-4 px-4"
