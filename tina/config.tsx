@@ -87,13 +87,16 @@ const config = defineConfig({
             label: "Niveaux de gras du Titre",
             options: [
               {
-                value: "lighter",
+                value: "100",
                 label: "Fin"
               },{
-                value: "normal",
+                value: "400",
                 label: "Normal"
               }, {
-                value: "bold;",
+                value: "600;",
+                label: "Medium"
+              },{
+                value: "700;",
                 label: "Gras"
               }, {
                 value: "900",

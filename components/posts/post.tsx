@@ -195,7 +195,7 @@ export const Post = (props: PostType) => {
     },
     title :{
       fontSize: props.f_title ? props.f_title : 61,
-      fontWeight: (props.w_title ? props.w_title : "bold") as any,
+      fontWeight: (props.w_title ? props.w_title : 700) as any,
     },
   };
 
