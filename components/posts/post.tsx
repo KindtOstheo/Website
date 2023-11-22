@@ -195,11 +195,11 @@ export const Post = (props: PostType) => {
     },
     title :{
       fontSize: props.f_title ? props.f_title : 61,
-      fontWeight: (props.w_title ? props.w_title : "bold") as any,
+      fontWeight: (props.w_title ? props.w_title : 700) as any,
     },
     subtitle: {
       fontSize: props.f_subtitle ? props.f_subtitle : 40,
-      fontWeight: (props.w_subtitle ? props.w_subtitle : "bold") as any,
+      fontWeight: (props.w_subtitle ? props.w_subtitle : "700") as any,
     }
   };
 
@@ -224,7 +224,7 @@ export const Post = (props: PostType) => {
           </span>
         </h2>
         { props.subtitle && (
-          <p data-tina-field={tinaField(props, 'subtitle')}
+          <p  className="text-center" data-tina-field={tinaField(props, 'subtitle')}
           style={Styles.subtitle}
           >{props.subtitle}</p>
         )}

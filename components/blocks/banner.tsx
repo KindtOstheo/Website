@@ -10,7 +10,7 @@ export const Banner = ({ data }: { data: PageBlocksBanner }) => {
   const Styles = {
     baner :{
       fontSize: data.f_title ? data.f_title : 61,
-      fontWeight: (data.w_title ? data.w_title : "bold") as any,
+      fontWeight: (data.w_title ? data.w_title : 700) as any,
       textAlign: (data.a_title ? data.a_title : 'center') as any
     },
     color :{
@@ -121,13 +121,16 @@ export const bannerBlockSchema: Template = {
       label: "Niveaux de gras du Titre",
       options: [
         {
-          value: "lighter",
+          value: "100",
           label: "Fin"
         },{
-          value: "normal",
+          value: "400",
           label: "Normal"
         }, {
-          value: "bold;",
+          value: "600;",
+          label: "Medium"
+        },{
+          value: "700;",
           label: "Gras"
         }, {
           value: "900",

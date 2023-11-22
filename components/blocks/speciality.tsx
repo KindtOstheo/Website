@@ -20,12 +20,12 @@ export const Speciality = ({
   const Styles = {
     subtitle : {
       fontSize: item?.f_subtitle ? item.f_subtitle : 20,
-      fontWeight: (item?.w_title ? item?.w_title : "normal") as any,
+      fontWeight: (item?.w_subtitle ? item?.w_subtitle : 700) as any,
       textAlign: (item?.a_subtitle ? item.a_subtitle : "center") as any
     },
     title : {
       fontSize: item?.f_title ? item.f_title : 40,
-      fontWeight: (item?.w_title ? item?.w_title : "normal") as any,
+      fontWeight: (item?.w_title ? item?.w_title : 700) as any,
       textAlign:(item?.a_title ? item.a_title : "center") as any
     },
   };
@@ -175,19 +175,22 @@ export const specialityBlockSchema: Template = {
             label: "Niveaux de gras du Titre",
             options: [
               {
-                value: "lighter",
+                value: "100",
                 label: "Fin"
               },{
-                value: "normal",
+                value: "400",
                 label: "Normal"
               }, {
-                value: "bold;",
+                value: "600;",
+                label: "Medium"
+              },{
+                value: "700;",
                 label: "Gras"
               }, {
-                value: "bolder",
+                value: "900",
                 label: "Tres Gras"
               }]
-          }, 
+          },
           {
               type: "string",
               name: "subtitle",
@@ -219,23 +222,25 @@ export const specialityBlockSchema: Template = {
                       }
                   }
               }
-          },
-          {
+          },{
             type: "string",
             name: "w_subtitle",
             label: "Niveaux de gras du Titre",
             options: [
               {
-                value: "lighter",
+                value: "100",
                 label: "Fin"
               },{
-                value: "normal",
+                value: "400",
                 label: "Normal"
               }, {
-                value: "bold;",
+                value: "600;",
+                label: "Medium"
+              },{
+                value: "700;",
                 label: "Gras"
               }, {
-                value: "bolder",
+                value: "900",
                 label: "Tres Gras"
               }]
           },  

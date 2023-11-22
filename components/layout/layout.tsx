@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Script from "next/script";
 import { Header } from "./header";
 import { Footer } from "./footer";
 import { Theme } from "./theme";
@@ -41,15 +42,15 @@ export const Layout = ({
           </>
         )}
         {/* <!-- Google tag (gtag.js) --> */}
-        <script async src={`https://www.googletagmanager.com/gtag/js?id=${data.gtag}`}></script>
-        <script>
+        <Script src={`https://www.googletagmanager.com/gtag/js?id=${data.gtag}`} />
+        <Script>
           {`window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
           gtag('config', ${data.gtag});
           `}
-        </script>
+        </Script>
       </Head>
       <Theme data={data?.theme}>
         <div
