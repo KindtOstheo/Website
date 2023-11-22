@@ -93,10 +93,10 @@ const config = defineConfig({
                 value: "400",
                 label: "Normal"
               }, {
-                value: "600;",
+                value: "600",
                 label: "Medium"
               },{
-                value: "700;",
+                value: "700",
                 label: "Gras"
               }, {
                 value: "900",
@@ -132,10 +132,10 @@ const config = defineConfig({
               value: "400",
               label: "Normal"
             }, {
-              value: "600;",
+              value: "600",
               label: "Medium"
             },{
-              value: "700;",
+              value: "700",
               label: "Gras"
             }, {
               value: "900",
