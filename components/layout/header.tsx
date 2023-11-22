@@ -24,7 +24,6 @@ function classNames(...classes) {
 
 export const Header = ({ data }: { data: GlobalHeader }) => {
   const router = useRouter();
-  const theme = useTheme();
 
   const Styles = {
     color :{

@@ -56,7 +56,6 @@ export const Feature = ({
 };
 
 export const Features = ({ data }: { data: PageBlocksFeatures }) => {
-  const paginationRef = useRef(null);
   const Styles = {
     feature : {
       fontSize: data.f_title ? data.f_title : 48,
