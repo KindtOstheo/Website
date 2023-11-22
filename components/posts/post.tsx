@@ -197,6 +197,10 @@ export const Post = (props: PostType) => {
       fontSize: props.f_title ? props.f_title : 61,
       fontWeight: (props.w_title ? props.w_title : "bold") as any,
     },
+    subtitle: {
+      fontSize: props.f_subtitle ? props.f_subtitle : 40,
+      fontWeight: (props.w_subtitle ? props.w_subtitle : "bold") as any,
+    }
   };
 
   const date = new Date(props.date);
@@ -219,6 +223,12 @@ export const Post = (props: PostType) => {
             {props.title}
           </span>
         </h2>
+        { props.subtitle && (
+          <p data-tina-field={tinaField(props, 'subtitle')}
+          style={Styles.subtitle}
+          >{props.subtitle}</p>
+        )}
+        
         <div
           data-tina-field={tinaField(props, "author")}
           className="flex items-center justify-center mb-16"

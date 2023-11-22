@@ -101,6 +101,42 @@ const config = defineConfig({
               }]
           },
           {
+            type: "string",
+            label: "Sous Titre",
+            name: "subtitle",
+          },
+          {
+            label: "Taille Sous Titre en px",
+            name: "f_subtitle",
+            type: "number",
+            ui:{
+                validate: (val)=>{
+                    if(val <= 0 ) {
+                        return 'Le nombre doit etre plus grand que 0'
+                    }
+                }
+            }
+        },
+        {
+          type: "string",
+          name: "w_subtitle",
+          label: "Niveaux de gras du Sous Titre",
+          options: [
+            {
+              value: "lighter",
+              label: "Fin"
+            },{
+              value: "normal",
+              label: "Normal"
+            }, {
+              value: "bold;",
+              label: "Gras"
+            }, {
+              value: "900",
+              label: "Tres Gras"
+            }]
+        },
+          {
             type: "number",
             label: "Importance",
             name: "weight",
