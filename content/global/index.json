@@ -18,6 +18,10 @@
       {
         "href": "category/Le Maxillaire",
         "label": "Le Maxillaire"
+      },
+      {
+        "href": "La Mastication",
+        "label": "La-Mastication"
       }
     ],
     "color": "primary"
