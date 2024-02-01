@@ -4,11 +4,14 @@ import { Posts } from "../components/posts";
 import { client } from "../tina/__generated__/client";
 import { Layout } from "../components/layout";
 import { InferGetStaticPropsType } from "next";
+import { useTina } from "tinacms/dist/react";
 
 export default function HomePage(
   props: InferGetStaticPropsType<typeof getStaticProps>
 ) {
   const posts = props.data.postConnection.edges;
+  const category = useTina(props.category)
+
   const Styles = {
     color :{
       color: "#222222",
@@ -16,7 +19,7 @@ export default function HomePage(
     },
   };
   return (
-    <Layout>
+    <Layout category={category.data.categoryConnection as any}>
       <Section color={Styles.color} className="flex-1">
         <Container size="large" width="large" className=" flex flex-wrap flex-row justify-evenly content-center ">
           <Posts data={posts} />
@@ -31,9 +34,13 @@ export const getStaticProps = async () => {
     filter: { draft: { eq: false } },
     sort:"category-weight-date"
   });
+  const category = await client.queries.categoryConnection(
+    {"filter": {"enable": {"eq": true }}}
+  );
   return {
     props: {
       ...tinaProps,
+      category: JSON.parse(JSON.stringify(category)) as typeof category,
     },
   };
 };

@@ -8,10 +8,10 @@ import { client } from "../tina/__generated__/client";
 export default function HomePage(
   props: InferGetStaticPropsType<typeof getStaticProps>
 ) {
-  const { data } = useTina(props);
-
+  const { data } = useTina(props.content);
+  const category  = useTina(props.category);
   return (
-    <Layout rawData={data} data={data.global as any}>
+    <Layout rawData={data} data={data.global as any} category={category.data.categoryConnection as any}>
       <Blocks {...data.page} />
     </Layout>
   );
@@ -25,8 +25,14 @@ export const getStaticProps = async ({ params }) => {
     ...tinaProps,
     enableVisualEditing: process.env.VERCEL_ENV === "preview",
   };
+  const category = await client.queries.categoryConnection(
+    {"filter": {"enable": {"eq": true }}}
+  );
   return {
-    props: JSON.parse(JSON.stringify(props)) as typeof props,
+    props: {
+      content: JSON.parse(JSON.stringify(props)) as typeof props,
+      category: JSON.parse(JSON.stringify(category)) as typeof category,
+    } 
   };
 };
 

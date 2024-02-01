@@ -681,6 +681,11 @@ const config = defineConfig({
             isTitle: true,
             required: true,
           },
+          {
+            type: "boolean",
+            label: "Afficher",
+            name: "enable",
+          },
         ],
       },
       {

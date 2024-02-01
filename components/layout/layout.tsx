@@ -5,16 +5,18 @@ import { Header } from "./header";
 import { Footer } from "./footer";
 import { Theme } from "./theme";
 import layoutData from "../../content/global/index.json";
-import { Global } from "../../tina/__generated__/types";
+import { CategoryConnection, Global } from "../../tina/__generated__/types";
 
 export const Layout = ({
   rawData = {},
   data = layoutData,
   children,
+  category,
 }: {
   rawData?: object;
   data?: Omit<Global, "id" | "_sys" | "_values">;
   children: React.ReactNode;
+  category?: CategoryConnection
 }) => {
   return (
     <>
@@ -60,7 +62,7 @@ export const Layout = ({
             data.theme.font === "sans" && "font-sans"
           }`}
         >
-          <Header data={data?.header} />
+          <Header data={data?.header} category={category}/>
           <div className="flex-1 text-gray-800 from-white to-gray-50 dark:from-gray-900 dark:to-gray-1000 flex flex-col">
             {children}
           </div>

@@ -5,11 +5,14 @@ import { client } from "../../tina/__generated__/client";
 import { Layout } from "../../components/layout";
 import { InferGetStaticPropsType } from "next";
 import { useState } from "react";
+import { useTina } from "tinacms/dist/react";
 
 export default function HomePage(
   props: InferGetStaticPropsType<typeof getStaticProps>,
 ) {
   const posts = props.data.postConnection.edges;
+  const category = useTina(props.category)
+
   const Styles = {
     color :{
       color: "#222222",
@@ -17,30 +20,8 @@ export default function HomePage(
     },
   };
   return (
-    <Layout>
+    <Layout category={category.data.categoryConnection as any}>
       <Section color={Styles.color} className="flex-1">
-        {/* <Container size="small" width="large" className="flex flex-wrap flex-row justify-evenly content-center">
-          <div className="inline-flex rounded-md shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]" role="group">
-            <button
-              key={"0"}
-              onClick={document.querySelectorAll(".category").forEach(a=>a.classList.toggle("hidden"))}          
-              type="button"
-              className="inline-block rounded-l bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-black transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:ring-0 active:bg-primary-700 hover:bg-[#9e6851]">
-              Tous
-            </button>
-            {categorys.map((data, i)=> {
-              const category = data.node.name;
-              return (
-                <><button
-                  key={i}
-                  type="button"
-                  className="inline-block rounded-l bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-black transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:ring-0 active:bg-primary-700  hover:bg-[#9e6851]">
-                  {category}
-                </button></>
-              );
-            })} 
-          </div>
-        </Container> */}
         <Container size="large" width="large" className=" flex flex-wrap flex-row justify-evenly content-center ">
           <Posts data={posts} />
         </Container>
@@ -63,10 +44,14 @@ export const getStaticProps = async ({ params }) => {
     filter: { draft: { eq: false }, category: {category: { name: { eq: params.filename }}}},
     sort:"category-weight-date"
   });
+  const category = await client.queries.categoryConnection(
+    {"filter": {"enable": {"eq": true }}}
+  );
 
   return {
     props: {
       ...tinaProps,
+      category: JSON.parse(JSON.stringify(category)) as typeof category,
     },
   };
 };

@@ -10,18 +10,6 @@
       {
         "href": "/",
         "label": "Accueil"
-      },
-      {
-        "href": "category/Acouphène",
-        "label": "Acouphène"
-      },
-      {
-        "href": "category/Le Maxillaire",
-        "label": "Le Maxillaire"
-      },
-      {
-        "href": "category/La Mastication",
-        "label": "La Mastication"
       }
     ],
     "color": "primary"

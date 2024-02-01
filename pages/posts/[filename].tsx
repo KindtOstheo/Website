@@ -13,9 +13,10 @@ export default function BlogPostPage(
     variables: props.variables,
     data: props.data,
   });
+  const category = useTina(props.category)
   if (data && data.post) {
     return (
-      <Layout rawData={data} data={data.global}>
+      <Layout rawData={data} data={data.global} category={category.data.categoryConnection as any}>
         <Post {...data.post} />
       </Layout>
     );
@@ -31,9 +32,13 @@ export const getStaticProps = async ({ params }) => {
   const tinaProps = await client.queries.blogPostQuery({
     relativePath: `${params.filename}.mdx`,
   });
+  const category = await client.queries.categoryConnection(
+    {"filter": {"enable": {"eq": true }}}
+  );
   return {
     props: {
       ...tinaProps,
+      category: JSON.parse(JSON.stringify(category)) as typeof category,
     },
   };
 };
