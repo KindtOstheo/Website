@@ -22,7 +22,7 @@ export const expertSeoPageProps: TinaField = {
         },
         {
             type: "image",
-            label: "Url",
+            label: "Image SEO",
             name: "url",
             required: true,
         },

@@ -3,6 +3,11 @@ query pageQuery($filter: PostFilter, $sort: String) {
   postConnection(filter:$filter, sort: $sort) {
     edges {
       node {
+         seo {
+          title
+          description
+          url
+        }
         id
         date
         title

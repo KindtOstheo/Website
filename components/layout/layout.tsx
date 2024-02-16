@@ -5,24 +5,45 @@ import { Header } from "./header";
 import { Footer } from "./footer";
 import { Theme } from "./theme";
 import layoutData from "../../content/global/index.json";
-import { CategoryConnection, Global } from "../../tina/__generated__/types";
+import { CategoryConnection, Global, PostSeo } from "../../tina/__generated__/types";
+import { usePathname } from 'next/navigation'
 
 export const Layout = ({
   rawData = {},
   data = layoutData,
   children,
+  seo,
   category,
 }: {
   rawData?: object;
   data?: Omit<Global, "id" | "_sys" | "_values">;
   children: React.ReactNode;
+  seo?: PostSeo;
   category?: CategoryConnection
 }) => {
+  const pathname = usePathname()
   return (
     <>
       <Head>
-        <title>Dominique Kindt</title>
+        <title>{seo?.title} | Dominique Kindt</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="description" content={seo?.description} />
+        <meta name=" robots" content=" index, follow"></meta>
+        { seo && (
+          <>
+            {/* Open Graph SEO */}
+            <meta property="og:locale" content="fr-FR" />
+            <meta property="og:title" content={seo.title} />
+            <meta property="og:description" content={seo.description} />
+            <meta property="og:image" content={seo.url} />
+            <meta property="og:image:secure_url" content={seo.url} />
+            <meta property="og:site_name" content="Kindt Dominique Ostéopathe " />
+            <meta property="og:url" content={`https://osteo-kindt.fr/${pathname}`} />
+          </>
+          )}
+        
+
+
         {data.theme.font === "nunito" && (
           <>
             <link rel="preconnect" href="https://fonts.googleapis.com" />

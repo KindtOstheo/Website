@@ -5,6 +5,8 @@ import { client } from "../tina/__generated__/client";
 import { Layout } from "../components/layout";
 import { InferGetStaticPropsType } from "next";
 import { useTina } from "tinacms/dist/react";
+import { title } from "process";
+import { url } from "inspector";
 
 export default function HomePage(
   props: InferGetStaticPropsType<typeof getStaticProps>
@@ -18,8 +20,13 @@ export default function HomePage(
       background:'#d9d9d9'
     },
   };
+  const seo= {
+    title: "Notre Blogs",
+    description: "Dominique Kindt, Vous Accueille au cabinet. Prise de RDV par téléphone. Votre Ostéopathe agréé à Draguignan. Du bébé à l'adulte. Sciatique. Préventif.",
+    url: "",
+  }
   return (
-    <Layout category={category.data.categoryConnection as any}>
+    <Layout category={category.data.categoryConnection as any} seo={seo as any}>
       <Section color={Styles.color} className="flex-1">
         <Container size="large" width="large" className=" flex flex-wrap flex-col justify-evenly content-center ">
           <Posts data={posts} />
@@ -34,9 +41,10 @@ export const getStaticProps = async () => {
     filter: { draft: { eq: false } },
     sort:"category-weight-date"
   });
-  const category = await client.queries.categoryConnection(
-    {"filter": {"enable": {"eq": true }}}
-  );
+  const category = await client.queries.categoryConnection({
+    "filter": {"enable": {"eq": true }},
+    sort:"weight-name"
+  });
   return {
     props: {
       ...tinaProps,

@@ -156,9 +156,12 @@ const config = defineConfig({
             label: "Hero Image",
           },
           {
-            type: "rich-text",
+            type: "string",
             label: "Extrait de l'article",
             name: "excerpt",
+            ui: {
+              component: "textarea",
+            },
           },
           {
             type: "reference",
@@ -176,7 +179,6 @@ const config = defineConfig({
             type: "datetime",
             label: "Posted Date",
             name: "date",
-            required: true,
             ui: {
               dateFormat: "MMMM DD YYYY",
               timeFormat: "hh:mm A",
@@ -677,6 +679,7 @@ const config = defineConfig({
         path: "content/category",
         format: "md",
         fields: [
+          expertSeoPageProps,
           {
             type: "string",
             label: "Name",
@@ -685,11 +688,31 @@ const config = defineConfig({
             required: true,
           },
           {
+            type: "string",
+            label: "Description",
+            name: "description",
+            ui: {
+                component: "textarea",
+            },
+          },
+          {
+            type: "number",
+            label: "Importance",
+            name: "weight",
+          },
+          {
             type: "boolean",
             label: "Afficher",
             name: "enable",
           },
         ],
+        indexes: [{
+          name: "weight-name",
+          fields: [
+            { name:"weight" },
+            { name:"name" },
+          ]
+        }]
       },
       {
         label: "Pages",
@@ -708,6 +731,7 @@ const config = defineConfig({
           },
         },
         fields: [
+          expertSeoPageProps,
           {
             type: "string",
             label: "Title",

@@ -53,7 +53,7 @@ export const Posts = ({ data }: { data: PostsType[] }) => {
                 </span>
               </h3>
               <div className=" w-full max-w-none mb-5 opacity-70">
-                <TinaMarkdown content={post.excerpt} />
+                {post.excerpt}
               </div>
               <div className="flex items-center justify-between">
                 <div className="flex items-center">

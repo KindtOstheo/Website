@@ -14,9 +14,14 @@ export default function BlogPostPage(
     data: props.data,
   });
   const category = useTina(props.category)
+  const seo= {
+    title: data.post.seo?.title ? data.post.seo.title : data.post.title ,
+    description: data.post.seo?.description ? data.post.seo.description : data.post.excerpt.toString() ,
+    url: data.post.seo?.url ? data.post.seo.url : data.post.heroImg,
+  }
   if (data && data.post) {
     return (
-      <Layout rawData={data} data={data.global} category={category.data.categoryConnection as any}>
+      <Layout rawData={data} data={data.global} category={category.data.categoryConnection as any} seo={seo as any}>
         <Post {...data.post} />
       </Layout>
     );
@@ -32,9 +37,10 @@ export const getStaticProps = async ({ params }) => {
   const tinaProps = await client.queries.blogPostQuery({
     relativePath: `${params.filename}.mdx`,
   });
-  const category = await client.queries.categoryConnection(
-    {"filter": {"enable": {"eq": true }}}
-  );
+  const category = await client.queries.categoryConnection({
+    "filter": {"enable": {"eq": true }},
+    sort:"weight-name"
+  });
   return {
     props: {
       ...tinaProps,

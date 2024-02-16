@@ -10,8 +10,13 @@ export default function HomePage(
 ) {
   const { data } = useTina(props.content);
   const category  = useTina(props.category);
+  const seo= {
+    title: data.page.seo?.title ? data.page.seo.title : "Dominique Kindt",
+    description: data.page.seo?.description ? data.page.seo.description : "Dominique Kindt, Vous Accueille au cabinet. Prise de RDV par téléphone. Votre Ostéopathe agréé à Draguignan. Du bébé à l'adulte. Sciatique. Préventif.",
+    url: data.page.seo?.url ? data.page.seo.url : "",
+  }
   return (
-    <Layout rawData={data} data={data.global as any} category={category.data.categoryConnection as any}>
+    <Layout rawData={data} data={data.global as any} category={category.data.categoryConnection as any} seo={seo as any}>
       <Blocks {...data.page} />
     </Layout>
   );
@@ -25,9 +30,10 @@ export const getStaticProps = async ({ params }) => {
     ...tinaProps,
     enableVisualEditing: process.env.VERCEL_ENV === "preview",
   };
-  const category = await client.queries.categoryConnection(
-    {"filter": {"enable": {"eq": true }}}
-  );
+  const category = await client.queries.categoryConnection({
+    "filter": {"enable": {"eq": true }},
+    sort:"weight-name"
+  });
   return {
     props: {
       content: JSON.parse(JSON.stringify(props)) as typeof props,
