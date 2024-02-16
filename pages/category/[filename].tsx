@@ -28,6 +28,11 @@ export default function HomePage(
   return (
     <Layout category={category.data.categoryConnection as any} seo={seo as any}>
       <Section color={Styles.color} className="flex-1">
+        {categorySeo.data.categoryConnection.edges[0].node.description && (
+          <Container size="large" width="large" className=" flex flex-wrap flex-row justify-evenly content-center text-center">
+            {categorySeo.data.categoryConnection.edges[0].node.description}
+          </Container>
+        )}
         <Container size="large" width="large" className=" flex flex-wrap flex-row justify-evenly content-center ">
           <Posts data={posts} />
         </Container>
