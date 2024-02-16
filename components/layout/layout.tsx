@@ -7,6 +7,8 @@ import { Theme } from "./theme";
 import layoutData from "../../content/global/index.json";
 import { CategoryConnection, Global, PostSeo } from "../../tina/__generated__/types";
 import { usePathname } from 'next/navigation'
+import { GoogleAnalytics } from '@next/third-parties/google'
+
 
 export const Layout = ({
   rawData = {},
@@ -41,9 +43,19 @@ export const Layout = ({
             <meta property="og:url" content={`https://osteo-kindt.fr/${pathname}`} />
           </>
           )}
-        
+                  <Script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${data.gtag}`}
+        />
 
-
+        <Script id="google-analytics">
+          {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', ${data.gtag});
+          `}
+        </Script>
         {data.theme.font === "nunito" && (
           <>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -64,16 +76,9 @@ export const Layout = ({
             />
           </>
         )}
+        
         {/* <!-- Google tag (gtag.js) --> */}
-        <Script src={`https://www.googletagmanager.com/gtag/js?id=${data.gtag}`} />
-        <Script>
-          {`window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
 
-          gtag('config', ${data.gtag});
-          `}
-        </Script>
       </Head>
       <Theme data={data?.theme}>
         <div
