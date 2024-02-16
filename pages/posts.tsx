@@ -21,7 +21,7 @@ export default function HomePage(
   return (
     <Layout category={category.data.categoryConnection as any}>
       <Section color={Styles.color} className="flex-1">
-        <Container size="large" width="large" className=" flex flex-wrap flex-row justify-evenly content-center ">
+        <Container size="large" width="large" className=" flex flex-wrap flex-col justify-evenly content-center ">
           <Posts data={posts} />
         </Container>
       </Section>
