@@ -7,6 +7,7 @@ import { testimonialBlockSchema } from "../components/blocks/testimonial";
 import { ColorPickerInput } from "./fields/color";
 import { iconSchema } from "../components/util/icon";
 import { specialityBlockSchema } from "../components/blocks/speciality";
+import { expertSeoPageProps } from "./collection/seo";
 
 const indexerToken =process.env.INDEXERTOKEN;
 
@@ -55,6 +56,7 @@ const config = defineConfig({
           },
         },
         fields: [
+          expertSeoPageProps,
           {
             name: 'draft',
             label: 'Draft',
@@ -174,6 +176,7 @@ const config = defineConfig({
             type: "datetime",
             label: "Posted Date",
             name: "date",
+            required: true,
             ui: {
               dateFormat: "MMMM DD YYYY",
               timeFormat: "hh:mm A",
