@@ -3,6 +3,7 @@ import { client } from "../../tina/__generated__/client";
 import { useTina } from "tinacms/dist/react";
 import { Layout } from "../../components/layout";
 import { InferGetStaticPropsType } from "next";
+import test from "node:test";
 
 // Use the props returned by get static props
 export default function BlogPostPage(
@@ -13,7 +14,28 @@ export default function BlogPostPage(
     variables: props.variables,
     data: props.data,
   });
-  const category = useTina(props.category)
+  const category = useTina(props.category);
+  const allBlog = useTina(props.allblog);
+  const myArrFilename=[]
+  const myArrName=[]
+  allBlog.data.postConnection.edges.map((item)=>{
+    item.node.category.name === data.post.category.name && (myArrFilename.push(item.node._sys.filename), myArrName.push(item.node.title))
+  })
+  const length = (myArrFilename.length) - 1
+  const current = myArrFilename.indexOf(data.post._sys.filename)
+  const before = current - 1
+  const after = current + 1
+  const blog = {
+    before:{
+      filename: before<0 ? '' : myArrFilename.at(before),
+      name: before<0 ? '' : myArrName.at(before)
+    },
+    after:{
+      filename: before>length ? '' : myArrFilename.at(after),
+      name: before>length ? '' : myArrName.at(after)
+    }
+  }
+  console.log(blog)
   const seo= {
     title: data.post.seo?.title ? data.post.seo.title : data.post.title ,
     description: data.post.seo?.description ? data.post.seo.description : data.post.excerpt.toString() ,
@@ -22,7 +44,7 @@ export default function BlogPostPage(
   if (data && data.post) {
     return (
       <Layout rawData={data} data={data.global} category={category.data.categoryConnection as any} seo={seo as any}>
-        <Post {...data.post} />
+        <Post props={data.post} action={blog as any}/>
       </Layout>
     );
   }
@@ -41,9 +63,14 @@ export const getStaticProps = async ({ params }) => {
     "filter": {"enable": {"eq": true }},
     sort:"weight-name"
   });
+  const allblog = await client.queries.allBlogQuery({
+    filter: { draft: { eq: false }},
+    sort:"category-weight-date"
+  });
   return {
     props: {
       ...tinaProps,
+      allblog: JSON.parse(JSON.stringify(allblog)) as typeof allblog,
       category: JSON.parse(JSON.stringify(category)) as typeof category,
     },
   };
@@ -60,7 +87,9 @@ export const getStaticPaths = async () => {
   const postsListData = await client.queries.postConnection();
   return {
     paths: postsListData.data.postConnection.edges.map((post) => ({
-      params: { filename: post.node._sys.filename },
+      params: { 
+        filename: post.node._sys.filename ,
+      },
     })),
     fallback: "blocking",
   };

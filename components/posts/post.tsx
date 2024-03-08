@@ -24,6 +24,8 @@ import { tinaField } from "tinacms/dist/react";
 import LiteYouTubeEmbed from "react-lite-youtube-embed";
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 import Image from "next/image";
+import Link from "next/link";
+import { BiLeftArrowAlt, BiRightArrowAlt } from "react-icons/bi";
 
 const components: Components<{
   BlockQuote: {
@@ -173,7 +175,7 @@ const components: Components<{
   ),
 };
 
-export const Post = (props: PostType) => {
+export const Post = ({props, action}:{props: PostType, action:any}) => {
 
   const Styles = {
     color :{
@@ -275,8 +277,31 @@ export const Post = (props: PostType) => {
           id="TinaMarkdown"
         >
           <TinaMarkdown components={components} content={props._body} />
+
         </div>
       </Container>
+      <div className={`flex flex-wrap items-center gap-y-4 gap-x-6 justify-around`}>
+        <Link href={!action.before.filename ?  "/" : action.before.filename }>
+          <button type="button" className={`
+          text-gray-800 bg-white  bg-gradient-to-r from-gray-300 to-gray-400 hover:to-gray-300 hover:bg-gray-100
+          z-10 relative flex items-center px-7 py-3 font-semibold text-lg transition duration-150 ease-out  rounded-lg transform focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 whitespace-nowrap`}>
+            <BiLeftArrowAlt
+              className={`mr-1 -ml-1 w-6 h-6 opacity-80`}
+            />
+            {!action.before.name ? "Accueil" : action.before.name}
+          </button>
+        </Link>
+        <Link href={!action.after.filename ?  "/" : action.after.filename }>
+          <button type="button" className={`
+          text-gray-800 bg-white  bg-gradient-to-r from-gray-300 to-gray-400 hover:to-gray-300 hover:bg-gray-100
+          z-10 relative flex items-center px-7 py-3 font-semibold text-lg transition duration-150 ease-out  rounded-lg transform focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 whitespace-nowrap`}>
+            {!action.after.name ? "Accueil" : action.after.name}
+              <BiRightArrowAlt
+                className={`ml-1 -mr-1 w-6 h-6 opacity-80`}
+              />
+          </button>
+        </Link>
+      </div>
     </Section>
   );
 };

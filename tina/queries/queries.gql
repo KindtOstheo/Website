@@ -31,6 +31,24 @@ query pageQuery($filter: PostFilter, $sort: String) {
   }
 }
 
+query allBlogQuery($filter: PostFilter, $sort: String) {
+  postConnection(filter:$filter, sort: $sort) {
+    edges {
+      node {
+         category {
+          ... on Category {
+            ...CategoryParts
+          }
+        }
+        title
+        _sys {
+          filename
+        }
+      }
+    }
+  }
+}
+
 query contentQuery($relativePath: String!) {
   ...LayoutQueryFragment
   page(relativePath: $relativePath) {
@@ -42,6 +60,9 @@ query blogPostQuery($relativePath: String!) {
   ...LayoutQueryFragment
   post(relativePath: $relativePath) {
     ...PostParts
+    _sys {
+      filename
+    }
     author {
       ... on Author {
         name
