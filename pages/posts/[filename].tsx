@@ -35,7 +35,7 @@ export default function BlogPostPage(
       name: before>length ? '' : myArrName.at(after)
     }
   }
-  console.log(blog)
+  // console.log(blog)
   const seo= {
     title: data.post.seo?.title ? data.post.seo.title : data.post.title ,
     description: data.post.seo?.description ? data.post.seo.description : data.post.excerpt.toString() ,

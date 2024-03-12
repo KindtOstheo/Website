@@ -157,6 +157,11 @@ const config = defineConfig({
           },
           {
             type: "string",
+            name: "figcaption",
+            label: "Legende de l'image",
+          },
+          {
+            type: "string",
             label: "Extrait de l'article",
             name: "excerpt",
             ui: {

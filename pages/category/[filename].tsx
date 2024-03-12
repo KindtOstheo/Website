@@ -51,7 +51,7 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps = async ({ params }) => {
-  console.log(params.filename);
+  // console.log(params.filename);
   const tinaProps = await client.queries.pageQuery({
     filter: { draft: { eq: false }, category: {category: { name: { eq: params.filename }}}},
     sort:"category-weight-date"

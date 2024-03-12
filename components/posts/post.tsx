@@ -262,11 +262,17 @@ export const Post = ({props, action}:{props: PostType, action:any}) => {
               className="absolute block rounded-lg w-full h-auto blur-2xl brightness-150 contrast-[0.9] dark:brightness-150 saturate-200 opacity-50 dark:opacity-30 mix-blend-multiply dark:mix-blend-hard-light"
               aria-hidden="true"
             />
-            <img
-              src={props.heroImg}
-              alt={props.title}
-              className="relative z-10 mb-14 block rounded-lg w-full h-auto opacity-100"
-            />
+            <figure>
+
+              <img
+                src={props.heroImg}
+                alt={props.title}
+                className="relative z-10 mb-14 block rounded-lg w-full h-auto opacity-100"
+              />
+               <figcaption className="z-10 mt-4 text-sm italic text-gray-600">
+                  {props.figcaption}
+                </figcaption>
+            </figure>
           </div>
         </div>
       )}
