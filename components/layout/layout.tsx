@@ -43,7 +43,7 @@ export const Layout = ({
             <meta property="og:url" content={`https://osteo-kindt.fr/${pathname}`} />
           </>
           )}
-          <base target="_blank"></base>
+          <base target="_self"></base>
                   <Script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${data.gtag}`}
