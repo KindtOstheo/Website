@@ -38,7 +38,7 @@ export default function BlogPostPage(
   // console.log(blog)
   const seo= {
     title: data.post.seo?.title ? data.post.seo.title : data.post.title ,
-    description: data.post.seo?.description ? data.post.seo.description : data.post.excerpt.toString() ,
+    description: data.post.seo?.description ? data.post.seo.description : data.post.excerpt ,
     url: data.post.seo?.url ? data.post.seo.url : data.post.heroImg,
   }
   if (data && data.post) {
