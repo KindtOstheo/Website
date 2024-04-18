@@ -161,6 +161,18 @@ const config = defineConfig({
             label: "Legende de l'image",
           },
           {
+            label: "Taille Legende en px",
+            name: "l_title",
+            type: "number",
+            ui:{
+                validate: (val)=>{
+                    if(val <= 0 ) {
+                        return 'Le nombre doit etre plus grand que 0'
+                    }
+                }
+            }
+        },
+          {
             type: "string",
             label: "Extrait de l'article",
             name: "excerpt",

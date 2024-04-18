@@ -189,6 +189,9 @@ export const Post = ({props, action}:{props: PostType, action:any}) => {
     subtitle: {
       fontSize: props.f_subtitle ? props.f_subtitle : 40,
       fontWeight: (props.w_subtitle ? props.w_subtitle : "700") as any,
+    },
+    legende: {
+      fontSize: props.l_title ? props.l_title : 20,
     }
   };
 
@@ -269,7 +272,7 @@ export const Post = ({props, action}:{props: PostType, action:any}) => {
                 alt={props.title}
                 className="relative z-10 mb-14 block rounded-lg w-full h-auto opacity-100"
               />
-               <figcaption className="z-10 mt-4 text-sm italic text-gray-600 table-caption caption-top">
+               <figcaption className="z-10 mt-4 text-sm italic text-gray-600 table-caption caption-top" style={Styles.legende}>
                   {props.figcaption}
                 </figcaption>
             </figure>
