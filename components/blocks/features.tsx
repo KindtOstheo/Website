@@ -77,7 +77,7 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
       <Container
         className={`gap-x-10 gap-y-8`}
         size="large"
-        
+        id={data.id}
       >
         <div className="animate">
             { data.feature_sub_title && <p className="uppercase" style={Styles.feature.textAlign} data-tina-field={tinaField(data, 'feature_sub_title')}>{data.feature_sub_title}</p>}

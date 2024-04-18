@@ -23,6 +23,7 @@ export const Content = ({ data }: { data: PageBlocksContent }) => {
         data-tina-field={tinaField(data, "body")}
         size="large"
         width="medium"
+        id={data.id}
       >
         <TinaMarkdown components={components} content={data.body} />
       </Container>

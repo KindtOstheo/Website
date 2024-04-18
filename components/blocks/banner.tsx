@@ -25,6 +25,7 @@ export const Banner = ({ data }: { data: PageBlocksBanner }) => {
         size="large"
         width="large"
         style={Styles.color}
+        id={data.id}
       >
         <div className="relative">
           <div className="row overflow-hidden rounded-2xl">

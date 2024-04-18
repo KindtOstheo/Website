@@ -31,7 +31,7 @@ export const Speciality = ({
   };
 
   return (
-    <div className="row items-center justify-center my-6 flex flex-wrap-reverse odd:flex-row-reverse" key={"speciality-" + index} data-tina-field={tinaField(item)}>
+    <div className="row items-center justify-center my-6 flex flex-wrap-reverse odd:flex-row-reverse" key={"speciality-" + index} data-tina-field={tinaField(item)} id={item.id}>
       <div className="animate w-full md:w-3/6 lg:order-1 m-auto"  data-tina-field={tinaField(item, 'image')}>
         <Image
           className="mx-auto"
