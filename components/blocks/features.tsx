@@ -155,6 +155,14 @@ export const featureBlockSchema = {
     },
     {
       type: "string",
+      name: "id",
+      label: "Identifiant",
+      ui:{
+        description: "Pour l'ancre on prend le lien dans la barre de recherche et on y ajoute #ID. Exemple : https://osteo-kindt.fr/#id "
+      }
+    },
+    {
+      type: "string",
       name: "feature_title",
       label: "Titre",
     },

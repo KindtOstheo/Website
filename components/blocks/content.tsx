@@ -41,6 +41,14 @@ export const contentBlockSchema: Template = {
   },
   fields: [
     {
+      type: "string",
+      name: "id",
+      label: "Identifiant",
+      ui:{
+        description: "Pour l'ancre on prend le lien dans la barre de recherche et on y ajoute #ID. Exemple : https://osteo-kindt.fr/#id "
+      }
+    },
+    {
       type: "rich-text",
       label: "Body",
       name: "body",
