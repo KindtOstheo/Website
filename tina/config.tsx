@@ -162,16 +162,31 @@ const config = defineConfig({
             label: "Legende de l'image",
           },
           {
-            label: "Taille Legende en px",
-            name: "l_title",
-            type: "number",
-            ui:{
-                validate: (val)=>{
-                    if(val <= 0 ) {
-                        return 'Le nombre doit etre plus grand que 0'
-                    }
-                }
-            }
+            type: "string",
+            name: "position",
+            label: "Legende Alignement",
+            options: [{
+                value: "center",
+                label: "Centre"
+              }, {
+                value: "end",
+                label: "Droite"
+              }, {
+                value: "start",
+                label: "Gauche"
+              }]
+        },
+        {
+          label: "Taille Legende en px",
+          name: "l_title",
+          type: "number",
+          ui:{
+              validate: (val)=>{
+                  if(val <= 0 ) {
+                      return 'Le nombre doit etre plus grand que 0'
+                  }
+              }
+          }
         },
           {
             type: "string",

@@ -192,7 +192,9 @@ export const Post = ({props, action}:{props: PostType, action:any}) => {
     },
     legende: {
       fontSize: props.l_title ? props.l_title : 20,
-    }
+      textAlign: (props.position ? props.position : 'center') as any,
+
+    },
   };
 
   const date = new Date(props.date);
