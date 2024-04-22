@@ -154,6 +154,7 @@ const config = defineConfig({
             type: "image",
             name: "heroImg",
             label: "Hero Image",
+            required: true,
           },
           {
             type: "string",
@@ -190,6 +191,7 @@ const config = defineConfig({
             type: "reference",
             label: "Catégorie",
             name: "category",
+            required: true,
             collections: ["category"],
           },
           {
