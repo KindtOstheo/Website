@@ -12,7 +12,7 @@ export default function HomePage(
   props: InferGetStaticPropsType<typeof getStaticProps>
 ) {
   const posts = props.data.postConnection.edges;
-  const category = useTina(props.category)
+  const category = props.category;
 
   const Styles = {
     color :{

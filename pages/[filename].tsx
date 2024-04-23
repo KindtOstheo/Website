@@ -9,7 +9,7 @@ export default function HomePage(
   props: InferGetStaticPropsType<typeof getStaticProps>
 ) {
   const { data } = useTina(props.content);
-  const category  = useTina(props.category);
+  const category  = props.category;
   const seo= {
     title: data.page.seo?.title ? data.page.seo.title : "Dominique Kindt",
     description: data.page.seo?.description ? data.page.seo.description : "Dominique Kindt, Vous Accueille au cabinet. Prise de RDV par téléphone. Votre Ostéopathe agréé à Draguignan. Du bébé à l'adulte. Sciatique. Préventif.",

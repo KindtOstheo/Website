@@ -14,8 +14,8 @@ export default function BlogPostPage(
     variables: props.variables,
     data: props.data,
   });
-  const category = useTina(props.category);
-  const allBlog = useTina(props.allblog);
+  const category = props.category;
+  const allBlog = props.allblog;
   const myArrFilename=[]
   const myArrName=[]
   allBlog.data.postConnection.edges.map((item)=>{
