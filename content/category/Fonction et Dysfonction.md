@@ -1,6 +1,5 @@
 ---
-name: Dysfonctions
+name: Fonction et Dysfonctions
 weight: 15
 ---
-
 
