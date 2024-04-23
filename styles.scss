@@ -66,6 +66,9 @@
         --swiper-theme-color: #8f6d5f;
         --swiper-pagination-bullet-size: 25px;   
     }
+    .swiper{
+        overflow: hidden !important;
+    }
 } 
    
 #TinaMarkdown p{
