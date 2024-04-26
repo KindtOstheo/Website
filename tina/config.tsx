@@ -177,6 +177,11 @@ const config = defineConfig({
               }]
         },
         {
+          type: "number",
+          name: "space",
+          label: "Espace en dessous de la Legende",
+        },
+        {
           label: "Taille Legende en px",
           name: "l_title",
           type: "number",
