@@ -46,7 +46,7 @@ export const Feature = ({
       {data.text && (
         <div
           data-tina-field={tinaField(data, "text")}
-          className="text-base opacity-80 leading-relaxed"
+          className=" swiper-no-swiping text-base opacity-80 leading-relaxed"
         >
           <TinaMarkdown components={components} content={data.text} />
         </div>
