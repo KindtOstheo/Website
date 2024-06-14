@@ -9,7 +9,7 @@ import {
 import { tinaField } from "tinacms/dist/react";
 import { Components, TinaMarkdown } from "tinacms/dist/rich-text";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 import { useRef } from "react";
 import "swiper/css";
 import "swiper/css/pagination"
@@ -38,7 +38,7 @@ export const Feature = ({
       {data.title && (
         <h3
           data-tina-field={tinaField(data, "title")}
-          className="text-2xl font-semibold title-font"
+          className="text-2xl font-semibold title-font swiper-no-swiping"
         >
           {data.title}
         </h3>
@@ -46,7 +46,7 @@ export const Feature = ({
       {data.text && (
         <div
           data-tina-field={tinaField(data, "text")}
-          className=" swiper-no-swiping text-base opacity-80 leading-relaxed"
+          className="swiper-no-swiping text-base opacity-80 leading-relaxed"
         >
           <TinaMarkdown components={components} content={data.text} />
         </div>
@@ -81,7 +81,7 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
       >
         <div className="animate">
             { data.feature_sub_title && <p className="uppercase" style={Styles.feature.textAlign} data-tina-field={tinaField(data, 'feature_sub_title')}>{data.feature_sub_title}</p>}
-            { data.feature_title && <h2 className="mt-4 section-title" style={Styles.feature} data-tina-field={tinaField(data, 'feature_title')}>{data.feature_title}</h2>}
+            { data.feature_title && <h2 className="mt-4 section-title " style={Styles.feature} data-tina-field={tinaField(data, 'feature_title')}>{data.feature_title}</h2>}
             { data.feature_description && <div className="mt-10" style={Styles.feature_desc} data-tina-field={tinaField(data, 'feature_description')}>
             <TinaMarkdown components={components} content={data.feature_description} /> 
             </div>}
@@ -96,12 +96,16 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
         <Swiper 
         className="mySwiper"
         spaceBetween={20}
+        cssMode={true}
+        mousewheel={true}
+        keyboard={true}
         pagination={{
           clickable: true,
           dynamicBullets: true,
         }}
+        navigation={true}
 
-        modules={[Pagination]}
+        modules={[Pagination, Navigation]}
         breakpoints={{
           768: {
             slidesPerView: 2,

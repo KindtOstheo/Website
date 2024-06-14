@@ -62,6 +62,7 @@
 
 @layer swiper {
     @import 'node_modules/swiper/swiper.scss';
+    @import 'node_modules/swiper/modules/navigation.scss';
     .swiper-pagination-bullet {
         --swiper-theme-color: #8f6d5f;
         --swiper-pagination-bullet-size: 25px;   
