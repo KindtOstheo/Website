@@ -1,5 +1,5 @@
 ---
-name: Fonction et Dysfonctions
+name: Fonctions et Dysfonctions
 weight: 15
 enable: true
 ---
