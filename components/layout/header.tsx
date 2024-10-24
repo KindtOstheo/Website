@@ -92,7 +92,7 @@ export const Header = ({ data, category }: { data: GlobalHeader, category?:Categ
                       <Link
                         data-tina-field={tinaField(item, "label")}
                         href={`/${item.href}`}
-                        className={`relative select-none	text-base inline-block tracking-wide transition duration-150 ease-out hover:text-[#9e6851] py-8 px-4 ${
+                        className={`relative select-none	text-base inline-block tracking-wide transition duration-150 ease-out hover:text-[#9e6851] hover: py-8 px-4 ${
                           activeItem ? `text-[#8f6e5d]` : ``
                         }`}
                       >
@@ -146,7 +146,7 @@ export const Header = ({ data, category }: { data: GlobalHeader, category?:Categ
                       <Link
                         data-tina-field={tinaField(item.node, "name")}
                         href={`/category/${item.node.name}`}
-                        className={`relative select-none	text-base inline-block tracking-wide transition duration-150 ease-out hover:text-[#9e6851] py-8 px-4 ${
+                        className={`relative select-none	text-base inline-block tracking-wide transition duration-150 ease-out  hover:bg-[#916d5ebd] hover:text-white py-8 px-4 ${
                           activeCategory ? `text-[#8f6e5d]` : ``
                         }`}
                       >
