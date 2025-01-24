@@ -28,7 +28,7 @@ export const Header = ({ data, category }: { data: GlobalHeader, category?:Categ
   const Styles = {
     color :{
       color: data.color ? data.color : "#222222",
-      background: data.bg_color ? data.bg_color : '#d9d9d9'
+      background: '#57464066'
     },
   };
 
