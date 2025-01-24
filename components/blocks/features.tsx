@@ -10,10 +10,13 @@ import { tinaField } from "tinacms/dist/react";
 import { Components, TinaMarkdown } from "tinacms/dist/rich-text";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
+import { Swiper as SwiperType } from "swiper";
 import { useRef } from "react";
 import "swiper/css";
 import "swiper/css/pagination"
 import { components } from "../util/component";
+import PrevButton from "../util/PrevButton";
+import NextButton from "../util/NexButton";
 
 export const Feature = ({
   featuresColor,
@@ -71,6 +74,8 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
       background: data.bg_color ? data.bg_color : '#d9d9d9'
     },
   };
+  const swiperRef = useRef<SwiperType | null>(null);
+
   return (
     <Section color={Styles.color} >
       { data.feature_title_activate &&
@@ -94,6 +99,7 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
         data-tina-field={tinaField(data, 'f_description')}
       >
         <Swiper 
+        onSwiper={(swiper: any) => (swiperRef.current = swiper)}
         className="mySwiper"
         spaceBetween={20}
         cssMode={true}
@@ -103,7 +109,6 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
           clickable: true,
           dynamicBullets: true,
         }}
-        navigation={true}
 
         modules={[Pagination, Navigation]}
         breakpoints={{
@@ -127,6 +132,8 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
             })
           }
         </Swiper>
+        <PrevButton swiperRef={swiperRef} /> {/* Pass the ref to PrevButton */}
+        <NextButton swiperRef={swiperRef} /> {/* Pass the ref to NextButton */}
       </Container>
     </Section>
   );

@@ -70,9 +70,17 @@
     .swiper{
         overflow: hidden !important;
         --swiper-navigation-color:  #8f6d5f ;
-    }
-    
+        --swiper-navigation-size: 65px
+    }  
 } 
+.swiper-button-next, .swiper-button-prev {
+    color:  #8f6d5f ;
+     size: 65px;
+     --swiper-navigation-size: 65px;
+     :after{
+        font-size: 65px;
+     }
+ }
    
 #TinaMarkdown p{
     margin-top: 1.25em;
