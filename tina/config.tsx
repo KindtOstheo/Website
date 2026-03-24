@@ -4,7 +4,6 @@ import { bannerBlockSchema } from "../components/blocks/banner"
 import { featureBlockSchema } from "../components/blocks/features";
 import { heroBlockSchema } from "../components/blocks/hero";
 import { testimonialBlockSchema } from "../components/blocks/testimonial";
-import { ColorPickerInput } from "./fields/color";
 import { iconSchema } from "../components/util/icon";
 import { specialityBlockSchema } from "../components/blocks/speciality";
 import { expertSeoPageProps } from "./collection/seo";
