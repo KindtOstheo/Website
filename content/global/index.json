@@ -1,7 +1,7 @@
 {
   "header": {
     "icon": {
-      "image": "/uploads/logo.png",
+      "image": "/uploads/logo/logo.png",
       "color": "orange",
       "style": "float"
     },
